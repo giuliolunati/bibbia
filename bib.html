@@ -1,0 +1,165 @@
+<!-- vim: set sw=2 fdm=expr : -->
+<html>
+<head>
+  <meta id=M http-equiv='Content-Type' content='text/html; charset=UTF8'/>
+  <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0' />
+  <style type="text/css" id="css">
+    @font-face { 
+      font-family: 'greek'; 
+      src: url('Aristarcoj2.ttf'); 
+    } 
+    #Form{color:#dd7700;font-weight:bold;border:2px solid orange;background:#ffff66;margin:0pt;padding:4pt;text-align:center}
+    #Status{background:orange}
+    #Stdout,#Stats{padding:3pt;line-height:132%}
+    .blue{color:blue}
+    .godown{float:right; background:lightgray}
+    .goup{float:left; background:lightgray}
+    .help{display:none;color:red;border:orange 3pt dotted;text-align:left;font-weight:normal}
+    .rfloat{float:right}
+    .ver1{color:red}
+    .ver2{color:darkgreen}
+    a{text-decoration:none;color:inherit}
+    body{font-size:12pt;padding:0px;margin:2px}
+    div{margin:0pt;}
+    input,select{color:#ff8800}
+    input[type=button],input[type=submit]{margin:1px;background:#ddddaa;border-radius:4px}
+    p{margin:2pt}
+    table,#R,#Q,#V{width:100%}
+    table,tbody,td,tr{padding:0px;margin:0px}
+  </style>
+  <script>
+    window.onerror=function(m,u,n) {
+      if(m.constructor==Event && !n && !u) {
+        Bib.ret([])
+      }else{
+        alert(m+' [riga '+n+' in '+u+']')
+      }
+    }
+  </script>
+  <script type="text/javascript" src="bib.js"></script>
+  <script type="text/javascript" id="jsonp"></script>
+</head>
+<body id="body" onload=Bib.main()>
+<form id=Form accept-charset='utf8' onsubmit="Bib.fixForm(this)">
+  <p>CERCA
+    <a onclick="Bib.toggleHelp(this)">[?]</a>
+  </p>
+  <div class="help">
+    <p>Testo da cercare (facoltativo).
+      <br/>&ndash; uno spazio iniziale o finale indica l'inizio o la fine di una parola
+      <br/>&ndash; 'a/b' trova i versi contenenti 'a' o 'b'
+      <br/>&ndash; 'a&amp;b' trova i versi contenenti contemporaneamente 'a' e 'b'
+      <br/>&ndash; 'a&amp;!b' trova i versi contenenti 'a' ma non 'b'
+    </p>
+  </div>
+  <table><tr>
+    <td><textarea id=Q name=q rows=2></textarea></td>
+    <td><input id="QX" type=button value=X onclick="Bib.Q.value='';Bib.Q.focus()"></td>
+  </tr></table>
+  <hr/>
+  <p>IN
+    <a onclick="Bib.toggleHelp(this)">[?]</a>
+    <select id=RS  onchange="Bib.R.value+=' '+RS.value">
+      <option value="">(aggiungi libri)</option>
+      <option value="bib">Bibbia</option>
+      <option value="anti">Antico Testamento</option>
+      <option value="nuov">Nuovo Testamento</option>
+      <option value="pent">Pentateuco</option>
+      <option value="stor">libri storici</option>
+      <option value="prof">profeti</option>
+      <option value="sapi">sapienziali</option>
+      <option value="poet">poetici</option>
+      <option value="vang">Vangeli</option>
+      <option value="paol">lettere di Paolo</option>
+      <option value="catt">lettere cattoliche</option>
+    </select>
+  </p>
+  <div class="help">
+    <p>Brani biblici (obbligatorio). Esempi:
+      <br/>&ndash; Mc = vangelo di Marco
+      <br/>&ndash; Mc 1 = capitolo 1
+      <br/>&ndash; Mc 1-4 = capitoli da 1 a 4
+      <br/>&ndash; Mc 1,3-5 = da 1,3 a 1,5
+      <br/>&ndash; Mc 1,3-4,2 = da 1,3 a 4,2
+      <br/>&ndash; Mc 1,3-4.7.9-4,2 7 = Mc 1,3-4 + Mc 1,7 + Mc 1,9-4,2 + Mc 7
+      <br/>&ndash; Mc 1,3-5 5-7 Lc 3,4-8 = Mc 1,3-5 + Mc 5-7 + Lc 3,4
+      <br/>&ndash; ';' inserisce una linea di separazione dopo la citazione
+    </p>
+  </div>
+  <table><tr>
+    <td><textarea id=R name=r rows=2></textarea></td>
+    <td><input type=button value=X onclick="Bib.R.value='';Bib.R.focus()"></td>
+  </tr></table>
+  <hr/>
+  <p><span style="vertical-align:middle"> VERSIONI
+    <a onclick="Bib.toggleHelp(this)">[?]</a></span>
+    <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
+    <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Bib.V.value='';Bib.V.value+=VS.value;Bib.V.value=Bib.V.value.replace(/^,/,'')">
+      <option value="">...</option>
+      <option value="g">greco</option>
+      <option value="i">italiano(2008)</option>
+      <option value="i,g">italiano+greco</option>
+      <option value="g,i">greco+italiano</option>
+    </select>
+    <input type=button value=X  style="vertical-align:middle" onclick="Bib.V.value='';Bib.V.focus()">
+  </p>
+  <div class="help">
+    <p><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
+      <br/>&ndash; g = cerca nel testo greco
+      <br/>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
+    </p>
+  </div>
+  <table><tr>
+  </tr></table>
+  <hr id='hr'/>
+  <p><input type=submit value='mostra' onclick="Form.target='_self';Form.submit">
+    <input type=submit value='in nuova scheda' onclick="Form.target='_blank';Form.submit"></p>
+  <hr/>
+  <p>STILE
+    <a onclick="Bib.toggleHelp(this)">[?]</a>
+    <input id=SR type=button value="=" onclick="Bib.cycleValue(this,'=-X')">
+    <input id=SN type=button value="3" onclick="Bib.cycleValue(this,'3210')">
+    <input id=SS type=button value="l" onclick="Bib.cycleValue(this,'lpbi^')">
+    <input type="button" value="+" onclick="Bib.changeValue('body','fontSize',1.11);Bib.scrollId('hr')"/>
+    <input type="button" value="-" onclick="Bib.changeValue('body','fontSize',0.9);Bib.scrollId('hr')"/>
+    <input id=S name=s type="hidden" value='=3l'>
+    <input id=STH name=st type="hidden" value='I'>
+    <input id=FS name=fs type="hidden" value='12pt'>
+  </p>
+  <div class="help">
+    <p><b>1° pulsante: testo [=/-/X]:</b>
+      <br/>=: a capo ad ogni versetto
+      <br/>-: testo continuo
+      <br/>X: niente testo, solo statistiche
+    </p>
+    <p><b>2° pulsante: numerazione [3/2/1/0]:</b>
+      <br/>3: libro, capitolo, versetto ("Mc 1,2")
+      <br/>2: capitolo, versetto ("1,2")
+      <br/>1: solo versetto ("2")
+      <br/>0: nessuna numerazione
+    </p>
+    <p><b>3° pulsante: stile numerazione [l/p/b/i/^]:</b>
+      <br/>l: link
+      <br/>p: parentesi quadre
+      <br/>b: bold (grassetto)
+      <br/>i: italico
+      <br/>^: apice
+    </p>
+    <p><b>4° pulsante: aumenta carattere [+]:</b></p>
+    <p><b>5° pulsante: diminuisci carattere [-]:</b></p>
+  </div>
+  <hr/>
+  <p>STAT.
+    <input size=4 id=Stat name=stat type=text value=''>
+    <input id=ST type=button value="I" onclick="Bib.cycleValue(this,'IE')">
+  </p>
+</form>
+<div id=Status>ok</div>
+<div id=Stdout style="font-size:100%">
+<a class="godown" href="#Stats">&darr;&darr;&darr;</a>
+</div>
+<div id=Stats style="font-size:100%">
+<a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br/>
+</div>
+<!--script type="text/javascript" src="js/cordova.js"></script-->
+</html>    
