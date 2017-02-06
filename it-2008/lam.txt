@@ -1,154 +1,154 @@
-1,1 Come sta solitaria la città un tempo ricca di popolo! È divenuta come una vedova, la grande fra le nazioni; la signora tra le province è sottoposta a lavori forzati. Bet 
-1,2 Piange amaramente nella notte, le sue lacrime sulle sue guance. Nessuno la consola, fra tutti i suoi amanti. Tutti i suoi amici l'hanno tradita, le sono divenuti nemici. Ghimel 
-1,3 Giuda è deportato in miseria e in dura schiavitù. Abita in mezzo alle nazioni, e non trova riposo; tutti i suoi persecutori l'hanno raggiunto fra le angosce. Dalet 
-1,4 Le strade di Sion sono in lutto, nessuno si reca più alle sue feste; tutte le sue porte sono deserte, i suoi sacerdoti sospirano, le sue vergini sono afflitte ed essa è nell'amarezza. He 
-1,5 I suoi avversari sono suoi padroni, i suoi nemici prosperano, perché il Signore l'ha afflitta per i suoi misfatti senza numero; i suoi bambini sono andati in esilio, sospinti dal nemico. Vau 
-1,6 Dalla figlia di Sion è scomparso ogni splendore. I suoi capi sono diventati come cervi che non trovano pascolo; camminano senza forze davanti agli inseguitori. Zain 
-1,7 Gerusalemme ricorda i giorni della sua miseria e del suo vagare, tutti i suoi beni preziosi dal tempo antico, quando il suo popolo cadeva per mano del nemico e nessuno le porgeva aiuto. I suoi nemici la guardavano e ridevano della sua rovina. Het 
-1,8 Gerusalemme ha peccato gravemente ed è divenuta un abominio. Quanti la onoravano la disprezzano, perché hanno visto la sua nudità. Anch'essa sospira  e si volge per nasconderla. Tet 
-1,9 La sua sozzura è nei lembi della sua veste, non pensava alla sua fine; è caduta in modo inatteso e nessuno la consola. "Guarda, Signore, la mia miseria, perché il nemico trionfa". Iod 
-1,10 L'avversario ha steso la mano su tutte le sue cose più preziose; ha visto penetrare  nel suo santuario i pagani, mentre tu, Signore, avevi loro proibito di entrare nella tua assemblea. Caf 
-1,11 Tutto il suo popolo sospira  in cerca di pane; danno gli oggetti più preziosi in cambio di cibo, per sostenersi in vita. "Osserva, Signore, e considera come sono disprezzata! Lamed 
-1,12 Voi tutti che passate per la via, considerate e osservate se c'è un dolore simile al mio dolore, al dolore che ora mi tormenta, e con cui il Signore mi ha afflitta nel giorno della sua ira ardente. Mem 
-1,13 Dall'alto egli ha scagliato un fuoco, nelle mie ossa lo ha fatto penetrare. Ha teso una rete ai miei piedi, mi ha fatto tornare indietro. Mi ha reso desolata, affranta da languore per sempre. Nun 
-1,14 S'è aggravato il giogo delle mie colpe, dalla sua mano sono annodate. Sono cresciute fin sul mio collo e hanno fiaccato la mia forza. Il Signore mi ha messo nelle loro mani, non posso alzarmi. Samec 
-1,15 Il Signore in mezzo a me ha ripudiato tutti i miei prodi,  ha chiamato a raccolta contro di me per fiaccare i miei giovani; il Signore ha pigiato nel torchio la vergine figlia di Giuda. Ain 
-1,16 Per questo piango, e dal mio occhio scorrono lacrime, perché lontano da me è chi consola, chi potrebbe ridarmi la vita; i miei figli sono desolati, perché il nemico ha prevalso". Pe 
-1,17 Sion protende le mani, nessuno la consola. Contro Giacobbe il Signore ha mandato da tutte le parti i suoi nemici. Gerusalemme è divenuta  per loro un abominio. Sade 
-1,18 "Giusto è il Signore, poiché mi sono ribellata alla sua parola. Ascoltate, vi prego, popoli tutti, e osservate il mio dolore! Le mie vergini e i miei giovani sono andati in schiavitù. Kof 
-1,19 Ho chiamato i miei amanti, ma mi hanno tradita; i miei sacerdoti e i miei anziani sono spirati in città, mentre cercavano cibo per sostenersi in vita. Res 
-1,20 Guarda, Signore, quanto sono in angoscia; le mie viscere si agitano, dentro di me è sconvolto il mio cuore, poiché sono stata veramente ribelle. Di fuori la spada mi priva dei figli, dentro c'è la morte. Sin 
-1,21 Senti come gemo, e nessuno mi consola. Tutti i miei nemici hanno saputo della mia sventura, hanno gioito, perché tu l'hai fatto. Manda il giorno che hai decretato ed essi siano simili a me! Tau 
-1,22 Giunga davanti a te tutta la loro malvagità, trattali come hai trattato me per tutti i miei peccati. Sono molti i miei gemiti e il mio cuore si consuma". 
-2,1 Come il Signore ha oscurato nella sua ira la figlia di Sion! Ha scagliato dal cielo in terra la gloria d'Israele. Non si è ricordato dello sgabello dei suoi piedi nel giorno del suo furore. Bet 
-2,2 Il Signore ha distrutto senza pietà tutti i pascoli di Giacobbe; ha abbattuto nella sua ira le fortezze della figlia di Giuda, ha prostrato a terra, ha profanato il suo regno e i suoi capi. Ghimel 
-2,3 Con ira ardente egli ha infranto tutta la potenza d'Israele. Ha ritratto la destra davanti al nemico; ha acceso in Giacobbe come una fiamma di fuoco, che divora tutt'intorno. Dalet 
-2,4 Ha teso il suo arco come un nemico, ha tenuto ferma la destra  come un avversario, ha ucciso quanto è delizia dell'occhio. Sulla tenda della figlia di Sion ha rovesciato la sua ira come fuoco. He 
-2,5 Il Signore è divenuto come un nemico, ha distrutto Israele; ha demolito tutti i suoi palazzi, ha abbattuto le sue fortezze, ha moltiplicato alla figlia di Giuda lamento e cordoglio. Vau 
-2,6 Ha devastato come un giardino la sua dimora, ha distrutto il luogo della riunione. Il Signore ha fatto dimenticare in Sion la festa e il sabato, ha rigettato nel furore della sua ira re e sacerdoti. Zain 
-2,7 Il Signore ha rigettato il suo altare, ha aborrito il suo santuario; ha consegnato le mura dei suoi palazzi in mano ai nemici. Essi alzarono grida nel tempio del Signore come in un giorno di festa. Het 
-2,8 Il Signore ha deciso di demolire le mura della figlia di Sion, ha steso la corda per le misure, non ritrarrà la mano dalla distruzione; ha reso desolati bastione e baluardo, ambedue sono in rovina. Tet 
-2,9 Sono affondate nella terra le sue porte, egli ne ha rovinato e spezzato le sbarre. Il suo re e i suoi capi sono tra le genti; non c'è più legge e neppure i suoi profeti hanno ricevuto visioni dal Signore. Iod 
-2,10 Siedono a terra in silenzio gli anziani della figlia di Sion, hanno cosparso di cenere il capo, si sono cinti di sacco; curvano a terra il capo le vergini di Gerusalemme. Caf 
-2,11 Si sono consunti per le lacrime i miei occhi, le mie viscere sono sconvolte; si riversa per terra la mia bile per la rovina della figlia del mio popolo, mentre viene meno il bambino e il lattante nelle piazze della città. Lamed 
-2,12 Alle loro madri dicevano: "Dove sono il grano e il vino?". Intanto venivano meno come feriti nelle piazze della città; esalavano il loro respiro in grembo alle loro madri. Mem 
-2,13 A che cosa ti assimilerò? A che cosa ti paragonerò, figlia di Gerusalemme? A che cosa ti eguaglierò per consolarti, vergine figlia di Sion? Poiché è grande come il mare la tua rovina: chi potrà guarirti? Nun 
-2,14 I tuoi profeti hanno avuto per te visioni di cose vane e insulse, non hanno svelato la tua colpa per cambiare la tua sorte; ma ti hanno vaticinato lusinghe, vanità e illusioni. Samec 
-2,15 Contro di te battono le mani quanti passano per la via; fischiano di scherno, scrollano il capo sulla figlia di Gerusalemme: "È questa la città che dicevano bellezza perfetta, gioia di tutta la terra?". Pe 
-2,16 Spalancano contro di te la bocca tutti i tuoi nemici, fischiano di scherno e digrignano i denti, dicono: "L'abbiamo divorata! Questo è il giorno che aspettavamo, siamo arrivati a vederlo". Ain 
-2,17 Il Signore ha compiuto quanto aveva decretato, ha adempiuto la sua parola decretata dai giorni antichi, ha distrutto senza pietà, ha fatto gioire su di te il nemico, ha esaltato la potenza dei tuoi avversari. Sade 
-2,18 Grida dal tuo cuore al Signore, gemi, figlia di Sion; fa' scorrere come torrente le tue lacrime, giorno e notte! Non darti pace, non abbia tregua la pupilla del tuo occhio! Kof 
-2,19 Àlzati, grida nella notte, quando cominciano i turni di sentinella, effondi come acqua il tuo cuore, davanti al volto del Signore; alza verso di lui le mani per la vita dei tuoi bambini, che muoiono di fame  all'angolo di ogni strada. Res 
-2,20 "Guarda, Signore, e considera; chi mai hai trattato così? Le donne divorano i loro frutti, i bimbi che si portano in braccio! Sono trucidati nel santuario del Signore sacerdoti e profeti! Sin 
-2,21 Giacciono a terra per le strade  ragazzi e anziani; le mie vergini e i miei giovani sono caduti di spada. Hai ucciso nel giorno della tua ira, hai trucidato senza pietà. Tau 
-2,22 Come a un giorno di festa hai convocato i miei terrori da tutte le parti. Nel giorno dell'ira del Signore non vi fu né superstite né fuggiasco. Quelli che io avevo portati in braccio e allevato, li ha sterminati il mio nemico". 
-3,1 Io sono l'uomo che ha provato la miseria sotto la sferza della sua ira. Alef 
-3,2 Egli mi ha guidato, mi ha fatto camminare nelle tenebre e non nella luce. Alef 
-3,3 Sì, contro di me egli volge e rivolge la sua mano tutto il giorno. Bet 
-3,4 Egli ha consumato la mia carne e la mia pelle, ha rotto le mie ossa. Bet 
-3,5 Ha costruito sopra di me, mi ha circondato di veleno e di affanno. Bet 
-3,6 Mi ha fatto abitare in luoghi tenebrosi come i morti da gran tempo. Ghimel 
-3,7 Mi ha costruito un muro tutt'intorno, non posso più uscire; ha reso pesanti le mie catene. Ghimel 
-3,8 Anche se grido e invoco aiuto, egli soffoca la mia preghiera. Ghimel 
-3,9 Ha sbarrato le mie vie con blocchi di pietra, ha ostruito i miei sentieri. Dalet 
-3,10 Era per me un orso in agguato, un leone in luoghi nascosti. Dalet 
-3,11 Seminando di spine la mia via, mi ha lacerato, mi ha reso desolato. Dalet 
-3,12 Ha teso l'arco, mi ha posto come bersaglio alle sue saette. He 
-3,13 Ha conficcato nei miei reni le frecce della sua faretra. He 
-3,14 Sono diventato lo scherno di tutti i popoli, la loro beffarda canzone tutto il giorno. He 
-3,15 Mi ha saziato con erbe amare, mi ha dissetato con assenzio. Vau 
-3,16 Ha spezzato i miei denti con la ghiaia, mi ha steso nella polvere. Vau 
-3,17 Sono rimasto lontano dalla pace, ho dimenticato il benessere. Vau 
-3,18 E dico: "È scomparsa la mia gloria, la speranza che mi veniva dal Signore". Zain 
-3,19 Il ricordo della mia miseria e del mio vagare è come assenzio e veleno. Zain 
-3,20 Ben se ne ricorda la mia anima e si accascia dentro di me. Zain 
-3,21 Questo intendo richiamare al mio cuore, e per questo voglio riprendere speranza. Het 
-3,22 Le grazie del Signore non sono finite, non sono esaurite le sue misericordie. Het 
-3,23 Si rinnovano ogni mattina, grande è la sua fedeltà. Het 
-3,24 "Mia parte è il Signore - io esclamo -, per questo in lui spero". Tet 
-3,25 Buono è il Signore con chi spera in lui, con colui che lo cerca. Tet 
-3,26 È bene aspettare in silenzio la salvezza del Signore. Tet 
-3,27 È bene per l'uomo portare un giogo nella sua giovinezza. Iod 
-3,28 Sieda costui solitario e resti in silenzio, poiché egli glielo impone. Iod 
-3,29 Ponga nella polvere la bocca, forse c'è ancora speranza. Iod 
-3,30 Porga a chi lo percuote la sua guancia, si sazi di umiliazioni. Caf 
-3,31 Poiché il Signore  non respinge per sempre. Caf 
-3,32 Ma, se affligge, avrà anche pietà secondo il suo grande amore. Caf 
-3,33 Poiché contro il suo desiderio egli umilia e affligge i figli dell'uomo. Lamed 
-3,34 Schiacciano sotto i loro piedi tutti i prigionieri del paese. Lamed 
-3,35 Ledono i diritti di un uomo davanti al volto dell'Altissimo. Lamed 
-3,36 Opprimono un altro in una causa. Forse il Signore non vede tutto questo? Mem 
-3,37 Chi mai ha parlato e la sua parola si è avverata, senza che il Signore lo avesse comandato? Mem 
-3,38 Dalla bocca dell'Altissimo non procedono forse le sventure e il bene? Mem 
-3,39 Perché si rammarica un essere vivente, un uomo, per i castighi dei suoi peccati? Nun 
-3,40 "Esaminiamo la nostra condotta e scrutiamola, ritorniamo al Signore. Nun 
-3,41 Innalziamo i nostri cuori al di sopra delle mani, verso Dio nei cieli. Nun 
-3,42 Noi abbiamo peccato e siamo stati ribelli, e tu non ci hai perdonato. Samec 
-3,43 Ti sei avvolto nell'ira e ci hai perseguitati, hai ucciso senza pietà. Samec 
-3,44 Ti sei avvolto in una nube, perché la supplica non giungesse fino a te. Samec 
-3,45 Ci hai ridotti a spazzatura e rifiuto in mezzo ai popoli. Pe 
-3,46 Hanno spalancato la bocca contro di noi tutti i nostri nemici. Pe 
-3,47 Nostra sorte sono terrore e fossa, sterminio e rovina". Pe 
-3,48 Rivoli di lacrime scorrono dai miei occhi, per la rovina della figlia del mio popolo. Ain 
-3,49 Il mio occhio piange senza sosta perché non ha pace, Ain 
-3,50 finché non guardi e non veda il Signore dal cielo. Ain 
-3,51 Il mio occhio mi tormenta per tutte le figlie della mia città. Sade 
-3,52 Mi hanno dato la caccia come a un passero coloro che mi odiano senza ragione. Sade 
-3,53 Mi hanno chiuso vivo nella fossa e hanno gettato pietre su di me. Sade 
-3,54 Sono salite le acque fin sopra il mio capo; ho detto: "È finita per me". Kof 
-3,55 Ho invocato il tuo nome, o Signore, dalla fossa profonda. Kof 
-3,56 Tu hai udito il mio grido: "Non chiudere l'orecchio al mio sfogo". Kof 
-3,57 Tu eri vicino quando t'invocavo, hai detto: "Non temere!". Res. 
-3,58 Tu hai difeso, Signore, la mia causa, hai riscattato la mia vita. Res 
-3,59 Hai visto, o Signore, la mia umiliazione, difendi il mio diritto! Res 
-3,60 Hai visto tutte le loro vendette, tutte le loro trame contro di me. Sin 
-3,61 Hai udito, Signore, i loro insulti, tutte le loro trame contro di me. Sin 
-3,62 I discorsi dei miei oppositori e i loro pensieri sono contro di me tutto il giorno. Sin 
-3,63 Osserva quando siedono e quando si alzano; io sono la loro beffarda canzone. Tau 
-3,64 Ripagali, o Signore, secondo l'opera delle loro mani. Tau 
-3,65 Rendili duri di cuore, sia su di loro la tua maledizione! Tau 
-3,66 Perseguitali nell'ira, Signore, e distruggili sotto il cielo. 
-4,1 Come si è annerito l'oro, come si è alterato l'oro migliore! Sono disperse le pietre sante  all'angolo di ogni strada. Bet 
-4,2 I preziosi figli di Sion,  valutati come oro fino, come sono stimati quali vasi di creta, lavoro delle mani di vasaio! Ghimel 
-4,3 Persino gli sciacalli porgono le mammelle e allattano i loro cuccioli, ma la figlia del mio popolo è divenuta crudele come gli struzzi nel deserto. Dalet 
-4,4 La lingua del lattante si è attaccata al palato per la sete; i bambini chiedevano il pane e non c'era chi lo spezzasse loro. He 
-4,5 Coloro che si cibavano di leccornie languiscono lungo le strade; coloro che erano allevati sulla porpora abbracciano letame. Vau 
-4,6 Grande è stata l'iniquità della figlia del mio popolo, più del peccato di Sodoma, la quale fu distrutta in un attimo,  senza fatica di mani. Zain 
-4,7 I suoi giovani erano più splendenti della neve, più candidi del latte; avevano il corpo più roseo dei coralli, era zaffiro la loro figura. Het 
-4,8 Ora il loro aspetto s'è fatto più scuro della fuliggine, non si riconoscono più per le strade; si è raggrinzita la loro pelle sulle ossa, è divenuta secca come legno. Tet 
-4,9 Più fortunati gli uccisi di spada che i morti per fame,  caduti estenuati per mancanza dei prodotti del campo. Iod 
-4,10 Mani di donne, già inclini a pietà, hanno cotto i loro bambini, che sono divenuti loro cibo nel disastro della figlia del mio popolo. Caf 
-4,11 Il Signore ha esaurito la sua collera, ha rovesciato l'ira ardente; ha acceso in Sion un fuoco che ha divorato le sue fondamenta. Lamed 
-4,12 Non credevano i re della terra e tutti gli abitanti del mondo che l'avversario e il nemico sarebbero penetrati entro le porte di Gerusalemme. Mem 
-4,13 Fu per i peccati dei suoi profeti, per le iniquità dei suoi sacerdoti, che versarono in mezzo ad essa  il sangue dei giusti. Nun 
-4,14 Costoro vagavano come ciechi per le strade, insozzati di sangue, e non si potevano neppure  toccare le loro vesti. Samec 
-4,15 "Scostatevi! Un impuro!", si gridava per loro, "Scostatevi! Non toccate!". Fuggivano e andavano randagi tra le genti, non potevano trovare dimora. Pe 
-4,16 La faccia del Signore li ha dispersi, egli non continuerà più a guardarli; non si è avuto riguardo dei sacerdoti, non si è usata pietà agli anziani. Ain 
-4,17 Ancora si consumavano i nostri occhi, in cerca di un vano soccorso. Dal nostro osservatorio scrutavamo verso una nazione che non poteva salvarci. Sade 
-4,18 Hanno spiato i nostri passi, impedendoci di andare per le nostre piazze. Prossima è la nostra fine, sono compiuti i nostri giorni! Certo, è arrivata la nostra fine. Kof 
-4,19 I nostri inseguitori erano più veloci delle aquile del cielo; sui monti ci hanno inseguiti, nel deserto ci hanno teso agguati. Res 
-4,20 Il soffio delle nostre narici, il consacrato del Signore, è stato preso in un agguato, lui, di cui dicevamo: "Alla sua ombra vivremo fra le nazioni". Sin 
-4,21 Esulta pure, gioisci, figlia di Edom, che abiti nella terra di Us; anche a te arriverà il calice, ti inebrierai ed esporrai la tua nudità. Tau 
-4,22 È completa la tua punizione, figlia di Sion, egli non ti manderà più in esilio; ma punirà la tua iniquità, figlia di Edom, svelerà i tuoi peccati. 
-5,1 Ricordati, Signore, di quanto ci è accaduto, guarda e considera la nostra umiliazione. 
-5,2 La nostra eredità è passata a stranieri, le nostre case a estranei. 
-5,3 Orfani siamo diventati, senza padre, le nostre madri sono come vedove. 
-5,4 La nostra acqua beviamo a pagamento, dobbiamo acquistare la nostra legna. 
-5,5 Con un giogo sul collo siamo perseguitati, siamo sfiniti, non c'è per noi riposo. 
-5,6 All'Egitto abbiamo teso la mano, all'Assiria per saziarci di pane. 
-5,7 I nostri padri peccarono e non sono più, noi portiamo la pena delle loro iniquità. 
-5,8 Schiavi comandano su di noi, non c'è chi ci liberi dalle loro mani. 
-5,9 A rischio della nostra vita ci procuriamo il pane, minacciati dalla spada del deserto. 
-5,10 La nostra pelle si è fatta bruciante come un forno a causa degli ardori della fame. 
-5,11 Hanno disonorato le donne in Sion, le vergini nelle città di Giuda. 
-5,12 I capi sono stati impiccati dalle loro mani, i volti degli anziani non sono stati rispettati. 
-5,13 I giovani hanno girato la mola, i ragazzi sono caduti sotto il peso della legna. 
-5,14 Gli anziani hanno disertato la porta, i giovani le loro cetre. 
-5,15 La gioia si è spenta nei nostri cuori, si è mutata in lutto la nostra danza. 
-5,16 È caduta la corona dalla nostra testa. Guai a noi, perché abbiamo peccato! 
-5,17 Per questo è diventato mesto il nostro cuore, per tali cose si sono annebbiati i nostri occhi. 
-5,18 È perché il monte di Sion è desolato, vi scorrazzano le volpi. 
-5,19 Ma tu, Signore, rimani per sempre, il tuo trono di generazione in generazione. 
-5,20 Perché ci vuoi dimenticare per sempre, ci vuoi abbandonare per lunghi giorni? 
-5,21 Facci ritornare a te, Signore, e noi ritorneremo, rinnova i nostri giorni come in antico. 
-5,22 Ci hai forse rigettati per sempre, e senza limite sei sdegnato contro di noi? 
+1,1 Come sta solitaria la città un tempo ricca di popolo! È divenuta come una vedova, la grande fra le nazioni; la signora tra le province è sottoposta a lavori forzati. Bet
+1,2 Piange amaramente nella notte, le sue lacrime sulle sue guance. Nessuno la consola, fra tutti i suoi amanti. Tutti i suoi amici l'hanno tradita, le sono divenuti nemici. Ghimel
+1,3 Giuda è deportato in miseria e in dura schiavitù. Abita in mezzo alle nazioni, e non trova riposo; tutti i suoi persecutori l'hanno raggiunto fra le angosce. Dalet
+1,4 Le strade di Sion sono in lutto, nessuno si reca più alle sue feste; tutte le sue porte sono deserte, i suoi sacerdoti sospirano, le sue vergini sono afflitte ed essa è nell'amarezza. He
+1,5 I suoi avversari sono suoi padroni, i suoi nemici prosperano, perché il Signore l'ha afflitta per i suoi misfatti senza numero; i suoi bambini sono andati in esilio, sospinti dal nemico. Vau
+1,6 Dalla figlia di Sion è scomparso ogni splendore. I suoi capi sono diventati come cervi che non trovano pascolo; camminano senza forze davanti agli inseguitori. Zain
+1,7 Gerusalemme ricorda i giorni della sua miseria e del suo vagare, tutti i suoi beni preziosi dal tempo antico, quando il suo popolo cadeva per mano del nemico e nessuno le porgeva aiuto. I suoi nemici la guardavano e ridevano della sua rovina. Het
+1,8 Gerusalemme ha peccato gravemente ed è divenuta un abominio. Quanti la onoravano la disprezzano, perché hanno visto la sua nudità. Anch'essa sospira  e si volge per nasconderla. Tet
+1,9 La sua sozzura è nei lembi della sua veste, non pensava alla sua fine; è caduta in modo inatteso e nessuno la consola. "Guarda, Signore, la mia miseria, perché il nemico trionfa". Iod
+1,10 L'avversario ha steso la mano su tutte le sue cose più preziose; ha visto penetrare  nel suo santuario i pagani, mentre tu, Signore, avevi loro proibito di entrare nella tua assemblea. Caf
+1,11 Tutto il suo popolo sospira  in cerca di pane; danno gli oggetti più preziosi in cambio di cibo, per sostenersi in vita. "Osserva, Signore, e considera come sono disprezzata! Lamed
+1,12 Voi tutti che passate per la via, considerate e osservate se c'è un dolore simile al mio dolore, al dolore che ora mi tormenta, e con cui il Signore mi ha afflitta nel giorno della sua ira ardente. Mem
+1,13 Dall'alto egli ha scagliato un fuoco, nelle mie ossa lo ha fatto penetrare. Ha teso una rete ai miei piedi, mi ha fatto tornare indietro. Mi ha reso desolata, affranta da languore per sempre. Nun
+1,14 S'è aggravato il giogo delle mie colpe, dalla sua mano sono annodate. Sono cresciute fin sul mio collo e hanno fiaccato la mia forza. Il Signore mi ha messo nelle loro mani, non posso alzarmi. Samec
+1,15 Il Signore in mezzo a me ha ripudiato tutti i miei prodi,  ha chiamato a raccolta contro di me per fiaccare i miei giovani; il Signore ha pigiato nel torchio la vergine figlia di Giuda. Ain
+1,16 Per questo piango, e dal mio occhio scorrono lacrime, perché lontano da me è chi consola, chi potrebbe ridarmi la vita; i miei figli sono desolati, perché il nemico ha prevalso". Pe
+1,17 Sion protende le mani, nessuno la consola. Contro Giacobbe il Signore ha mandato da tutte le parti i suoi nemici. Gerusalemme è divenuta  per loro un abominio. Sade
+1,18 "Giusto è il Signore, poiché mi sono ribellata alla sua parola. Ascoltate, vi prego, popoli tutti, e osservate il mio dolore! Le mie vergini e i miei giovani sono andati in schiavitù. Kof
+1,19 Ho chiamato i miei amanti, ma mi hanno tradita; i miei sacerdoti e i miei anziani sono spirati in città, mentre cercavano cibo per sostenersi in vita. Res
+1,20 Guarda, Signore, quanto sono in angoscia; le mie viscere si agitano, dentro di me è sconvolto il mio cuore, poiché sono stata veramente ribelle. Di fuori la spada mi priva dei figli, dentro c'è la morte. Sin
+1,21 Senti come gemo, e nessuno mi consola. Tutti i miei nemici hanno saputo della mia sventura, hanno gioito, perché tu l'hai fatto. Manda il giorno che hai decretato ed essi siano simili a me! Tau
+1,22 Giunga davanti a te tutta la loro malvagità, trattali come hai trattato me per tutti i miei peccati. Sono molti i miei gemiti e il mio cuore si consuma".
+2,1 Come il Signore ha oscurato nella sua ira la figlia di Sion! Ha scagliato dal cielo in terra la gloria d'Israele. Non si è ricordato dello sgabello dei suoi piedi nel giorno del suo furore. Bet
+2,2 Il Signore ha distrutto senza pietà tutti i pascoli di Giacobbe; ha abbattuto nella sua ira le fortezze della figlia di Giuda, ha prostrato a terra, ha profanato il suo regno e i suoi capi. Ghimel
+2,3 Con ira ardente egli ha infranto tutta la potenza d'Israele. Ha ritratto la destra davanti al nemico; ha acceso in Giacobbe come una fiamma di fuoco, che divora tutt'intorno. Dalet
+2,4 Ha teso il suo arco come un nemico, ha tenuto ferma la destra  come un avversario, ha ucciso quanto è delizia dell'occhio. Sulla tenda della figlia di Sion ha rovesciato la sua ira come fuoco. He
+2,5 Il Signore è divenuto come un nemico, ha distrutto Israele; ha demolito tutti i suoi palazzi, ha abbattuto le sue fortezze, ha moltiplicato alla figlia di Giuda lamento e cordoglio. Vau
+2,6 Ha devastato come un giardino la sua dimora, ha distrutto il luogo della riunione. Il Signore ha fatto dimenticare in Sion la festa e il sabato, ha rigettato nel furore della sua ira re e sacerdoti. Zain
+2,7 Il Signore ha rigettato il suo altare, ha aborrito il suo santuario; ha consegnato le mura dei suoi palazzi in mano ai nemici. Essi alzarono grida nel tempio del Signore come in un giorno di festa. Het
+2,8 Il Signore ha deciso di demolire le mura della figlia di Sion, ha steso la corda per le misure, non ritrarrà la mano dalla distruzione; ha reso desolati bastione e baluardo, ambedue sono in rovina. Tet
+2,9 Sono affondate nella terra le sue porte, egli ne ha rovinato e spezzato le sbarre. Il suo re e i suoi capi sono tra le genti; non c'è più legge e neppure i suoi profeti hanno ricevuto visioni dal Signore. Iod
+2,10 Siedono a terra in silenzio gli anziani della figlia di Sion, hanno cosparso di cenere il capo, si sono cinti di sacco; curvano a terra il capo le vergini di Gerusalemme. Caf
+2,11 Si sono consunti per le lacrime i miei occhi, le mie viscere sono sconvolte; si riversa per terra la mia bile per la rovina della figlia del mio popolo, mentre viene meno il bambino e il lattante nelle piazze della città. Lamed
+2,12 Alle loro madri dicevano: "Dove sono il grano e il vino?". Intanto venivano meno come feriti nelle piazze della città; esalavano il loro respiro in grembo alle loro madri. Mem
+2,13 A che cosa ti assimilerò? A che cosa ti paragonerò, figlia di Gerusalemme? A che cosa ti eguaglierò per consolarti, vergine figlia di Sion? Poiché è grande come il mare la tua rovina: chi potrà guarirti? Nun
+2,14 I tuoi profeti hanno avuto per te visioni di cose vane e insulse, non hanno svelato la tua colpa per cambiare la tua sorte; ma ti hanno vaticinato lusinghe, vanità e illusioni. Samec
+2,15 Contro di te battono le mani quanti passano per la via; fischiano di scherno, scrollano il capo sulla figlia di Gerusalemme: "È questa la città che dicevano bellezza perfetta, gioia di tutta la terra?". Pe
+2,16 Spalancano contro di te la bocca tutti i tuoi nemici, fischiano di scherno e digrignano i denti, dicono: "L'abbiamo divorata! Questo è il giorno che aspettavamo, siamo arrivati a vederlo". Ain
+2,17 Il Signore ha compiuto quanto aveva decretato, ha adempiuto la sua parola decretata dai giorni antichi, ha distrutto senza pietà, ha fatto gioire su di te il nemico, ha esaltato la potenza dei tuoi avversari. Sade
+2,18 Grida dal tuo cuore al Signore, gemi, figlia di Sion; fa' scorrere come torrente le tue lacrime, giorno e notte! Non darti pace, non abbia tregua la pupilla del tuo occhio! Kof
+2,19 Àlzati, grida nella notte, quando cominciano i turni di sentinella, effondi come acqua il tuo cuore, davanti al volto del Signore; alza verso di lui le mani per la vita dei tuoi bambini, che muoiono di fame  all'angolo di ogni strada. Res
+2,20 "Guarda, Signore, e considera; chi mai hai trattato così? Le donne divorano i loro frutti, i bimbi che si portano in braccio! Sono trucidati nel santuario del Signore sacerdoti e profeti! Sin
+2,21 Giacciono a terra per le strade  ragazzi e anziani; le mie vergini e i miei giovani sono caduti di spada. Hai ucciso nel giorno della tua ira, hai trucidato senza pietà. Tau
+2,22 Come a un giorno di festa hai convocato i miei terrori da tutte le parti. Nel giorno dell'ira del Signore non vi fu né superstite né fuggiasco. Quelli che io avevo portati in braccio e allevato, li ha sterminati il mio nemico".
+3,1 Io sono l'uomo che ha provato la miseria sotto la sferza della sua ira. Alef
+3,2 Egli mi ha guidato, mi ha fatto camminare nelle tenebre e non nella luce. Alef
+3,3 Sì, contro di me egli volge e rivolge la sua mano tutto il giorno. Bet
+3,4 Egli ha consumato la mia carne e la mia pelle, ha rotto le mie ossa. Bet
+3,5 Ha costruito sopra di me, mi ha circondato di veleno e di affanno. Bet
+3,6 Mi ha fatto abitare in luoghi tenebrosi come i morti da gran tempo. Ghimel
+3,7 Mi ha costruito un muro tutt'intorno, non posso più uscire; ha reso pesanti le mie catene. Ghimel
+3,8 Anche se grido e invoco aiuto, egli soffoca la mia preghiera. Ghimel
+3,9 Ha sbarrato le mie vie con blocchi di pietra, ha ostruito i miei sentieri. Dalet
+3,10 Era per me un orso in agguato, un leone in luoghi nascosti. Dalet
+3,11 Seminando di spine la mia via, mi ha lacerato, mi ha reso desolato. Dalet
+3,12 Ha teso l'arco, mi ha posto come bersaglio alle sue saette. He
+3,13 Ha conficcato nei miei reni le frecce della sua faretra. He
+3,14 Sono diventato lo scherno di tutti i popoli, la loro beffarda canzone tutto il giorno. He
+3,15 Mi ha saziato con erbe amare, mi ha dissetato con assenzio. Vau
+3,16 Ha spezzato i miei denti con la ghiaia, mi ha steso nella polvere. Vau
+3,17 Sono rimasto lontano dalla pace, ho dimenticato il benessere. Vau
+3,18 E dico: "È scomparsa la mia gloria, la speranza che mi veniva dal Signore". Zain
+3,19 Il ricordo della mia miseria e del mio vagare è come assenzio e veleno. Zain
+3,20 Ben se ne ricorda la mia anima e si accascia dentro di me. Zain
+3,21 Questo intendo richiamare al mio cuore, e per questo voglio riprendere speranza. Het
+3,22 Le grazie del Signore non sono finite, non sono esaurite le sue misericordie. Het
+3,23 Si rinnovano ogni mattina, grande è la sua fedeltà. Het
+3,24 "Mia parte è il Signore - io esclamo -, per questo in lui spero". Tet
+3,25 Buono è il Signore con chi spera in lui, con colui che lo cerca. Tet
+3,26 È bene aspettare in silenzio la salvezza del Signore. Tet
+3,27 È bene per l'uomo portare un giogo nella sua giovinezza. Iod
+3,28 Sieda costui solitario e resti in silenzio, poiché egli glielo impone. Iod
+3,29 Ponga nella polvere la bocca, forse c'è ancora speranza. Iod
+3,30 Porga a chi lo percuote la sua guancia, si sazi di umiliazioni. Caf
+3,31 Poiché il Signore  non respinge per sempre. Caf
+3,32 Ma, se affligge, avrà anche pietà secondo il suo grande amore. Caf
+3,33 Poiché contro il suo desiderio egli umilia e affligge i figli dell'uomo. Lamed
+3,34 Schiacciano sotto i loro piedi tutti i prigionieri del paese. Lamed
+3,35 Ledono i diritti di un uomo davanti al volto dell'Altissimo. Lamed
+3,36 Opprimono un altro in una causa. Forse il Signore non vede tutto questo? Mem
+3,37 Chi mai ha parlato e la sua parola si è avverata, senza che il Signore lo avesse comandato? Mem
+3,38 Dalla bocca dell'Altissimo non procedono forse le sventure e il bene? Mem
+3,39 Perché si rammarica un essere vivente, un uomo, per i castighi dei suoi peccati? Nun
+3,40 "Esaminiamo la nostra condotta e scrutiamola, ritorniamo al Signore. Nun
+3,41 Innalziamo i nostri cuori al di sopra delle mani, verso Dio nei cieli. Nun
+3,42 Noi abbiamo peccato e siamo stati ribelli, e tu non ci hai perdonato. Samec
+3,43 Ti sei avvolto nell'ira e ci hai perseguitati, hai ucciso senza pietà. Samec
+3,44 Ti sei avvolto in una nube, perché la supplica non giungesse fino a te. Samec
+3,45 Ci hai ridotti a spazzatura e rifiuto in mezzo ai popoli. Pe
+3,46 Hanno spalancato la bocca contro di noi tutti i nostri nemici. Pe
+3,47 Nostra sorte sono terrore e fossa, sterminio e rovina". Pe
+3,48 Rivoli di lacrime scorrono dai miei occhi, per la rovina della figlia del mio popolo. Ain
+3,49 Il mio occhio piange senza sosta perché non ha pace, Ain
+3,50 finché non guardi e non veda il Signore dal cielo. Ain
+3,51 Il mio occhio mi tormenta per tutte le figlie della mia città. Sade
+3,52 Mi hanno dato la caccia come a un passero coloro che mi odiano senza ragione. Sade
+3,53 Mi hanno chiuso vivo nella fossa e hanno gettato pietre su di me. Sade
+3,54 Sono salite le acque fin sopra il mio capo; ho detto: "È finita per me". Kof
+3,55 Ho invocato il tuo nome, o Signore, dalla fossa profonda. Kof
+3,56 Tu hai udito il mio grido: "Non chiudere l'orecchio al mio sfogo". Kof
+3,57 Tu eri vicino quando t'invocavo, hai detto: "Non temere!". Res.
+3,58 Tu hai difeso, Signore, la mia causa, hai riscattato la mia vita. Res
+3,59 Hai visto, o Signore, la mia umiliazione, difendi il mio diritto! Res
+3,60 Hai visto tutte le loro vendette, tutte le loro trame contro di me. Sin
+3,61 Hai udito, Signore, i loro insulti, tutte le loro trame contro di me. Sin
+3,62 I discorsi dei miei oppositori e i loro pensieri sono contro di me tutto il giorno. Sin
+3,63 Osserva quando siedono e quando si alzano; io sono la loro beffarda canzone. Tau
+3,64 Ripagali, o Signore, secondo l'opera delle loro mani. Tau
+3,65 Rendili duri di cuore, sia su di loro la tua maledizione! Tau
+3,66 Perseguitali nell'ira, Signore, e distruggili sotto il cielo.
+4,1 Come si è annerito l'oro, come si è alterato l'oro migliore! Sono disperse le pietre sante  all'angolo di ogni strada. Bet
+4,2 I preziosi figli di Sion,  valutati come oro fino, come sono stimati quali vasi di creta, lavoro delle mani di vasaio! Ghimel
+4,3 Persino gli sciacalli porgono le mammelle e allattano i loro cuccioli, ma la figlia del mio popolo è divenuta crudele come gli struzzi nel deserto. Dalet
+4,4 La lingua del lattante si è attaccata al palato per la sete; i bambini chiedevano il pane e non c'era chi lo spezzasse loro. He
+4,5 Coloro che si cibavano di leccornie languiscono lungo le strade; coloro che erano allevati sulla porpora abbracciano letame. Vau
+4,6 Grande è stata l'iniquità della figlia del mio popolo, più del peccato di Sodoma, la quale fu distrutta in un attimo,  senza fatica di mani. Zain
+4,7 I suoi giovani erano più splendenti della neve, più candidi del latte; avevano il corpo più roseo dei coralli, era zaffiro la loro figura. Het
+4,8 Ora il loro aspetto s'è fatto più scuro della fuliggine, non si riconoscono più per le strade; si è raggrinzita la loro pelle sulle ossa, è divenuta secca come legno. Tet
+4,9 Più fortunati gli uccisi di spada che i morti per fame,  caduti estenuati per mancanza dei prodotti del campo. Iod
+4,10 Mani di donne, già inclini a pietà, hanno cotto i loro bambini, che sono divenuti loro cibo nel disastro della figlia del mio popolo. Caf
+4,11 Il Signore ha esaurito la sua collera, ha rovesciato l'ira ardente; ha acceso in Sion un fuoco che ha divorato le sue fondamenta. Lamed
+4,12 Non credevano i re della terra e tutti gli abitanti del mondo che l'avversario e il nemico sarebbero penetrati entro le porte di Gerusalemme. Mem
+4,13 Fu per i peccati dei suoi profeti, per le iniquità dei suoi sacerdoti, che versarono in mezzo ad essa  il sangue dei giusti. Nun
+4,14 Costoro vagavano come ciechi per le strade, insozzati di sangue, e non si potevano neppure  toccare le loro vesti. Samec
+4,15 "Scostatevi! Un impuro!", si gridava per loro, "Scostatevi! Non toccate!". Fuggivano e andavano randagi tra le genti, non potevano trovare dimora. Pe
+4,16 La faccia del Signore li ha dispersi, egli non continuerà più a guardarli; non si è avuto riguardo dei sacerdoti, non si è usata pietà agli anziani. Ain
+4,17 Ancora si consumavano i nostri occhi, in cerca di un vano soccorso. Dal nostro osservatorio scrutavamo verso una nazione che non poteva salvarci. Sade
+4,18 Hanno spiato i nostri passi, impedendoci di andare per le nostre piazze. Prossima è la nostra fine, sono compiuti i nostri giorni! Certo, è arrivata la nostra fine. Kof
+4,19 I nostri inseguitori erano più veloci delle aquile del cielo; sui monti ci hanno inseguiti, nel deserto ci hanno teso agguati. Res
+4,20 Il soffio delle nostre narici, il consacrato del Signore, è stato preso in un agguato, lui, di cui dicevamo: "Alla sua ombra vivremo fra le nazioni". Sin
+4,21 Esulta pure, gioisci, figlia di Edom, che abiti nella terra di Us; anche a te arriverà il calice, ti inebrierai ed esporrai la tua nudità. Tau
+4,22 È completa la tua punizione, figlia di Sion, egli non ti manderà più in esilio; ma punirà la tua iniquità, figlia di Edom, svelerà i tuoi peccati.
+5,1 Ricordati, Signore, di quanto ci è accaduto, guarda e considera la nostra umiliazione.
+5,2 La nostra eredità è passata a stranieri, le nostre case a estranei.
+5,3 Orfani siamo diventati, senza padre, le nostre madri sono come vedove.
+5,4 La nostra acqua beviamo a pagamento, dobbiamo acquistare la nostra legna.
+5,5 Con un giogo sul collo siamo perseguitati, siamo sfiniti, non c'è per noi riposo.
+5,6 All'Egitto abbiamo teso la mano, all'Assiria per saziarci di pane.
+5,7 I nostri padri peccarono e non sono più, noi portiamo la pena delle loro iniquità.
+5,8 Schiavi comandano su di noi, non c'è chi ci liberi dalle loro mani.
+5,9 A rischio della nostra vita ci procuriamo il pane, minacciati dalla spada del deserto.
+5,10 La nostra pelle si è fatta bruciante come un forno a causa degli ardori della fame.
+5,11 Hanno disonorato le donne in Sion, le vergini nelle città di Giuda.
+5,12 I capi sono stati impiccati dalle loro mani, i volti degli anziani non sono stati rispettati.
+5,13 I giovani hanno girato la mola, i ragazzi sono caduti sotto il peso della legna.
+5,14 Gli anziani hanno disertato la porta, i giovani le loro cetre.
+5,15 La gioia si è spenta nei nostri cuori, si è mutata in lutto la nostra danza.
+5,16 È caduta la corona dalla nostra testa. Guai a noi, perché abbiamo peccato!
+5,17 Per questo è diventato mesto il nostro cuore, per tali cose si sono annebbiati i nostri occhi.
+5,18 È perché il monte di Sion è desolato, vi scorrazzano le volpi.
+5,19 Ma tu, Signore, rimani per sempre, il tuo trono di generazione in generazione.
+5,20 Perché ci vuoi dimenticare per sempre, ci vuoi abbandonare per lunghi giorni?
+5,21 Facci ritornare a te, Signore, e noi ritorneremo, rinnova i nostri giorni come in antico.
+5,22 Ci hai forse rigettati per sempre, e senza limite sei sdegnato contro di noi?

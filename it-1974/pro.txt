@@ -1,0 +1,914 @@
+1,1 Proverbi di Salomone, figlio di Davide, re d'Israele,
+1,2 per conoscere la sapienza e la disciplina, per capire i detti profondi,
+1,3 per acquistare un'istruzione illuminata, equità, giustizia e rettitudine,
+1,4 per dare agli inesperti l'accortezza, ai giovani conoscenza e riflessione.
+1,5 Ascolti il saggio e aumenterà il sapere, e l'uomo accorto acquisterà il dono del consiglio,
+1,6 per comprendere proverbi e allegorie, le massime dei saggi e i loro enigmi.
+1,7 Il timore del Signore è il principio della scienza; gli stolti disprezzano la sapienza e l'istruzione.
+1,8 Ascolta, figlio mio, l'istruzione di tuo padre e non disprezzare l'insegnamento di tua madre,
+1,9 perché saranno una corona graziosa sul tuo capo e monili per il tuo collo.
+1,10 Figlio mio, se i peccatori ti vogliono traviare, non acconsentire!
+1,11 Se ti dicono: "Vieni con noi, complottiamo per spargere sangue, insidiamo impunemente l'innocente,
+1,12 inghiottiamoli vivi come gli inferi, interi, come coloro che scendon nella fossa;
+1,13 troveremo ogni specie di beni preziosi, riempiremo di bottino le nostre case;
+1,14 tu getterai la sorte insieme con noi, una sola borsa avremo in comune",
+1,15 figlio mio, non andare per la loro strada, tieni lontano il piede dai loro sentieri!
+1,16 I loro passi infatti corrono verso il male e si affrettano a spargere il sangue.
+1,17 Invano si tende la rete sotto gli occhi degli uccelli.
+1,18 Ma costoro complottano contro il proprio sangue, pongono agguati contro se stessi.
+1,19 Tale è la fine di chi si dà alla rapina; la cupidigia toglie di mezzo colui che ne è dominato.
+1,20 La Sapienza grida per le strade nelle piazze fa udire la voce;
+1,21 dall'alto delle mura essa chiama, pronunzia i suoi detti alle porte della città:
+1,22 "Fino a quando, o inesperti, amerete l'inesperienza e i beffardi si compiaceranno delle loro beffe e gli sciocchi avranno in odio la scienza?
+1,23 Volgetevi alle mie esortazioni: ecco, io effonderò il mio spirito su di voi e vi manifesterò le mie parole.
+1,24 Poiché vi ho chiamato e avete rifiutato, ho steso la mano e nessuno ci ha fatto attenzione;
+1,25 avete trascurato ogni mio consiglio e la mia esortazione non avete accolto;
+1,26 anch'io riderò delle vostre sventure, mi farò beffe quando su di voi verrà la paura,
+1,27 quando come una tempesta vi piomberà addosso il terrore, quando la disgrazia vi raggiungerà come un uragano, quando vi colpirà l'angoscia e la tribolazione.
+1,28 Allora mi invocheranno, ma io non risponderò, mi cercheranno, ma non mi troveranno.
+1,29 Poiché hanno odiato la sapienza e non hanno amato il timore del Signore;
+1,30 non hanno accettato il mio consiglio e hanno disprezzato tutte le mie esortazioni;
+1,31 mangeranno il frutto della loro condotta e si sazieranno dei risultati delle loro decisioni.
+1,32 Sì, lo sbandamento degli inesperti li ucciderà e la spensieratezza degli sciocchi li farà perire; ma chi ascolta me vivrà tranquillo e sicuro dal timore del male".
+2,1 Figlio mio, se tu accoglierai le mie parole e custodirai in te i miei precetti,
+2,2 tendendo il tuo orecchio alla sapienza, inclinando il tuo cuore alla prudenza,
+2,3 se appunto invocherai l'intelligenza e chiamerai la saggezza,
+2,4 se la ricercherai come l'argento e per essa scaverai come per i tesori,
+2,5 allora comprenderai il timore del Signore e troverai la scienza di Dio,
+2,6 perché il Signore dà la sapienza, dalla sua bocca esce scienza e prudenza.
+2,7 Egli riserva ai giusti la sua protezione, è scudo a coloro che agiscono con rettitudine,
+2,8 vegliando sui sentieri della giustizia e custodendo le vie dei suoi amici.
+2,9 Allora comprenderai l'equità e la giustizia, e la rettitudine con tutte le vie del bene,
+2,10 perché la sapienza entrerà nel tuo cuore e la scienza delizierà il tuo animo.
+2,11 La riflessione ti custodirà e l'intelligenza veglierà su di te,
+2,12 per salvarti dalla via del male, dall'uomo che parla di propositi perversi,
+2,13 da coloro che abbandonano i retti sentieri per camminare nelle vie delle tenebre,
+2,14 che godono nel fare il male, gioiscono dei loro propositi perversi;
+2,15 i cui sentieri sono tortuosi e le cui strade sono oblique,
+2,16 per salvarti dalla donna straniera, dalla forestiera che ha parole seducenti,
+2,17 che abbandona il compagno della sua giovinezza e dimentica l'alleanza con il suo Dio.
+2,18 La sua casa conduce verso la morte e verso il regno delle ombre i suoi sentieri.
+2,19 Quanti vanno da lei non fanno ritorno, non raggiungono i sentieri della vita.
+2,20 Per questo tu camminerai sulla strada dei buoni e ti atterrai ai sentieri dei giusti,
+2,21 perché gli uomini retti abiteranno nel paese e gli integri vi resteranno,
+2,22 ma i malvagi saranno sterminati dalla terra, gli infedeli ne saranno strappati.
+3,1 Figlio mio, non dimenticare il mio insegnamento e il tuo cuore custodisca i miei precetti,
+3,2 perché lunghi giorni e anni di vita e pace ti porteranno.
+3,3 Bontà e fedeltà non ti abbandonino; lègale intorno al tuo collo, scrivile sulla tavola del tuo cuore,
+3,4 e otterrai favore e buon successo agli occhi di Dio e degli uomini.
+3,5 Confida nel Signore con tutto il cuore e non appoggiarti sulla tua intelligenza;
+3,6 in tutti i tuoi passi pensa a lui ed egli appianerà i tuoi sentieri.
+3,7 Non credere di essere saggio, temi il Signore e sta' lontano dal male.
+3,8 Salute sarà per il tuo corpo e un refrigerio per le tue ossa.
+3,9 Onora il Signore con i tuoi averi e con le primizie di tutti i tuoi raccolti;
+3,10 i tuoi granai si riempiranno di grano e i tuoi tini traboccheranno di mosto.
+3,11 Figlio mio, non disprezzare l'istruzione del Signore e non aver a noia la sua esortazione,
+3,12 perché il Signore corregge chi ama, come un padre il figlio prediletto.
+3,13 Beato l'uomo che ha trovato la sapienza e il mortale che ha acquistato la prudenza,
+3,14 perché il suo possesso è preferibile a quello dell'argento e il suo provento a quello dell'oro.
+3,15 Essa è più preziosa delle perle e neppure l'oggetto più caro la uguaglia.
+3,16 Lunghi giorni sono nella sua destra e nella sua sinistra ricchezza e onore;
+3,17 le sue vie sono vie deliziose e tutti i suoi sentieri conducono al benessere.
+3,18 É un albero di vita per chi ad essa s'attiene e chi ad essa si stringe è beato.
+3,19 Il Signore ha fondato la terra con la sapienza, ha consolidato i cieli con intelligenza;
+3,20 dalla sua scienza sono stati aperti gli abissi e le nubi stillano rugiada.
+3,21 Figlio mio, conserva il consiglio e la riflessione, né si allontanino mai dai tuoi occhi:
+3,22 saranno vita per te e grazia per il tuo collo.
+3,23 Allora camminerai sicuro per la tua strada e il tuo piede non inciamperà.
+3,24 Se ti coricherai, non avrai da temere; se ti coricherai, il tuo sonno sarà dolce.
+3,25 Non temerai per uno spavento improvviso, né per la rovina degli empi quando verrà,
+3,26 perché il Signore sarà la tua sicurezza, preserverà il tuo piede dal laccio.
+3,27 Non negare un beneficio a chi ne ha bisogno, se è in tuo potere il farlo.
+3,28 Non dire al tuo prossimo: "Va', ripassa, te lo darò domani", se tu hai ciò che ti chiede.
+3,29 Non tramare il male contro il tuo prossimo mentre egli dimora fiducioso presso di te.
+3,30 Non litigare senza motivo con nessuno, se non ti ha fatto nulla di male.
+3,31 Non invidiare l'uomo violento e non imitare affatto la sua condotta,
+3,32 perché il Signore ha in abominio il malvagio, mentre la sua amicizia è per i giusti.
+3,33 La maledizione del Signore è sulla casa del malvagio, mentre egli benedice la dimora dei giusti.
+3,34 Dei beffardi egli si fa beffe e agli umili concede la grazia.
+3,35 I saggi possiederanno onore ma gli stolti riceveranno ignominia.
+4,1 Ascoltate, o figli, l'istruzione di un padre e fate attenzione per conoscere la verità,
+4,2 poiché io vi do una buona dottrina; non abbandonate il mio insegnamento.
+4,3 Anch'io sono stato un figlio per mio padre, tenero e caro agli occhi di mia madre.
+4,4 Egli mi istruiva dicendomi: "Il tuo cuore ritenga le mie parole; custodisci i miei precetti e vivrai.
+4,5 Acquista la sapienza, acquista l'intelligenza; non dimenticare le parole della mia bocca e non allontanartene mai.
+4,6 Non abbandonarla ed essa ti custodirà, amala e veglierà su di te.
+4,7 Principio della sapienza: acquista la sapienza; a costo di tutto ciò che possiedi acquista l'intelligenza.
+4,8 Stimala ed essa ti esalterà, sarà la tua gloria, se l'abbraccerai.
+4,9 Una corona di grazia porrà sul tuo capo, con un diadema di gloria ti cingerà".
+4,10 Ascolta, figlio mio, e accogli le mie parole ed esse moltiplicheranno gli anni della tua vita.
+4,11 Ti indico la via della sapienza; ti guido per i sentieri della rettitudine.
+4,12 Quando cammini non saranno intralciati i tuoi passi, e se corri, non inciamperai.
+4,13 Attieniti alla disciplina, non lasciarla, pràticala, perché essa è la tua vita.
+4,14 Non battere la strada degli empi e non procedere per la via dei malvagi.
+4,15 Evita quella strada, non passarvi, sta' lontano e passa oltre.
+4,16 Essi non dormono, se non fanno del male; non si lasciano prendere dal sonno, se non fanno cadere qualcuno;
+4,17 mangiano il pane dell'empietà e bevono il vino della violenza.
+4,18 La strada dei giusti è come la luce dell'alba, che aumenta lo splendore fino al meriggio.
+4,19 La via degli empi è come l'oscurità: non sanno dove saranno spinti a cadere.
+4,20 Figlio mio, fa' attenzione alle mie parole, porgi l'orecchio ai miei detti;
+4,21 non perderli mai di vista, custodiscili nel tuo cuore,
+4,22 perché essi sono vita per chi li trova e salute per tutto il suo corpo.
+4,23 Con ogni cura vigila sul cuore perché da esso sgorga la vita.
+4,24 Tieni lungi da te la bocca perversa e allontana da te le labbra fallaci.
+4,25 I tuoi occhi guardino diritto e le tue pupille mirino diritto davanti a te.
+4,26 Bada alla strada dove metti il piede e tutte le tue vie siano ben rassodate.
+4,27 Non deviare né a destra né a sinistra, tieni lontano il piede dal male.
+5,1 Figlio mio, fa' attenzione alla mia sapienza e porgi l'orecchio alla mia intelligenza,
+5,2 perché tu possa seguire le mie riflessioni e le tue labbra custodiscano la scienza.
+5,3 Stillano miele le labbra di una straniera e più viscida dell'olio è la sua bocca;
+5,4 ma ciò che segue è amaro come assenzio, pungente come spada a doppio taglio.
+5,5 I suoi piedi scendono verso la morte, i suoi passi conducono agli inferi.
+5,6 Per timore che tu guardi al sentiero della vita, le sue vie volgono qua e là; essa non se ne cura.
+5,7 Ora, figlio mio, ascoltami e non allontanarti dalle parole della mia bocca.
+5,8 Tieni lontano da lei il tuo cammino e non avvicinarti alla porta della sua casa,
+5,9 per non mettere in balìa di altri il tuo vigore e i tuoi anni in balìa di un uomo crudele,
+5,10 perché non si sazino dei tuoi beni gli estranei, non finiscano le tue fatiche in casa di un forestiero
+5,11 e tu non gema sulla tua sorte, quando verranno meno il tuo corpo e la tua carne,
+5,12 e dica: "Perché mai ho odiato la disciplina e il mio cuore ha disprezzato la correzione?
+5,13 Non ho ascoltato la voce dei miei maestri, non ho prestato orecchio a chi m'istruiva.
+5,14 Per poco non mi son trovato nel colmo dei mali in mezzo alla folla e all'assemblea".
+5,15 Bevi l'acqua della tua cisterna e quella che zampilla dal tuo pozzo,
+5,16 perché le tue sorgenti non scorrano al di fuori, i tuoi ruscelli nelle pubbliche piazze,
+5,17 ma siano per te solo e non per degli estranei insieme a te.
+5,18 Sia benedetta la tua sorgente; trova gioia nella donna della tua giovinezza:
+5,19 cerva amabile, gazzella graziosa, essa s'intrattenga con te; le sue tenerezze ti inebrino sempre; sii tu sempre invaghito del suo amore!
+5,20 Perché, figlio mio, invaghirti d'una straniera e stringerti al petto di un'estranea?
+5,21 Poiché gli occhi del Signore osservano le vie dell'uomo ed egli vede tutti i suoi sentieri.
+5,22 L'empio è preda delle sue iniquità, è catturato con le funi del suo peccato.
+5,23 Egli morirà per mancanza di disciplina, si perderà per la sua grande stoltezza.
+6,1 Figlio mio, se hai garantito per il tuo prossimo, se hai dato la tua mano per un estraneo,
+6,2 se ti sei legato con le parole delle tue labbra e ti sei lasciato prendere dalle parole della tua bocca,
+6,3 figlio mio, fa' così per liberartene: poiché sei caduto nelle mani del tuo prossimo, va', gèttati ai suoi piedi, importuna il tuo prossimo;
+6,4 non concedere sonno ai tuoi occhi né riposo alle tue palpebre,
+6,5 lìberatene come la gazzella dal laccio, come un uccello dalle mani del cacciatore.
+6,6 Va' dalla formica, o pigro, guarda le sue abitudini e diventa saggio.
+6,7 Essa non ha né capo, né sorvegliante, né padrone,
+6,8 eppure d'estate si provvede il vitto, al tempo della mietitura accumula il cibo.
+6,9 Fino a quando, pigro, te ne starai a dormire? Quando ti scuoterai dal sonno?
+6,10 Un po' dormire, un po' sonnecchiare, un po' incrociare le braccia per riposare
+6,11 e intanto giunge a te la miseria, come un vagabondo, e l'indigenza, come un mendicante.
+6,12 Il perverso, uomo iniquo, va con la bocca distorta,
+6,13 ammicca con gli occhi, stropiccia i piedi e fa cenni con le dita.
+6,14 Cova propositi malvagi nel cuore, in ogni tempo suscita liti.
+6,15 Per questo improvvisa verrà la sua rovina, in un attimo crollerà senza rimedio.
+6,16 Sei cose odia il Signore, anzi sette gli sono in abominio:
+6,17 occhi alteri, lingua bugiarda, mani che versano sangue innocente,
+6,18 cuore che trama iniqui progetti, piedi che corrono rapidi verso il male,
+6,19 falso testimone che diffonde menzogne e chi provoca litigi tra fratelli.
+6,20 Figlio mio, osserva il comando di tuo padre, non disprezzare l'insegnamento di tua madre.
+6,21 Fissali sempre nel tuo cuore, appendili al collo.
+6,22 Quando cammini ti guideranno, quando riposi veglieranno su di te, quando ti desti ti parleranno;
+6,23 poiché il comando è una lampada e l'insegnamento una luce e un sentiero di vita le correzioni della disciplina,
+6,24 per preservarti dalla donna altrui, dalle lusinghe di una straniera.
+6,25 Non desiderare in cuor tuo la sua bellezza; non lasciarti adescare dai suoi sguardi,
+6,26 perché, se la prostituta cerca un pezzo di pane, la maritata mira a una vita preziosa.
+6,27 Si può portare il fuoco sul petto senza bruciarsi le vesti
+6,28 o camminare sulla brace senza scottarsi i piedi?
+6,29 Così chi si accosta alla donna altrui, chi la tocca, non resterà impunito.
+6,30 Non si disapprova un ladro, se ruba per soddisfare l'appetito quando ha fame;
+6,31 eppure, se è preso, dovrà restituire sette volte, consegnare tutti i beni della sua casa.
+6,32 Ma l'adultero è privo di senno; solo chi vuole rovinare se stesso agisce così.
+6,33 Incontrerà percosse e disonore, la sua vergogna non sarà cancellata,
+6,34 poiché la gelosia accende lo sdegno del marito, che non avrà pietà nel giorno della vendetta;
+6,35 non vorrà accettare alcun compenso, rifiuterà ogni dono, anche se grande.
+7,1 Figlio mio, custodisci le mie parole e fa' tesoro dei miei precetti.
+7,2 Osserva i miei precetti e vivrai, il mio insegnamento sia come la pupilla dei tuoi occhi.
+7,3 Lègali alle tue dita, scrivili sulla tavola del tuo cuore.
+7,4 Dì alla sapienza: "Tu sei mia sorella", e chiama amica l'intelligenza,
+7,5 perché ti preservi dalla donna forestiera, dalla straniera che ha parole di lusinga.
+7,6 Mentre dalla finestra della mia casa stavo osservando dietro le grate,
+7,7 ecco vidi fra gli inesperti, scorsi fra i giovani un dissennato.
+7,8 Passava per la piazza, accanto all'angolo della straniera, e s'incamminava verso la casa di lei,
+7,9 all'imbrunire, al declinare del giorno, all'apparir della notte e del buio.
+7,10 Ecco farglisi incontro una donna, in vesti di prostituta e la dissimulazione nel cuore.
+7,11 Essa è audace e insolente, non sa tenere i piedi in casa sua.
+7,12 Ora è per la strada, ora per le piazze, ad ogni angolo sta in agguato.
+7,13 Lo afferra, lo bacia e con sfacciataggine gli dice:
+7,14 "Dovevo offrire sacrifici di comunione; oggi ho sciolto i miei voti;
+7,15 per questo sono uscita incontro a te per cercarti e ti ho trovato.
+7,16 Ho messo coperte soffici sul mio letto, tela fine d'Egitto;
+7,17 ho profumato il mio giaciglio di mirra, di aloè e di cinnamòmo.
+7,18 Vieni, inebriamoci d'amore fino al mattino, godiamoci insieme amorosi piaceri,
+7,19 poiché mio marito non è in casa, è partito per un lungo viaggio,
+7,20 ha portato con sé il sacchetto del denaro, tornerà a casa il giorno del plenilunio".
+7,21 Lo lusinga con tante moine, lo seduce con labbra lascive;
+7,22 egli incauto la segue, come un bue va al macello; come un cervo preso al laccio,
+7,23 finché una freccia non gli lacera il fegato; come un uccello che si precipita nella rete e non sa che è in pericolo la sua vita.
+7,24 Ora, figlio mio, ascoltami, fa' attenzione alle parole della mia bocca.
+7,25 Il tuo cuore non si volga verso le sue vie, non aggirarti per i suoi sentieri,
+7,26 perché molti ne ha fatti cadere trafitti ed erano vigorose tutte le sue vittime.
+7,27 La sua casa è la strada per gli inferi, che scende nelle camere della morte.
+8,1 La Sapienza forse non chiama e la prudenza non fa udir la voce?
+8,2 In cima alle alture, lungo la via, nei crocicchi delle strade essa si è posta,
+8,3 presso le porte, all'ingresso della città, sulle soglie degli usci essa esclama:
+8,4 "A voi, uomini, io mi rivolgo, ai figli dell'uomo è diretta la mia voce.
+8,5 Imparate, inesperti, la prudenza e voi, stolti, fatevi assennati.
+8,6 Ascoltate, perché dirò cose elevate, dalle mie labbra usciranno sentenze giuste,
+8,7 perché la mia bocca proclama la verità e abominio per le mie labbra è l'empietà.
+8,8 Tutte le parole della mia bocca sono giuste; niente vi è in esse di fallace o perverso;
+8,9 tutte sono leali per chi le comprende e rette per chi possiede la scienza.
+8,10 Accettate la mia istruzione e non l'argento, la scienza anziché l'oro fino,
+8,11 perché la scienza vale più delle perle e nessuna cosa preziosa l'uguaglia".
+8,12 Io, la Sapienza, possiedo la prudenza e ho la scienza e la riflessione.
+8,13 Temere il Signore è odiare il male: io detesto la superbia, l'arroganza, la cattiva condotta e la bocca perversa.
+8,14 A me appartiene il consiglio e il buon senso, io sono l'intelligenza, a me appartiene la potenza.
+8,15 Per mezzo mio regnano i re e i magistrati emettono giusti decreti;
+8,16 per mezzo mio i capi comandano e i grandi governano con giustizia.
+8,17 Io amo coloro che mi amano e quelli che mi cercano mi troveranno.
+8,18 Presso di me c'è ricchezza e onore, sicuro benessere ed equità.
+8,19 Il mio frutto val più dell'oro, dell'oro fino, il mio provento più dell'argento scelto.
+8,20 Io cammino sulla via della giustizia e per i sentieri dell'equità,
+8,21 per dotare di beni quanti mi amano e riempire i loro forzieri.
+8,22 Il Signore mi ha creato all'inizio della sua attività, prima di ogni sua opera, fin d'allora.
+8,23 Dall'eternità sono stata costituita, fin dal principio, dagli inizi della terra.
+8,24 Quando non esistevano gli abissi, io fui generata; quando ancora non vi erano le sorgenti cariche d'acqua;
+8,25 prima che fossero fissate le basi dei monti, prima delle colline, io sono stata generata.
+8,26 Quando ancora non aveva fatto la terra e i campi, né le prime zolle del mondo;
+8,27 quando egli fissava i cieli, io ero là; quando tracciava un cerchio sull'abisso;
+8,28 quando condensava le nubi in alto, quando fissava le sorgenti dell'abisso;
+8,29 quando stabiliva al mare i suoi limiti, sicché le acque non ne oltrepassassero la spiaggia; quando disponeva le fondamenta della terra,
+8,30 allora io ero con lui come architetto ed ero la sua delizia ogni giorno, dilettandomi davanti a lui in ogni istante;
+8,31 dilettandomi sul globo terrestre, ponendo le mie delizie tra i figli dell'uomo.
+8,32 Ora, figli, ascoltatemi: beati quelli che seguono le mie vie!
+8,33 Ascoltate l'esortazione e siate saggi, non trascuratela!
+8,34 Beato l'uomo che mi ascolta, vegliando ogni giorno alle mie porte, per custodire attentamente la soglia.
+8,35 Infatti, chi trova me trova la vita, e ottiene favore dal Signore;
+8,36 ma chi pecca contro di me, danneggia se stesso; quanti mi odiano amano la morte".
+9,1 La Sapienza si è costruita la casa, ha intagliato le sue sette colonne.
+9,2 Ha ucciso gli animali, ha preparato il vino e ha imbandito la tavola.
+9,3 Ha mandato le sue ancelle a proclamare sui punti più alti della città:
+9,4 "Chi è inesperto accorra qui!". A chi è privo di senno essa dice:
+9,5 "Venite, mangiate il mio pane, bevete il vino che io ho preparato.
+9,6 Abbandonate la stoltezza e vivrete, andate diritti per la via dell'intelligenza".
+9,7 Chi corregge il beffardo se ne attira il disprezzo, chi rimprovera l'empio se ne attira l'insulto.
+9,8 Non rimproverare il beffardo per non farti odiare; rimprovera il saggio ed egli ti amerà.
+9,9 Dà consigli al saggio e diventerà ancora più saggio; istruisci il giusto ed egli aumenterà la dottrina.
+9,10 Fondamento della sapienza è il timore di Dio, la scienza del Santo è intelligenza.
+9,11 Per mezzo mio si moltiplicano i tuoi giorni, ti saranno aggiunti anni di vita.
+9,12 Se sei sapiente, lo sei a tuo vantaggio, se sei beffardo, tu solo ne porterai la pena.
+9,13 Donna irrequieta è follia, una sciocca che non sa nulla.
+9,14 Sta seduta alla porta di casa, su un trono, in un luogo alto della città,
+9,15 per invitare i passanti che vanno diritti per la loro strada:
+9,16 "Chi è inesperto venga qua!". E a chi è privo di senno essa dice:
+9,17 "Le acque furtive sono dolci, il pane preso di nascosto è gustoso".
+9,18 Egli non si accorge che là ci sono le ombre e che i suoi invitati se ne vanno nel profondo degli inferi.
+10,1 Proverbi di Salomone. Il figlio saggio rende lieto il padre; il figlio stolto contrista la madre.
+10,2 Non giovano i tesori male acquistati, mentre la giustizia libera dalla morte.
+10,3 Il Signore non lascia patir la fame al giusto, ma delude la cupidigia degli empi.
+10,4 La mano pigra fa impoverire, la mano operosa arricchisce.
+10,5 Chi raccoglie d'estate è previdente; chi dorme al tempo della mietitura si disonora.
+10,6 Le benedizioni del Signore sul capo del giusto, la bocca degli empi nasconde il sopruso.
+10,7 La memoria del giusto è in benedizione, il nome degli empi svanisce.
+10,8 L'assennato accetta i comandi, il linguacciuto va in rovina.
+10,9 Chi cammina nell'integrità va sicuro, chi rende tortuose le sue vie sarà scoperto.
+10,10 Chi chiude un occhio causa dolore, chi riprende a viso aperto procura pace.
+10,11 Fonte di vita è la bocca del giusto, la bocca degli empi nasconde violenza.
+10,12 L'odio suscita litigi, l'amore ricopre ogni colpa.
+10,13 Sulle labbra dell'assennato si trova la sapienza, per la schiena di chi è privo di senno il bastone.
+10,14 I saggi fanno tesoro della scienza, ma la bocca dello stolto è un pericolo imminente.
+10,15 I beni del ricco sono la sua roccaforte, la rovina dei poveri è la loro miseria.
+10,16 Il salario del giusto serve per la vita, il guadagno dell'empio è per i vizi.
+10,17 É sulla via della vita chi osserva la disciplina, chi trascura la correzione si smarrisce.
+10,18 Placano l'odio le labbra sincere, chi diffonde la calunnia è uno stolto.
+10,19 Nel molto parlare non manca la colpa, chi frena le labbra è prudente.
+10,20 Argento pregiato è la lingua del giusto, il cuore degli empi vale ben poco.
+10,21 Le labbra del giusto nutriscono molti, gli stolti muoiono in miseria.
+10,22 La benedizione del Signore arricchisce, non le aggiunge nulla la fatica.
+10,23 É un divertimento per lo stolto compiere il male, come il coltivar la sapienza per l'uomo prudente.
+10,24 Al malvagio sopraggiunge il male che teme, il desiderio dei giusti invece è soddisfatto.
+10,25 Al passaggio della bufera l'empio cessa di essere, ma il giusto resterà saldo per sempre.
+10,26 Come l'aceto ai denti e il fumo agli occhi così è il pigro per chi gli affida una missione.
+10,27 Il timore del Signore prolunga i giorni, ma gli anni dei malvagi sono accorciati.
+10,28 L'attesa dei giusti finirà in gioia, ma la speranza degli empi svanirà.
+10,29 La via del Signore è una fortezza per l'uomo retto, mentre è una rovina per i malfattori.
+10,30 Il giusto non vacillerà mai, ma gli empi non dureranno sulla terra.
+10,31 La bocca del giusto esprime la sapienza, la lingua perversa sarà tagliata.
+10,32 Le labbra del giusto stillano benevolenza, la bocca degli empi perversità.
+11,1 La bilancia falsa è in abominio al Signore, ma del peso esatto egli si compiace.
+11,2 Viene la superbia, verrà anche l'obbrobrio, mentre la saggezza è presso gli umili.
+11,3 L'integrità degli uomini retti li guida, la perversità dei perfidi li rovina.
+11,4 Non serve la ricchezza nel giorno della collera, ma la giustizia libera dalla morte.
+11,5 La giustizia dell'uomo onesto gli spiana la via; per la sua empietà cade l'empio.
+11,6 La giustizia degli uomini retti li salva, nella cupidigia restano presi i perfidi.
+11,7 Con la morte dell'empio svanisce ogni sua speranza, la fiducia dei malvagi scompare.
+11,8 Il giusto sfugge all'angoscia, al suo posto subentra l'empio.
+11,9 Con la bocca l'empio rovina il suo prossimo, ma i giusti si salvano con la scienza.
+11,10 Della prosperità dei giusti la città si rallegra, per la scomparsa degli empi si fa festa.
+11,11 Con la benedizione degli uomini retti si innalza una città, la bocca degli empi la demolisce.
+11,12 Chi disprezza il suo prossimo è privo di senno, l'uomo prudente invece tace.
+11,13 Chi va in giro sparlando svela il segreto, lo spirito fidato nasconde ogni cosa.
+11,14 Senza una direzione un popolo decade, il successo sta nel buon numero di consiglieri.
+11,15 Chi garantisce per un estraneo si troverà male, chi avversa le strette di mano a garanzia, vive tranquillo.
+11,16 Una donna graziosa ottiene gloria, ma gli uomini laboriosi acquistano ricchezza.
+11,17 Benefica se stesso l'uomo misericordioso, il crudele invece tormenta la sua stessa carne.
+11,18 L'empio realizza profitti fallaci, ma per chi semina la giustizia il salario è sicuro.
+11,19 Chi pratica la giustizia si procura la vita, chi segue il male va verso la morte.
+11,20 I cuori depravati sono in abominio al Signore che si compiace di chi ha una condotta integra.
+11,21 Certo non resterà impunito il malvagio, ma la discendenza dei giusti si salverà.
+11,22 Un anello d'oro al naso d'un porco, tale è la donna bella ma priva di senno.
+11,23 La brama dei giusti è solo il bene, la speranza degli empi svanisce.
+11,24 C'è chi largheggia e la sua ricchezza aumenta, c'è chi risparmia oltre misura e finisce nella miseria.
+11,25 La persona benefica avrà successo e chi disseta sarà dissetato.
+11,26 Chi accaparra il grano è maledetto dal popolo, la benedizione è invocata sul capo di chi lo vende.
+11,27 Chi è sollecito del bene trova il favore, chi ricerca il male, male avrà.
+11,28 Chi confida nella propria ricchezza cadrà; i giusti invece verdeggeranno come foglie.
+11,29 Chi crea disordine in casa erediterà vento e lo stolto sarà schiavo dell'uomo saggio.
+11,30 Il frutto del giusto è un albero di vita, il saggio conquista gli animi.
+11,31 Ecco, il giusto è ripagato sulla terra, tanto più lo saranno l'empio e il peccatore.
+12,1 Chi ama la disciplina ama la scienza, chi odia la correzione è stolto.
+12,2 Il buono si attira il favore del Signore, ma egli condanna l'intrigante.
+12,3 Non resta saldo l'uomo con l'empietà, ma la radice dei giusti non sarà smossa.
+12,4 La donna perfetta è la corona del marito, ma quella che lo disonora è come carie nelle sue ossa.
+12,5 I pensieri dei giusti sono equità, i propositi degli empi sono frode.
+12,6 Le parole degli empi sono agguati sanguinari, ma la bocca degli uomini retti vi si sottrarrà.
+12,7 Gli empi, una volta abbattuti, più non sono, ma la casa dei giusti sta salda.
+12,8 Un uomo è lodato per il senno, chi ha un cuore perverso è disprezzato.
+12,9 Un uomo di poco conto che basta a se stesso vale più di un uomo esaltato a cui manca il pane.
+12,10 Il giusto ha cura del suo bestiame, ma i sentimenti degli empi sono spietati.
+12,11 Chi coltiva la sua terra si sazia di pane, chi insegue chimere è privo di senno.
+12,12 Le brame dell'empio sono una rete di mali, la radice dei giusti produce frutti.
+12,13 Nel peccato delle sue labbra si impiglia il malvagio, ma il giusto sfuggirà a tale angoscia.
+12,14 Ognuno si sazia del frutto della sua bocca, ma ciascuno sarà ripagato secondo le sue opere.
+12,15 Lo stolto giudica diritta la sua condotta, il saggio, invece, ascolta il consiglio.
+12,16 Lo stolto manifesta subito la sua collera, l'accorto dissimula l'offesa.
+12,17 Chi aspira alla verità proclama la giustizia, il falso testimone proclama l'inganno.
+12,18 V'è chi parla senza riflettere: trafigge come una spada; ma la lingua dei saggi risana.
+12,19 La bocca verace resta ferma per sempre, la lingua bugiarda per un istante solo.
+12,20 Amarezza è nel cuore di chi trama il male, gioia hanno i consiglieri di pace.
+12,21 Al giusto non può capitare alcun danno, gli empi saranno pieni di mali.
+12,22 Le labbra menzognere sono un abominio per il Signore che si compiace di quanti agiscono con sincerità.
+12,23 L'uomo accorto cela il sapere, il cuore degli stolti proclama la stoltezza.
+12,24 La mano operosa ottiene il comando, quella pigra sarà per il lavoro forzato.
+12,25 L'affanno deprime il cuore dell'uomo, una parola buona lo allieta.
+12,26 Il giusto è guida per il suo prossimo, ma la via degli empi fa smarrire.
+12,27 Il pigro non troverà selvaggina; la diligenza è per l'uomo un bene prezioso.
+12,28 Nella strada della giustizia è la vita, il sentiero dei perversi conduce alla morte.
+13,1 Il figlio saggio ama la disciplina, lo spavaldo non ascolta il rimprovero.
+13,2 Del frutto della sua bocca l'uomo mangia ciò che è buono; l'appetito dei perfidi si soddisfa con i soprusi.
+13,3 Chi sorveglia la sua bocca conserva la vita, chi apre troppo le labbra incontra la rovina.
+13,4 Il pigro brama, ma non c'è nulla per il suo appetito; l'appetito dei diligenti sarà soddisfatto.
+13,5 Il giusto odia la parola falsa, l'empio calunnia e disonora.
+13,6 La giustizia custodisce chi ha una condotta integra, il peccato manda in rovina l'empio.
+13,7 C'è chi fa il ricco e non ha nulla; c'è chi fa il povero e ha molti beni.
+13,8 Riscatto della vita d'un uomo è la sua ricchezza, ma il povero non si accorge della minaccia.
+13,9 La luce dei giusti allieta, la lucerna degli empi si spegne.
+13,10 L'insolenza provoca soltanto contese, la sapienza si trova presso coloro che prendono consiglio.
+13,11 Le ricchezze accumulate in fretta diminuiscono, chi le raduna a poco a poco le accresce.
+13,12 Un'attesa troppo prolungata fa male al cuore, un desiderio soddisfatto è albero di vita.
+13,13 Chi disprezza la parola si rovinerà, chi rispetta un comando ne avrà premio.
+13,14 L'insegnamento del saggio è fonte di vita per evitare i lacci della morte.
+13,15 Un aspetto buono procura favore, ma il contegno dei perfidi è rude.
+13,16 L'accorto agisce sempre con riflessione, lo stolto mette in mostra la stoltezza.
+13,17 Un cattivo messaggero causa sciagure, un inviato fedele apporta salute.
+13,18 Povertà e ignominia a chi rifiuta l'istruzione, chi tien conto del rimprovero sarà onorato.
+13,19 Desiderio soddisfatto è una dolcezza al cuore, ma è abominio per gli stolti staccarsi dal male.
+13,20 Va' con i saggi e saggio diventerai, chi pratica gli stolti ne subirà danno.
+13,21 La sventura perseguita i peccatori, il benessere ripagherà i giusti.
+13,22 L'uomo dabbene lascia eredi i nipoti, la proprietà del peccatore è riservata al giusto.
+13,23 Il potente distrugge il podere dei poveri e c'è chi è eliminato senza processo.
+13,24 Chi risparmia il bastone odia suo figlio, chi lo ama è pronto a correggerlo.
+13,25 Il giusto mangia a sazietà, ma il ventre degli empi soffre la fame.
+14,1 La sapienza di una massaia costruisce la casa, la stoltezza la demolisce con le mani.
+14,2 Chi procede con rettitudine teme il Signore, chi si scosta dalle sue vie lo disprezza.
+14,3 Nella bocca dello stolto c'è il germoglio della superbia, ma le labbra dei saggi sono la loro salvaguardia.
+14,4 Senza buoi, niente grano, l'abbondanza del raccolto sta nel vigore del toro.
+14,5 Il testimone vero non mentisce, quello falso spira menzogne.
+14,6 Il beffardo ricerca la sapienza ma invano, la scienza è cosa facile per il prudente.
+14,7 Allontànati dall'uomo stolto, e non ignorerai le labbra sapienti.
+14,8 La sapienza dell'accorto sta nel capire la sua via, ma la stoltezza degli sciocchi è inganno.
+14,9 Fra gli stolti risiede la colpa, fra gli uomini retti la benevolenza.
+14,10 Il cuore conosce la propria amarezza e alla sua gioia non partecipa l'estraneo.
+14,11 La casa degli empi rovinerà, ma la tenda degli uomini retti avrà successo.
+14,12 C'è una via che sembra diritta a qualcuno, ma sbocca in sentieri di morte.
+14,13 Anche fra il riso il cuore prova dolore e la gioia può finire in pena.
+14,14 Chi è instabile si sazierà dei frutti della sua condotta, l'uomo dabbene si sazierà delle sue opere.
+14,15 L'ingenuo crede quanto gli dici, l'accorto controlla i propri passi.
+14,16 Il saggio teme e sta lontano dal male, lo stolto è insolente e presuntuoso.
+14,17 L'iracondo commette sciocchezze, il riflessivo sopporta.
+14,18 Gli inesperti erediteranno la stoltezza, i prudenti si coroneranno di scienza.
+14,19 I malvagi si inchinano davanti ai buoni, gli empi davanti alle porte del giusto.
+14,20 Il povero è odioso anche al suo amico, numerosi sono gli amici del ricco.
+14,21 Chi disprezza il prossimo pecca, beato chi ha pietà degli umili.
+14,22 Non errano forse quelli che compiono il male? Benevolenza e favore per quanti compiono il bene.
+14,23 In ogni fatica c'è un vantaggio, ma la loquacità produce solo miseria.
+14,24 Corona dei saggi è la loro accortezza, corona degli stolti la loro stoltezza.
+14,25 Salvatore di vite è un testimone vero; chi spaccia menzogne è un impostore.
+14,26 Nel timore del Signore è la fiducia del forte; per i suoi figli egli sarà un rifugio.
+14,27 Il timore del Signore è fonte di vita, per evitare i lacci della morte.
+14,28 Un popolo numeroso è la gloria del re; la scarsità di gente è la rovina del principe.
+14,29 Il paziente ha grande prudenza, l'iracondo mostra stoltezza.
+14,30 Un cuore tranquillo è la vita di tutto il corpo, l'invidia è la carie delle ossa.
+14,31 Chi opprime il povero offende il suo creatore, chi ha pietà del misero lo onora.
+14,32 Dalla propria malvagità è travolto l'empio, il giusto ha un rifugio nella propria integrità.
+14,33 In un cuore assennato risiede la sapienza, ma in seno agli stolti può scoprirsi?
+14,34 La giustizia fa onore a una nazione, ma il peccato segna il declino dei popoli.
+14,35 Il favore del re è per il ministro intelligente, il suo sdegno è per chi lo disonora.
+15,1 Una risposta gentile calma la collera, una parola pungente eccita l'ira.
+15,2 La lingua dei saggi fa gustare la scienza, la bocca degli stolti esprime sciocchezze.
+15,3 In ogni luogo sono gli occhi del Signore, scrutano i malvagi e i buoni.
+15,4 Una lingua dolce è un albero di vita, quella malevola è una ferita al cuore.
+15,5 Lo stolto disprezza la correzione paterna; chi tiene conto dell'ammonizione diventa prudente.
+15,6 Nella casa del giusto c'è abbondanza di beni, sulla rendita dell'empio incombe il dissesto.
+15,7 Le labbra dei saggi diffondono la scienza, non così il cuore degli stolti.
+15,8 Il sacrificio degli empi è in abominio al Signore, la supplica degli uomini retti gli è gradita.
+15,9 La condotta perversa è in abominio al Signore; egli ama chi pratica la giustizia.
+15,10 Punizione severa per chi abbandona il retto sentiero, chi odia la correzione morirà.
+15,11 Gl'inferi e l'abisso sono davanti al Signore, tanto più i cuori dei figli dell'uomo.
+15,12 Lo spavaldo non vuol essere corretto, egli non si accompagna con i saggi.
+15,13 Un cuore lieto rende ilare il volto, ma, quando il cuore è triste, lo spirito è depresso.
+15,14 Una mente retta ricerca il sapere, la bocca degli stolti si pasce di stoltezza.
+15,15 Tutti i giorni son brutti per l'afflitto, per un cuore felice è sempre festa.
+15,16 Poco con il timore di Dio è meglio di un gran tesoro con l'inquietudine.
+15,17 Un piatto di verdura con l'amore è meglio di un bue grasso con l'odio.
+15,18 L'uomo collerico suscita litigi, il lento all'ira seda le contese.
+15,19 La via del pigro è come una siepe di spine, la strada degli uomini retti è una strada appianata.
+15,20 Il figlio saggio allieta il padre, l'uomo stolto disprezza la madre.
+15,21 La stoltezza è una gioia per chi è privo di senno; l'uomo prudente cammina diritto.
+15,22 Falliscono le decisioni prese senza consultazione, riescono quelle prese da molti consiglieri.
+15,23 É una gioia per l'uomo saper dare una risposta; quanto è gradita una parola detta a suo tempo!
+15,24 Per l'uomo assennato la strada della vita è verso l'alto, per salvarlo dagli inferni che sono in basso.
+15,25 Il Signore abbatte la casa dei superbi e rende saldi i confini della vedova.
+15,26 Sono in abominio al Signore i pensieri malvagi, ma gli sono gradite le parole benevole.
+15,27 Sconvolge la sua casa chi è avido di guadagni disonesti; ma chi detesta i regali vivrà.
+15,28 La mente del giusto medita prima di rispondere, la bocca degli empi esprime malvagità.
+15,29 Il Signore è lontano dagli empi, ma egli ascolta la preghiera dei giusti.
+15,30 Uno sguardo luminoso allieta il cuore; una notizia lieta rianima le ossa.
+15,31 L'orecchio che ascolta un rimprovero salutare avrà la dimora in mezzo ai saggi.
+15,32 Chi rifiuta la correzione disprezza se stesso, chi ascolta il rimprovero acquista senno.
+15,33 Il timore di Dio è una scuola di sapienza, prima della gloria c'è l'umiltà.
+16,1 All'uomo appartengono i progetti della mente, ma dal Signore viene la risposta.
+16,2 Tutte le vie dell'uomo sembrano pure ai suoi occhi, ma chi scruta gli spiriti è il Signore.
+16,3 Affida al Signore la tua attività e i tuoi progetti riusciranno.
+16,4 Il Signore ha fatto tutto per un fine, anche l'empio per il giorno della sventura.
+16,5 É un abominio per il Signore ogni cuore superbo, certamente non resterà impunito.
+16,6 Con la bontà e la fedeltà si espia la colpa, con il timore del Signore si evita il male.
+16,7 Quando il Signore si compiace della condotta di un uomo, riconcilia con lui anche i suoi nemici.
+16,8 Poco con onestà è meglio di molte rendite senza giustizia.
+16,9 La mente dell'uomo pensa molto alla sua via, ma il Signore dirige i suoi passi.
+16,10 Un oracolo è sulle labbra del re, in giudizio la sua bocca non sbaglia.
+16,11 La stadera e le bilance giuste appartengono al Signore, sono opera sua tutti i pesi del sacchetto.
+16,12 É in abominio ai re commettere un'azione iniqua, poiché il trono si consolida con la giustizia.
+16,13 Delle labbra giuste si compiace il re e ama chi parla con rettitudine.
+16,14 L'ira del re è messaggera di morte, ma l'uomo saggio la placherà.
+16,15 Nello splendore del volto del re è la vita, il suo favore è come nube di primavera.
+16,16 É molto meglio possedere la sapienza che l'oro, il possesso dell'intelligenza è preferibile all'argento.
+16,17 La strada degli uomini retti è evitare il male, conserva la vita chi controlla la sua via.
+16,18 Prima della rovina viene l'orgoglio e prima della caduta lo spirito altero.
+16,19 É meglio abbassarsi con gli umili che spartire la preda con i superbi.
+16,20 Chi è prudente nella parola troverà il bene e chi confida nel Signore è beato.
+16,21 Sarà chiamato intelligente chi è saggio di mente; il linguaggio dolce aumenta la dottrina.
+16,22 Fonte di vita è la prudenza per chi la possiede, castigo degli stolti è la stoltezza.
+16,23 Una mente saggia rende prudente la bocca e sulle sue labbra aumenta la dottrina.
+16,24 Favo di miele sono le parole gentili, dolcezza per l'anima e refrigerio per il corpo.
+16,25  C'è una via che pare diritta a qualcuno, ma sbocca in sentieri di morte.
+16,26 L'appetito del lavoratore lavora per lui, perché la sua bocca lo stimola.
+16,27 L'uomo perverso produce la sciagura, sulle sue labbra c'è come un fuoco ardente.
+16,28 L'uomo ambiguo provoca litigi, chi calunnia divide gli amici.
+16,29 L'uomo violento seduce il prossimo e lo spinge per una via non buona.
+16,30 Chi socchiude gli occhi medita inganni, chi stringe le labbra ha già commesso il male.
+16,31 Corona magnifica è la canizie, ed essa si trova sulla via della giustizia.
+16,32 Il paziente val più di un eroe, chi domina se stesso val più di chi conquista una città.
+16,33 Nel grembo si getta la sorte, ma la decisione dipende tutta dal Signore.
+17,1 Un tozzo di pane secco con tranquillità è meglio di una casa piena di banchetti festosi e di discordia.
+17,2 Lo schiavo intelligente prevarrà su un figlio disonorato e avrà parte con i fratelli all'eredità.
+17,3 Il crogiuolo è per l'argento e il forno per l'oro, ma chi prova i cuori è il Signore.
+17,4 Il maligno presta attenzione a un labbro maledico, il bugiardo ascolta una lingua nociva.
+17,5 Chi deride il povero offende il suo creatore, chi gioisce della sciagura altrui non resterà impunito.
+17,6 Corona dei vecchi sono i figli dei figli, onore dei figli i loro padri.
+17,7 Non conviene all'insensato un linguaggio elevato, ancor meno al principe un linguaggio falso.
+17,8 Il dono è come un talismano per il proprietario: dovunque si volga ha successo.
+17,9 Chi copre la colpa si concilia l'amicizia, ma chi la divulga divide gli amici.
+17,10 Fa più una minaccia all'assennato che cento percosse allo stolto.
+17,11 Il malvagio non cerca altro che la ribellione, ma gli sarà mandato contro un messaggero senza pietà.
+17,12 Meglio incontrare un'orsa privata dei figli che uno stolto in preda alla follia.
+17,13 Chi rende male per bene vedrà sempre la sventura in casa.
+17,14 Iniziare un litigio è come aprire una diga, prima che la lite si esasperi, troncala.
+17,15 Assolvere il reo e condannare il giusto sono due cose in abominio al Signore.
+17,16 A che serve il denaro in mano allo stolto? Forse a comprar la sapienza, se egli non ha senno?
+17,17 Un amico vuol bene sempre, è nato per essere un fratello nella sventura.
+17,18 É privo di senno l'uomo che offre garanzie e si dà come garante per il suo prossimo.
+17,19 Chi ama la rissa ama il delitto, chi alza troppo l'uscio cerca la rovina.
+17,20 Un cuore perverso non troverà mai felicità, una lingua tortuosa andrà in malora.
+17,21 Chi genera uno stolto ne avrà afflizione; non può certo gioire il padre di uno sciocco.
+17,22 Un cuore lieto fa bene al corpo, uno spirito abbattuto inaridisce le ossa.
+17,23 L'iniquo accetta regali di sotto il mantello per deviare il corso della giustizia.
+17,24 L'uomo prudente ha la sapienza davanti a sé, ma gli occhi dello stolto vagano in capo al mondo.
+17,25 Un figlio stolto è un tormento per il padre e un'amarezza per colei che lo ha partorito.
+17,26 Non sta bene multare chi ha ragione e peggio ancora colpire gli innocenti.
+17,27 Chi è parco di parole possiede la scienza; uno spirito calmo è un uomo intelligente.
+17,28 Anche lo stolto, se tace, passa per saggio e, se tien chiuse le labbra, per intelligente.
+18,1 Chi si tiene appartato cerca pretesti e con ogni mezzo attacca brighe.
+18,2 Lo stolto non ama la prudenza, ma vuol solo far mostra dei suoi sentimenti.
+18,3 Con l'empietà viene il disprezzo, con il disonore anche l'ignominia.
+18,4 Le parole della bocca dell'uomo sono acqua profonda, la fonte della sapienza è un torrente che straripa.
+18,5 Non è bene usar riguardi all'empio per far torto al giusto in un giudizio.
+18,6 Le labbra dello stolto provocano liti e la sua bocca gli provoca percosse.
+18,7 La bocca dello stolto è la sua rovina e le sue labbra sono un laccio per la sua vita.
+18,8 Le parole del calunniatore sono come ghiotti bocconi che scendono in fondo alle viscere.
+18,9 Chi è indolente nel lavoro è fratello del dissipatore.
+18,10 Torre fortissima è il nome del Signore: il giusto vi si rifugia ed è al sicuro.
+18,11 I beni del ricco sono la sua roccaforte, come un'alta muraglia, a suo parere.
+18,12 Prima della caduta il cuore dell'uomo si esalta, ma l'umiltà viene prima della gloria.
+18,13 Chi risponde prima di avere ascoltato mostra stoltezza a propria confusione.
+18,14 Lo spirito dell'uomo lo sostiene nella malattia, ma uno spirito afflitto chi lo solleverà?
+18,15 La mente intelligente acquista la scienza, l'orecchio dei saggi ricerca il sapere.
+18,16 Il dono fa largo all'uomo e lo introduce alla presenza dei grandi.
+18,17 Il primo a parlare in una lite sembra aver ragione, ma viene il suo avversario e lo confuta.
+18,18 La sorte fa cessar le discussioni e decide fra i potenti.
+18,19 Un fratello offeso è più irriducibile d'una roccaforte, le liti sono come le sbarre di un castello.
+18,20 Con la bocca l'uomo sazia il suo stomaco, egli si sazia con il prodotto delle labbra.
+18,21 Morte e vita sono in potere della lingua e chi l'accarezza ne mangerà i frutti.
+18,22 Chi ha trovato una moglie ha trovato una fortuna, ha ottenuto il favore del Signore.
+18,23 Il povero parla con suppliche, il ricco risponde con durezza.
+18,24 Ci sono compagni che conducono alla rovina, ma anche amici più affezionati di un fratello.
+19,1 Meglio un povero di condotta integra che un ricco di costumi perversi.
+19,2 Lo zelo senza riflessione non è cosa buona, e chi va a passi frettolosi inciampa.
+19,3 La stoltezza intralcia il cammino dell'uomo e poi egli si adira contro il Signore.
+19,4 Le ricchezze moltiplicano gli amici, ma il povero è abbandonato anche dall'amico che ha.
+19,5 Il falso testimone non resterà impunito, chi diffonde menzogne non avrà scampo.
+19,6 Molti sono gli adulatori dell'uomo generoso e tutti sono amici di chi fa doni.
+19,7 Il povero è disprezzato dai suoi stessi fratelli, tanto più si allontanano da lui i suoi amici. Egli va in cerca di parole, ma non ci sono.
+19,8 Chi acquista senno ama se stesso e chi agisce con prudenza trova fortuna.
+19,9 Il falso testimone non resterà impunito, chi diffonde menzogne perirà.
+19,10 Allo stolto non conviene una vita agiata, ancor meno a un servo comandare ai principi.
+19,11 É avvedutezza per l'uomo rimandare lo sdegno ed è sua gloria passar sopra alle offese.
+19,12 Lo sdegno del re è simile al ruggito del leone e il suo favore è come la rugiada sull'erba.
+19,13 Un figlio stolto è una calamità per il padre e i litigi della moglie sono come stillicidio incessante.
+19,14 La casa e il patrimonio si ereditano dai padri, ma una moglie assennata è dono del Signore.
+19,15 La pigrizia fa cadere in torpore, l'indolente patirà la fame.
+19,16 Chi custodisce il comando custodisce se stesso, chi trascura la propria condotta morirà.
+19,17 Chi fa la carità al povero fa un prestito al Signore che gli ripagherà la buona azione.
+19,18 Correggi tuo figlio finché c'è speranza, ma non ti trasporti l'ira fino a ucciderlo.
+19,19 Il violento deve essere punito, se lo risparmi, lo diventerà ancora di più.
+19,20 Ascolta il consiglio e accetta la correzione, per essere saggio in avvenire.
+19,21 Molte sono le idee nella mente dell'uomo, ma solo il disegno del Signore resta saldo.
+19,22 Il pregio dell'uomo è la sua bontà, meglio un povero che un bugiardo.
+19,23 Il timore di Dio conduce alla vita e chi ne è pieno riposerà non visitato dalla sventura.
+19,24 Il pigro tuffa la mano nel piatto, ma stenta persino a riportarla alla bocca.
+19,25 Percuoti il beffardo e l'ingenuo diventerà accorto, rimprovera l'intelligente e imparerà la lezione.
+19,26 Chi rovina il padre e fa fuggire la madre è un figlio disonorato e infame.
+19,27 Figlio mio, cessa pure di ascoltare l'istruzione, se vuoi allontanarti dalle parole della sapienza.
+19,28 Il testimone iniquo si beffa della giustizia e la bocca degli empi ingoia l'iniquità.
+19,29 Per i beffardi sono pronte le verghe e il bastone per le spalle degli stolti.
+20,1 Il vino è rissoso, il liquore è tumultuoso; chiunque se ne inebria non è saggio.
+20,2 La collera del re è simile al ruggito del leone; chiunque lo eccita rischia la vita.
+20,3 É una gloria per l'uomo astenersi dalle contese, attaccar briga è proprio degli stolti.
+20,4 Il pigro non ara d'autunno, e alla mietitura cerca, ma non trova nulla.
+20,5 Come acque profonde sono i consigli nel cuore umano, l'uomo accorto le sa attingere.
+20,6 Molti si proclamano gente per bene, ma una persona fidata chi la trova?
+20,7 Il giusto si regola secondo la sua integrità; beati i figli che lascia dietro di sé!
+20,8 Il re che siede in tribunale dissipa ogni male con il suo sguardo.
+20,9 Chi può dire: "Ho purificato il cuore, sono mondo dal mio peccato?".
+20,10 Doppio peso e doppia misura sono due cose in abominio al Signore.
+20,11 Già con i suoi giochi il fanciullo dimostra se le sue azioni saranno pure e rette.
+20,12 L'orecchio che ascolta e l'occhio che vede: l'uno e l'altro ha fatto il Signore.
+20,13 Non amare il sonno per non diventare povero, tieni gli occhi aperti e avrai pane a sazietà.
+20,14 "Robaccia, robaccia" dice chi compra: ma mentre se ne va, allora se ne vanta.
+20,15 C'è oro e ci sono molte perle, ma la cosa più preziosa sono le labbra istruite.
+20,16 Prendigli il vestito perché si è fatto garante per un altro e tienilo in pegno per gli estranei.
+20,17 É piacevole all'uomo il pane procurato con frode, ma poi la sua bocca sarà piena di granelli di sabbia.
+20,18 Pondera bene i tuoi disegni, consigliandoti, e fa' la guerra con molta riflessione.
+20,19 Chi va in giro sparlando rivela un segreto, non associarti a chi ha sempre aperte le labbra.
+20,20 Chi maledice il padre e la madre vedrà spegnersi la sua lucerna nel cuore delle tenebre.
+20,21 I guadagni accumulati in fretta da principio non saranno benedetti alla fine.
+20,22 Non dire: "Voglio ricambiare il male", confida nel Signore ed egli ti libererà.
+20,23 Il doppio peso è in abominio al Signore e le bilance false non sono un bene.
+20,24 Dal Signore sono diretti i passi dell'uomo e come può l'uomo comprender la propria via?
+20,25 É un laccio per l'uomo esclamare subito: "Sacro!" e riflettere solo dopo aver fatto il voto.
+20,26 Un re saggio passa al vaglio i malvagi e ritorna su di loro con la ruota.
+20,27 Lo spirito dell'uomo è una fiaccola del Signore che scruta tutti i segreti recessi del cuore.
+20,28 Bontà e fedeltà vegliano sul re, sulla bontà è basato il suo trono.
+20,29 Vanto dei giovani è la loro forza, ornamento dei vecchi è la canizie.
+20,30 Le ferite sanguinanti spurgano il male, le percosse purificano i recessi del cuore.
+21,1 Il cuore del re è un canale d'acqua in mano al Signore: lo dirige dovunque egli vuole.
+21,2 Agli occhi dell'uomo tutte le sue vie sono rette, ma chi pesa i cuori è il Signore.
+21,3 Praticare la giustizia e l'equità per il Signore vale più di un sacrificio.
+21,4 Occhi alteri e cuore superbo, lucerna degli empi, è il peccato.
+21,5 I piani dell'uomo diligente si risolvono in profitto, ma chi è precipitoso va verso l'indigenza.
+21,6 Accumular tesori a forza di menzogne è vanità effimera di chi cerca la morte.
+21,7 La violenza degli empi li travolge, perché rifiutano di praticare la giustizia.
+21,8 La via dell'uomo criminale è tortuosa, ma l'innocente è retto nel suo agire.
+21,9 É meglio abitare su un angolo del tetto che avere una moglie litigiosa e casa in comune.
+21,10 L'anima del malvagio desidera far il male e ai suoi occhi il prossimo non trova pietà.
+21,11 Quando il beffardo vien punito, l'inesperto diventa saggio e quando il saggio viene istruito, accresce il sapere.
+21,12 Il Giusto osserva la casa dell'empio e precipita gli empi nella sventura.
+21,13 Chi chiude l'orecchio al grido del povero invocherà a sua volta e non otterrà risposta.
+21,14 Un regalo fatto in segreto calma la collera, un dono di sotto mano placa il furore violento.
+21,15 É una gioia per il giusto che sia fatta giustizia, mentre è un terrore per i malfattori.
+21,16 L'uomo che si scosta dalla via della saggezza, riposerà nell'assemblea delle ombre dei morti.
+21,17 Diventerà indigente chi ama i piaceri e chi ama vino e profumi non arricchirà.
+21,18 Il malvagio serve da riscatto per il giusto e il perfido per gli uomini retti.
+21,19 Meglio abitare in un deserto che con una moglie litigiosa e irritabile.
+21,20 Tesori preziosi e profumi sono nella dimora del saggio, ma lo stolto dilapida tutto.
+21,21 Chi segue la giustizia e la misericordia troverà vita e gloria.
+21,22 Il saggio assale una città di guerrieri e abbatte la fortezza in cui essa confidava.
+21,23 Chi custodisce la bocca e la lingua preserva se stesso dai dispiaceri.
+21,24 Il superbo arrogante si chiama beffardo, egli agisce nell'eccesso dell'insolenza.
+21,25 I desideri del pigro lo portano alla morte, perché le sue mani rifiutano di lavorare.
+21,26 Tutta la vita l'empio indulge alla cupidigia, mentre il giusto dona senza risparmiare.
+21,27 Il sacrificio degli empi è un abominio, tanto più se offerto con cattiva intenzione.
+21,28 Il falso testimone perirà, ma l'uomo che ascolta potrà parlare sempre.
+21,29 L'empio assume un'aria sfrontata, l'uomo retto controlla la propria condotta.
+21,30 Non c'è sapienza, non c'è prudenza, non c'è consiglio di fronte al Signore.
+21,31 Il cavallo è pronto per il giorno della battaglia, ma al Signore appartiene la vittoria.
+22,1 Un buon nome val più di grandi ricchezze e la benevolenza altrui più dell'argento e dell'oro.
+22,2 Il ricco e il povero si incontrano, il Signore ha creato l'uno e l'altro.
+22,3 L'accorto vede il pericolo e si nasconde, gli inesperti vanno avanti e la pagano.
+22,4 Frutti dell'umiltà sono il timore di Dio, la ricchezza, l'onore e la vita.
+22,5 Spine e tranelli sono sulla via del perverso; chi ha cura di se stesso sta lontano.
+22,6 Abitua il giovane secondo la via da seguire; neppure da vecchio se ne allontanerà.
+22,7 Il ricco domina sul povero e chi riceve prestiti è schiavo del suo creditore.
+22,8 Chi semina l'ingiustizia raccoglie la miseria e il bastone a servizio della sua collera svanirà.
+22,9 Chi ha l'occhio generoso sarà benedetto, perché egli dona del suo pane al povero.
+22,10 Scaccia il beffardo e la discordia se ne andrà e cesseranno i litigi e gli insulti.
+22,11 Il Signore ama chi è puro di cuore e chi ha la grazia sulle labbra è amico del re.
+22,12 Gli occhi del Signore proteggono la scienza ed egli confonde le parole del perfido.
+22,13 Il pigro dice: "C'è un leone là fuori: sarei ucciso in mezzo alla strada".
+22,14 La bocca delle straniere è una fossa profonda, chi è in ira al Signore vi cade.
+22,15 La stoltezza è legata al cuore del fanciullo, ma il bastone della correzione l'allontanerà da lui.
+22,16 Opprimere il povero non fa che arricchirlo, dare a un ricco non fa che impoverirlo.
+22,17 Porgi l'orecchio e ascolta le parole dei sapienti e applica la tua mente alla mia istruzione,
+22,18 perché ti sarà piacevole custodirle nel tuo intimo e averle tutte insieme pronte sulle labbra.
+22,19 Perché la tua fiducia sia riposta nel Signore, voglio indicarti oggi la tua strada.
+22,20 Non ti ho scritto forse trenta tra consigli e istruzioni,
+22,21 perché tu sappia esprimere una parola giusta e rispondere con parole sicure a chi ti interroga?
+22,22 Non depredare il povero, perché egli è povero, e non affliggere il misero in tribunale,
+22,23 perché il Signore difenderà la loro causa e spoglierà della vita coloro che li hanno spogliati.
+22,24 Non ti associare a un collerico e non praticare un uomo iracondo,
+22,25 per non imparare i suoi costumi e procurarti una trappola per la tua vita.
+22,26 Non essere di quelli che si fanno garanti o che s'impegnano per debiti altrui,
+22,27 perché, se poi non avrai da pagare, ti si toglierà il letto di sotto a te.
+22,28 Non spostare il confine antico, posto dai tuoi padri.
+22,29 Hai visto un uomo sollecito nel lavoro? Egli si sistemerà al servizio del re, non resterà al servizio di persone oscure.
+23,1 Quando siedi a mangiare con un potente, considera bene che cosa hai davanti;
+23,2 mettiti un coltello alla gola, se hai molto appetito.
+23,3 Non desiderare le sue ghiottonerie, sono un cibo fallace.
+23,4 Non affannarti per arricchire, rinunzia a un simile pensiero;
+23,5 appena vi fai volare gli occhi sopra, essa già non è più: perché mette ali come aquila e vola verso il cielo.
+23,6 Non mangiare il pane di chi ha l'occhio cattivo e non desiderare le sue ghiottonerie,
+23,7 perché come chi calcola fra di sé, così è costui; ti dirà: "Mangia e bevi", ma il suo cuore non è con te.
+23,8 Il boccone che hai mangiato rigetterai e avrai sprecato le tue parole gentili.
+23,9 Non parlare agli orecchi di uno stolto, perché egli disprezzerà le tue sagge parole.
+23,10 Non spostare il confine antico, e non invadere il campo degli orfani,
+23,11 perché il loro vendicatore è forte, egli difenderà la loro causa contro di te.
+23,12 Piega il cuore alla correzione e l'orecchio ai discorsi sapienti.
+23,13 Non risparmiare al giovane la correzione, anche se tu lo batti con la verga, non morirà;
+23,14 anzi, se lo batti con la verga, lo salverai dagli inferi.
+23,15 Figlio mio, se il tuo cuore sarà saggio, anche il mio cuore gioirà.
+23,16 Esulteranno le mie viscere, quando le tue labbra diranno parole rette.
+23,17 Il tuo cuore non invidi i peccatori, ma resti sempre nel timore del Signore,
+23,18 perché così avrai un avvenire e la tua speranza non sarà delusa.
+23,19 Ascolta, figlio mio, e sii saggio e indirizza il cuore per la via retta.
+23,20 Non essere fra quelli che s'inebriano di vino, né fra coloro che son ghiotti di carne,
+23,21 perché l'ubriacone e il ghiottone impoveriranno e il dormiglione si vestirà di stracci.
+23,22 Ascolta tuo padre che ti ha generato, non disprezzare tua madre quando è vecchia.
+23,23 Acquista il vero bene e non cederlo, la sapienza, l'istruzione e l'intelligenza.
+23,24 Il padre del giusto gioirà pienamente e chi ha generato un saggio se ne compiacerà.
+23,25 Gioisca tuo padre e tua madre e si rallegri colei che ti ha generato.
+23,26 Fa' bene attenzione a me, figlio mio, e tieni fisso lo sguardo ai miei consigli:
+23,27 una fossa profonda è la prostituta, e un pozzo stretto la straniera.
+23,28 Essa si apposta come un ladro e aumenta fra gli uomini il numero dei perfidi.
+23,29 Per chi i guai? Per chi i lamenti? Per chi i litigi? Per chi i gemiti? A chi le percosse per futili motivi? A chi gli occhi rossi?
+23,30 Per quelli che si perdono dietro al vino e vanno a gustare vino puro.
+23,31 Non guardare il vino quando rosseggia, quando scintilla nella coppa e scende giù piano piano;
+23,32 finirà con il morderti come un serpente e pungerti come una vipera.
+23,33 Allora i tuoi occhi vedranno cose strane e la tua mente dirà cose sconnesse.
+23,34 Ti parrà di giacere in alto mare o di dormire in cima all'albero maestro.
+23,35 "Mi hanno picchiato, ma non sento male. Mi hanno bastonato, ma non me ne sono accorto. Quando mi sveglierò? Ne chiederò dell'altro".
+24,1 Non invidiare gli uomini malvagi, non desiderare di stare con loro;
+24,2 poiché il loro cuore trama rovine e le loro labbra non esprimono che malanni.
+24,3 Con la sapienza si costruisce la casa e con la prudenza la si rende salda;
+24,4 con la scienza si riempiono le sue stanze di tutti i beni preziosi e deliziosi.
+24,5 Un uomo saggio vale più di uno forte, un uomo sapiente più di uno pieno di vigore,
+24,6 perché con le decisioni prudenti si fa la guerra e la vittoria sta nel numero dei consiglieri.
+24,7 É troppo alta la sapienza per lo stolto, alla porta della città egli non potrà aprir bocca.
+24,8 Chi trama per fare il male si chiama mestatore.
+24,9 Il proposito dello stolto è il peccato e lo spavaldo è l'abominio degli uomini.
+24,10 Se ti avvilisci nel giorno della sventura, ben poca è la tua forza.
+24,11 Libera quelli che sono condotti alla morte e salva quelli che sono trascinati al supplizio.
+24,12 Se dici: "Ecco, io non ne so nulla", forse colui che pesa i cuori non lo comprende? Colui che veglia sulla tua vita lo sa; egli renderà a ciascuno secondo le sue opere.
+24,13 Mangia, figlio mio, il miele, perché è buono e dolce sarà il favo al tuo palato.
+24,14 Sappi che tale è la sapienza per te: se l'acquisti, avrai un avvenire e la tua speranza non sarà stroncata.
+24,15 Non insidiare, o malvagio, la dimora del giusto, non distruggere la sua abitazione,
+24,16 perché se il giusto cade sette volte, egli si rialza, ma gli empi soccombono nella sventura.
+24,17 Non ti rallegrare per la caduta del tuo nemico e non gioisca il tuo cuore, quando egli soccombe,
+24,18 perché il Signore non veda e se ne dispiaccia e allontani da lui la collera.
+24,19 Non irritarti per i malvagi e non invidiare gli empi,
+24,20 perché non ci sarà avvenire per il malvagio e la lucerna degli empi si estinguerà.
+24,21 Temi il Signore, figlio mio, e il re; non ribellarti né all'uno né all'altro,
+24,22 perché improvvisa sorgerà la loro vendetta e chi sa quale scempio faranno l'uno e l'altro?
+24,23 Anche queste sono parole dei saggi. Aver preferenze personali in giudizio non è bene.
+24,24 Se uno dice all'empio: "Tu sei innocente", i popoli lo malediranno, le genti lo esecreranno,
+24,25 mentre tutto andrà bene a coloro che rendono giustizia, su di loro si riverserà la benedizione.
+24,26 Dà un bacio sulle labbra colui che risponde con parole rette.
+24,27 Sistema i tuoi affari di fuori e fatti i lavori dei campi e poi costruisciti la casa.
+24,28 Non testimoniare alla leggera contro il tuo prossimo e non ingannare con le labbra.
+24,29 Non dire: "Come ha fatto a me così io farò a lui, renderò a ciascuno come si merita".
+24,30 Sono passato vicino al campo di un pigro, alla vigna di un uomo insensato:
+24,31 ecco, ovunque erano cresciute le erbacce, il terreno era coperto di cardi e il recinto di pietre era in rovina.
+24,32 Osservando, riflettevo e, vedendo, ho tratto questa lezione:
+24,33 un po' dormire, un po' sonnecchiare, un po' incrociare le braccia per riposare
+24,34 e intanto viene passeggiando la miseria e l'indigenza come un accattone.
+25,1 Anche questi sono proverbi di Salomone, trascritti dagli uomini di Ezechia, re di Giuda.
+25,2 É gloria di Dio nascondere le cose, è gloria dei re investigarle.
+25,3 I cieli per la loro altezza, la terra per la sua profondità e il cuore dei re sono inesplorabili.
+25,4 Togli le scorie dall'argento e l'orafo ne farà un bel vaso;
+25,5 togli il malvagio dalla presenza del re e il suo trono si stabilirà sulla giustizia.
+25,6 Non darti arie davanti al re e non metterti al posto dei grandi,
+25,7 perché è meglio sentirsi dire: "Sali quassù" piuttosto che essere umiliato davanti a uno superiore. Quanto i tuoi occhi hanno visto
+25,8 non metterlo subito fuori in un processo; altrimenti che farai alla fine, quando il tuo prossimo ti svergognerà?
+25,9 Discuti la tua causa con il tuo vicino, ma non rivelare il segreto altrui;
+25,10 altrimenti chi ti ascolta ti biasimerebbe e il tuo discredito sarebbe irreparabile.
+25,11 Come frutti d'oro su vassoio d'argento così è una parola detta a suo tempo.
+25,12 Come anello d'oro e collana d'oro fino è un saggio che ammonisce un orecchio attento.
+25,13 Come fresco di neve al tempo della mietitura, è un messaggero verace per chi lo manda; egli rinfranca l'animo del suo signore.
+25,14 Nuvole e vento, ma senza pioggia, tale è l'uomo che si vanta di regali che non fa.
+25,15 Con la pazienza il giudice si lascia persuadere, una lingua dolce spezza le ossa.
+25,16 Se hai trovato il miele, mangiane quanto ti basta, per non esserne nauseato e poi vomitarlo.
+25,17 Metti di rado il piede in casa del tuo vicino, perché non si stanchi di te e ti prenda in odio.
+25,18 Mazza, spada e freccia acuta è colui che depone il falso contro il suo prossimo.
+25,19 Qual dente cariato e piede slogato tale è la fiducia dell'uomo sleale nel giorno della sventura,
+25,20 è togliersi le vesti in un giorno rigido. Aceto su una piaga viva, tali sono i canti per un cuore afflitto.
+25,21 Se il tuo nemico ha fame, dagli pane da mangiare, se ha sete, dagli acqua da bere;
+25,22 perché così ammasserai carboni ardenti sul suo capo e il Signore ti ricompenserà.
+25,23 La tramontana porta la pioggia, un parlare in segreto provoca lo sdegno sul volto.
+25,24 Abitare su un angolo del tetto è meglio di una moglie litigiosa e una casa in comune.
+25,25 Come acqua fresca per una gola riarsa è una buona notizia da un paese lontano.
+25,26 Fontana torbida e sorgente inquinata, tale è il giusto che vacilla di fronte all'empio.
+25,27 Mangiare troppo miele non è bene, né lasciarsi prendere da parole adulatrici.
+25,28 Una città smantellata o senza mura tale è l'uomo che non sa dominare la collera.
+26,1 Come la neve d'estate e la pioggia alla mietitura, così l'onore non conviene allo stolto.
+26,2 Come il passero che svolazza, come la rondine che vola, così una maledizione senza motivo non avverrà.
+26,3 La frusta per il cavallo, la cavezza per l'asino e il bastone per la schiena degli stolti.
+26,4 Non rispondere allo stolto secondo la sua stoltezza per non divenire anche tu simile a lui.
+26,5 Rispondi allo stolto secondo la sua stoltezza perché egli non si creda saggio.
+26,6 Si taglia i piedi e beve amarezze chi invia messaggi per mezzo di uno stolto.
+26,7 Malferme sono le gambe dello zoppo, così una massima sulla bocca degli stolti.
+26,8 Come chi lega il sasso alla fionda, così chi attribuisce onori a uno stolto.
+26,9 Una spina penetrata nella mano d'un ubriaco, tale è una massima sulla bocca degli stolti.
+26,10 Arciere che ferisce tutti i passanti, tale è chi assume uno stolto o un ubriaco.
+26,11 Come il cane torna al suo vomito, così lo stolto ripete le sue stoltezze.
+26,12 Hai visto un uomo che si crede saggio? É meglio sperare in uno stolto che in lui.
+26,13 Il pigro dice: "C'è una belva per la strada, un leone si aggira per le piazze".
+26,14 La porta gira sui cardini, così il pigro sul suo letto.
+26,15 Il pigro tuffa la mano nel piatto, ma dura fatica a portarla alla bocca.
+26,16 Il pigro si crede saggio più di sette persone che rispondono con senno.
+26,17 Prende un cane per le orecchie chi si intromette in una lite che non lo riguarda.
+26,18 Come un pazzo che scaglia tizzoni e frecce di morte,
+26,19 così è quell'uomo che inganna il suo prossimo e poi dice: "Ma sì, è stato uno scherzo!".
+26,20 Per mancanza di legna il fuoco si spegne; se non c'è il delatore, il litigio si calma.
+26,21 Mantice per il carbone e legna per il fuoco, tale è l'attaccabrighe per rattizzar le liti.
+26,22 Le parole del sussurrone sono come ghiotti bocconi, esse scendono in fondo alle viscere.
+26,23 Come vernice d'argento sopra un coccio di creta sono le labbra lusinghiere con un cuore maligno.
+26,24 Chi odia si maschera con le labbra, ma nel suo intimo cova il tradimento;
+26,25 anche se usa espressioni melliflue, non ti fidare, perché egli ha sette abomini nel cuore.
+26,26 L'odio si copre di simulazione, ma la sua malizia apparirà pubblicamente.
+26,27 Chi scava una fossa vi cadrà dentro e chi rotola una pietra, gli ricadrà addosso.
+26,28 Una lingua bugiarda odia la verità, una bocca adulatrice produce rovina.
+27,1 Non ti vantare del domani, perché non sai neppure che cosa genera l'oggi.
+27,2 Ti lodi un altro e non la tua bocca, un estraneo e non le tue labbra.
+27,3 La pietra è greve, la sabbia è pesante, ma più dell'una e dell'altra lo è il fastidio dello stolto.
+27,4 La collera è crudele, l'ira è impetuosa; ma chi può resistere alla gelosia?
+27,5 Meglio un rimprovero aperto che un amore celato.
+27,6 Leali sono le ferite di un amico, fallaci i baci di un nemico.
+27,7 Gola sazia disprezza il miele; per chi ha fame anche l'amaro è dolce.
+27,8 Come un uccello che vola lontano dal nido così è l'uomo che va errando lontano dalla dimora.
+27,9 Il profumo e l'incenso allietano il cuore, la dolcezza di un amico rassicura l'anima.
+27,10 Non abbandonare il tuo amico né quello di tuo padre, non entrare nella casa di tuo fratello nel giorno della tua disgrazia. Meglio un amico vicino che un fratello lontano.
+27,11 Sii saggio, figlio mio, e allieterai il mio cuore e avrò di che rispondere a colui che mi insulta.
+27,12 L'accorto vede il pericolo e si nasconde, gli inesperti vanno avanti e la pagano.
+27,13 Prendigli il vestito perché si è fatto garante per uno straniero e tienilo in pegno per gli sconosciuti.
+27,14 Benedire il prossimo di buon mattino ad alta voce gli sarà imputato come una maledizione.
+27,15 Il gocciolar continuo in tempo di pioggia e una moglie litigiosa, si rassomigliano:
+27,16 chi la vuol trattenere, trattiene il vento e raccoglie l'olio con la mano destra.
+27,17 Il ferro si aguzza con il ferro e l'uomo aguzza l'ingegno del suo compagno.
+27,18 Il guardiano di un fico ne mangia i frutti, chi ha cura del suo padrone ne riceverà onori.
+27,19 Come un volto differisce da un altro, così i cuori degli uomini differiscono fra di loro.
+27,20 Come gli inferi e l'abisso non si saziano mai, così non si saziano mai gli occhi dell'uomo.
+27,21 Come il crogiuolo è per l'argento e il fornello per l'oro, così l'uomo rispetto alla bocca di chi lo loda.
+27,22 Anche se tu pestassi lo stolto nel mortaio tra i grani con il pestello, non scuoteresti da lui la sua stoltezza.
+27,23 Preoccupati del tuo gregge, abbi cura delle tue mandrie,
+27,24 perché non sono perenni le ricchezze, né un tesoro si trasmette di generazione in generazione.
+27,25 Si toglie il fieno, apparisce l'erba nuova e si raccolgono i foraggi dei monti;
+27,26 gli agnelli ti danno le vesti e i capretti il prezzo per comprare un campo,
+27,27 le capre latte abbondante per il cibo e per vitto della tua famiglia. e per mantenere le tue schiave.
+28,1 L'empio fugge anche se nessuno lo insegue, mentre il giusto è sicuro come un giovane leone.
+28,2 Per i delitti di un paese molti sono i suoi tiranni, ma con un uomo intelligente e saggio l'ordine si mantiene.
+28,3 Un uomo empio che opprime i miseri è una pioggia torrenziale che non porta pane.
+28,4 Quelli che violano la legge lodano l'empio, ma quanti osservano la legge gli muovono guerra.
+28,5 I malvagi non comprendono la giustizia, ma quelli che cercano il Signore comprendono tutto.
+28,6 Meglio un povero dalla condotta integra che uno dai costumi perversi, anche se ricco.
+28,7 Chi osserva la legge è un figlio intelligente, chi frequenta i crapuloni disonora suo padre.
+28,8 Chi accresce il patrimonio con l'usura e l'interesse, lo accumula per chi ha pietà dei miseri.
+28,9 Chi volge altrove l'orecchio per non ascoltare la legge, anche la sua preghiera è in abominio.
+28,10 Chi fa traviare gli uomini retti per una cattiva strada, cadrà egli stesso nella fossa, mentre gli integri possederanno fortune.
+28,11 Il ricco si crede saggio, ma il povero intelligente lo scruta bene.
+28,12 Grande è la gioia quando trionfano i giusti, ma se prevalgono gli empi ognuno si nasconde.
+28,13 Chi nasconde le proprie colpe non avrà successo; chi le confessa e cessa di farle troverà indulgenza.
+28,14 Beato l'uomo che teme sempre, chi indurisce il cuore cadrà nel male.
+28,15 Leone ruggente e orso affamato, tale è il malvagio che domina su un popolo povero.
+28,16 Un principe privo di senno moltiplica le vessazioni, ma chi odia la rapina prolungherà i suoi giorni.
+28,17 Un uomo perseguitato per omicidio fuggirà fino alla tomba: nessuno lo soccorre.
+28,18 Chi procede con rettitudine sarà salvato, chi va per vie tortuose cadrà ad un tratto.
+28,19 Chi lavora la sua terra si sazierà di pane, chi insegue chimere si sazierà di miseria.
+28,20 L'uomo leale sarà colmo di benedizioni, chi si arricchisce in fretta non sarà esente da colpa.
+28,21 Non è bene essere parziali, per un pezzo di pane si pecca.
+28,22 L'uomo dall'occhio cupido è impaziente di arricchire e non pensa che gli piomberà addosso la miseria.
+28,23 Chi corregge un altro troverà in fine più favore di chi ha una lingua adulatrice.
+28,24 Chi deruba il padre o la madre e dice: "Non è peccato", è compagno dell'assassino.
+28,25 L'uomo avido suscita litigi, ma chi confida nel Signore avrà successo.
+28,26 Chi confida nel suo senno è uno stolto, chi si comporta con saggezza sarà salvato.
+28,27 Per chi dà al povero non c'è indigenza, ma chi chiude gli occhi avrà grandi maledizioni.
+28,28 Se prevalgono gli empi, tutti si nascondono, se essi periscono, sono potenti i giusti.
+29,1 L'uomo che, rimproverato, resta di dura cervice sarà spezzato all'improvviso e senza rimedio.
+29,2 Quando comandano i giusti, il popolo gioisce, quando governano gli empi, il popolo geme.
+29,3 Chi ama la sapienza allieta il padre, ma chi frequenta prostitute dissipa il patrimonio.
+29,4 Il re con la giustizia rende prospero il paese, l'uomo che fa esazioni eccessive lo rovina.
+29,5 L'uomo che adula il suo prossimo gli tende una rete per i suoi passi.
+29,6 Sotto i passi del malvagio c'è un trabocchetto, mentre il giusto corre ed è contento.
+29,7 Il giusto si prende a cuore la causa dei miseri, ma l'empio non intende ragione.
+29,8 I beffardi mettono sottosopra una città, mentre i saggi placano la collera.
+29,9 Se un saggio discute con uno stolto, si agiti o rida, non vi sarà conclusione.
+29,10 Gli uomini sanguinari odiano l'onesto, mentre i giusti hanno cura di lui.
+29,11 Lo stolto dà sfogo a tutto il suo malanimo, il saggio alla fine lo sa calmare.
+29,12 Se un principe dà ascolto alle menzogne, tutti i suoi ministri sono malvagi.
+29,13 Il povero e l'usuraio si incontrano; è il Signore che illumina gli occhi di tutti e due.
+29,14 Un re che giudichi i poveri con equità rende saldo il suo trono per sempre.
+29,15 La verga e la correzione danno sapienza, ma il giovane lasciato a se stesso disonora sua madre.
+29,16 Quando governano i malvagi, i delitti abbondano, ma i giusti ne vedranno la rovina.
+29,17 Correggi il figlio e ti farà contento e ti procurerà consolazioni.
+29,18 Senza la rivelazione il popolo diventa sfrenato; beato chi osserva la legge.
+29,19 Lo schiavo non si corregge a parole, comprende, infatti, ma non obbedisce.
+29,20 Hai visto un uomo precipitoso nel parlare? C'è più da sperare in uno stolto che in lui.
+29,21 Chi accarezza lo schiavo fin dall'infanzia, alla fine costui diventerà insolente.
+29,22 Un uomo collerico suscita litigi e l'iracondo commette molte colpe.
+29,23 L'orgoglio dell'uomo ne provoca l'umiliazione, l'umile di cuore ottiene onori.
+29,24 Chi è complice del ladro, odia se stesso, egli sente l'imprecazione, ma non denuncia nulla.
+29,25 Il temere gli uomini pone in una trappola; ma chi confida nel Signore è al sicuro.
+29,26 Molti ricercano il favore del principe, ma è il Signore che giudica ognuno.
+29,27 L'iniquo è un abominio per i giusti e gli uomini retti sono in abominio ai malvagi.
+30,1 Detti di Agùr figlio di Iakè, da Massa. Dice quest'uomo: Sono stanco, o Dio, sono stanco, o Dio, e vengo meno,
+30,2 perché io sono il più ignorante degli uomini e non ho intelligenza umana;
+30,3 non ho imparato la sapienza e ignoro la scienza del Santo.
+30,4 Chi è salito al cielo e ne è sceso? Chi ha raccolto il vento nel suo pugno? Chi ha racchiuso le acque nel suo mantello? Chi ha fissato tutti i confini della terra? Come si chiama? Qual è il nome di suo figlio, se lo sai?
+30,5 Ogni parola di Dio è appurata; egli è uno scudo per chi ricorre a lui.
+30,6 Non aggiungere nulla alle sue parole, perché non ti riprenda e tu sia trovato bugiardo.
+30,7 Io ti domando due cose, non negarmele prima che io muoia:
+30,8 tieni lontano da me falsità e menzogna, non darmi né povertà né ricchezza; ma fammi avere il cibo necessario,
+30,9 perché, una volta sazio, io non ti rinneghi e dica: "Chi è il Signore?", oppure, ridotto all'indigenza, non rubi e profani il nome del mio Dio.
+30,10 Non calunniare lo schiavo presso il padrone, perché egli non ti maledica e tu non ne porti la pena.
+30,11 C'è gente che maledice suo padre e non benedice sua madre.
+30,12 C'è gente che si crede pura, ma non si è lavata della sua lordura.
+30,13 C'è gente dagli occhi così alteri e dalle ciglia così altezzose!
+30,14 C'è gente i cui denti sono spade e i cui molari sono coltelli, per divorare gli umili eliminandoli dalla terra e i poveri in mezzo agli uomini.
+30,15 La sanguisuga ha due figlie: "Dammi! Dammi!". Tre cose non si saziano mai, anzi quattro non dicono mai: «Basta!»:
+30,16 gli inferi, il grembo sterile, la terra mai sazia d'acqua e il fuoco che mai dice: "Basta!".
+30,17 L'occhio che guarda con scherno il padre e disprezza l'obbedienza alla madre sia cavato dai corvi della valle e divorato dagli aquilotti.
+30,18 Tre cose mi sono difficili, anzi quattro, che io non comprendo:
+30,19 il sentiero dell'aquila nell'aria, il sentiero del serpente sulla roccia, il sentiero della nave in alto mare, il sentiero dell'uomo in una giovane.
+30,20 Tale è la condotta della donna adultera: mangia e si pulisce la bocca e dice: "Non ho fatto niente di male!".
+30,21 Per tre cose freme la terra, anzi quattro cose non può sopportare:
+30,22 uno schiavo che diventi re, uno stolto che abbia viveri in abbondanza,
+30,23 una donna già trascurata da tutti che trovi marito e una schiava che prenda il posto della padrona.
+30,24 Quattro esseri sono fra le cose più piccole della terra, eppure sono i più saggi dei saggi:
+30,25 le formiche, popolo senza forza, che si provvedono il cibo durante l'estate;
+30,26 gli iràci, popolo imbelle, ma che hanno la tana sulle rupi;
+30,27 le cavallette, che non hanno un re, eppure marciano tutte insieme schierate;
+30,28 la lucertola, che si può prender con le mani, ma penetra anche nei palazzi dei re.
+30,29 Tre esseri hanno un portamento maestoso, anzi quattro sono eleganti nel camminare:
+30,30 il leone, il più forte degli animali, che non indietreggia davanti a nessuno;
+30,31 il gallo pettoruto e il caprone e un re alla testa del suo popolo.
+30,32 Se ti sei esaltato per stoltezza e se poi hai riflettuto, mettiti una mano sulla bocca,
+30,33 poiché, sbattendo il latte ne esce la panna, premendo il naso ne esce il sangue, spremendo la collera ne esce la lite.
+31,1 Parole di Lemuèl, re di Massa, che sua madre gli insegnò.
+31,2 E che, figlio mio! E che, figlio delle mie viscere! E che, figlio dei miei voti!
+31,3 Non dare il tuo vigore alle donne, né i tuoi costumi a quelle che corrompono i re.
+31,4 Non conviene ai re, Lemuèl, non conviene ai re bere il vino, né ai principi bramare bevande inebrianti,
+31,5 per paura che, bevendo, dimentichino i loro decreti e tradiscano il diritto di tutti gli afflitti.
+31,6 Date bevande inebrianti a chi sta per perire e il vino a chi ha l'amarezza nel cuore.
+31,7 Beva e dimentichi la sua povertà e non si ricordi più delle sue pene.
+31,8 Apri la bocca in favore del muto in difesa di tutti gli sventurati.
+31,9 Apri la bocca e giudica con equità e rendi giustizia all'infelice e al povero.
+31,10 (Alef) Una donna perfetta chi potrà trovarla? Ben superiore alle perle è il suo valore.
+31,11 (Bet) In lei confida il cuore del marito e non verrà a mancargli il profitto.
+31,12 (Ghimel) Essa gli dà felicità e non dispiacere per tutti i giorni della sua vita.
+31,13 (Dalet) Si procura lana e lino e li lavora volentieri con le mani.
+31,14 (He) Ella è simile alle navi di un mercante, fa venire da lontano le provviste.
+31,15 (Vau) Si alza quando ancora è notte e prepara il cibo alla sua famiglia e dà ordini alle sue domestiche.
+31,16 (Zain) Pensa ad un campo e lo compra e con il frutto delle sue mani pianta una vigna.
+31,17 (Het) Si cinge con energia i fianchi e spiega la forza delle sue braccia.
+31,18 (Tet) É soddisfatta, perché il suo traffico va bene, neppure di notte si spegne la sua lucerna.
+31,19 (Iod) Stende la sua mano alla conocchia e mena il fuso con le dita.
+31,20 (Caf) Apre le sue mani al misero, stende la mano al povero.
+31,21 (Lamed) Non teme la neve per la sua famiglia, perché tutti i suoi di casa hanno doppia veste.
+31,22 (Mem) Si fa delle coperte, di lino e di porpora sono le sue vesti.
+31,23 (Nun) Suo marito è stimato alle porte della città dove siede con gli anziani del paese.
+31,24 (Samech) Confeziona tele di lino e le vende e fornisce cinture al mercante.
+31,25 (Ain) Forza e decoro sono il suo vestito e se la ride dell'avvenire.
+31,26 (Pe) Apre la bocca con saggezza e sulla sua lingua c'è dottrina di bontà.
+31,27 (Sade) Sorveglia l'andamento della casa; il pane che mangia non è frutto di pigrizia.
+31,28 (Kof) I suoi figli sorgono a proclamarla beata e suo marito a farne l'elogio:
+31,29 (Res) "Molte figlie hanno compiuto cose eccellenti, ma tu le hai superate tutte!".
+31,30 (Sin) Fallace è la grazia e vana è la bellezza, ma la donna che teme Dio è da lodare.
+31,31 (Tau) Datele del frutto delle sue mani e le sue stesse opere la lodino alle porte della città

@@ -1,95 +1,95 @@
-1,1 Paolo, apostolo di Cristo Gesù per volontà di Dio, e il fratello Timoteo, 
-1,2 ai santi e credenti fratelli in Cristo che sono a Colosse: grazia a voi e pace da Dio, Padre nostro. 
-1,3 Noi rendiamo grazie a Dio, Padre del Signore nostro Gesù Cristo, continuamente pregando per voi, 
-1,4 avendo avuto notizie della vostra fede in Cristo Gesù e della carità che avete verso tutti i santi 
-1,5 a causa della speranza che vi attende nei cieli. Ne avete già udito l'annuncio dalla parola di verità del Vangelo 
-1,6 che è giunto a voi. E come in tutto il mondo esso porta frutto e si sviluppa, così avviene anche fra voi, dal giorno in cui avete ascoltato e conosciuto la grazia di Dio nella verità, 
-1,7 che avete appreso da Èpafra, nostro caro compagno nel ministero: egli è presso di voi un fedele ministro di Cristo 
-1,8 e ci ha pure manifestato il vostro amore nello Spirito. 
-1,9 Perciò anche noi, dal giorno in cui ne fummo informati, non cessiamo di pregare per voi e di chiedere che abbiate piena conoscenza della sua volontà, con ogni sapienza e intelligenza spirituale, 
-1,10 perché possiate comportarvi in maniera degna del Signore, per piacergli in tutto, portando frutto in ogni opera buona e crescendo nella conoscenza di Dio. 
-1,11 Resi forti di ogni fortezza secondo la potenza della sua gloria, per essere perseveranti e magnanimi in tutto, 
-1,12 ringraziate con gioia il Padre che vi ha resi capaci di partecipare alla sorte dei santi nella luce. 
-1,13 È lui che ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del Figlio del suo amore, 
-1,14 per mezzo del quale abbiamo la redenzione, il perdono dei peccati. 
-1,15 Egli è immagine del Dio invisibile, primogenito di tutta la creazione, 
-1,16 perché in lui furono create tutte le cose nei cieli e sulla terra, quelle visibili e quelle invisibili: Troni, Dominazioni, Principati e Potenze. Tutte le cose sono state create per mezzo di lui e in vista di lui. 
-1,17 Egli è prima di tutte le cose e tutte in lui sussistono. 
-1,18 Egli è anche il capo del corpo, della Chiesa. Egli è principio, primogenito di quelli che risorgono dai morti, perché sia lui ad avere il primato su tutte le cose. 
-1,19 È piaciuto infatti a Dio che abiti in lui tutta la pienezza 
-1,20 e che per mezzo di lui e in vista di lui siano riconciliate tutte le cose, avendo pacificato con il sangue della sua croce sia le cose che stanno sulla terra, sia quelle che stanno nei cieli. 
-1,21 Un tempo anche voi eravate stranieri e nemici, con la mente intenta alle opere cattive; 
-1,22 ora egli vi ha riconciliati nel corpo della sua carne mediante la morte, per presentarvi santi, immacolati e irreprensibili dinanzi a lui; 
-1,23 purché restiate fondati e fermi nella fede, irremovibili nella speranza del Vangelo che avete ascoltato, il quale è stato annunciato in tutta la creazione che è sotto il cielo, e del quale io, Paolo, sono diventato ministro. 
-1,24 Ora io sono lieto nelle sofferenze che sopporto per voi e do compimento a ciò che, dei patimenti di Cristo, manca nella mia carne, a favore del suo corpo che è la Chiesa. 
-1,25 Di essa sono diventato ministro, secondo la missione affidatami da Dio verso di voi di portare a compimento la parola di Dio, 
-1,26 il mistero nascosto da secoli e da generazioni, ma ora manifestato ai suoi santi. 
-1,27 A loro Dio volle far conoscere la gloriosa ricchezza di questo mistero in mezzo alle genti: Cristo in voi, speranza della gloria. 
-1,28 È lui infatti che noi annunciamo, ammonendo ogni uomo e istruendo ciascuno con ogni sapienza, per rendere ogni uomo perfetto in Cristo. 
-1,29 Per questo mi affatico e lotto, con la forza che viene da lui e che agisce in me con potenza. 
-2,1 Voglio infatti che sappiate quale dura lotta devo sostenere per voi, per quelli di Laodicea e per tutti quelli che non mi hanno mai visto di persona, 
-2,2 perché i loro cuori vengano consolati. E così, intimamente uniti nell'amore, essi siano arricchiti di una piena intelligenza per conoscere il mistero di Dio, che è Cristo: 
-2,3 in lui sono nascosti tutti i tesori della sapienza e della conoscenza. 
-2,4 Dico questo perché nessuno vi inganni con argomenti seducenti: 
-2,5 infatti, anche se sono lontano con il corpo, sono però tra voi con lo spirito e gioisco vedendo la vostra condotta ordinata e la saldezza della vostra fede in Cristo. 
-2,6 Come dunque avete accolto Cristo Gesù, il Signore, in lui camminate, 
-2,7 radicati e costruiti su di lui, saldi nella fede come vi è stato insegnato, sovrabbondando nel rendimento di grazie. 
-2,8 Fate attenzione che nessuno faccia di voi sua preda con la filosofia e con vuoti raggiri ispirati alla tradizione umana, secondo gli elementi del mondo e non secondo Cristo. 
-2,9 È in lui che abita corporalmente tutta la pienezza della divinità, 
-2,10 e voi partecipate della pienezza di lui, che è il capo di ogni Principato e di ogni Potenza. 
-2,11 In lui voi siete stati anche circoncisi non mediante una circoncisione fatta da mano d'uomo con la spogliazione del corpo di carne, ma con la circoncisione di Cristo: 
-2,12 con lui sepolti nel battesimo, con lui siete anche risorti mediante la fede nella potenza di Dio, che lo ha risuscitato dai morti. 
-2,13 Con lui Dio ha dato vita anche a voi, che eravate morti a causa delle colpe e della non circoncisione della vostra carne, perdonandoci tutte le colpe e 
-2,14 annullando il documento scritto contro di noi che, con le prescrizioni, ci era contrario: lo ha tolto di mezzo inchiodandolo alla croce. 
-2,15 Avendo privato della loro forza i Principati e le Potenze, ne ha fatto pubblico spettacolo, trionfando su di loro in Cristo. 
-2,16 Nessuno dunque vi condanni in fatto di cibo o di bevanda, o per feste, noviluni e sabati: 
-2,17 queste cose sono ombra di quelle future, ma la realtà è di Cristo. 
-2,18 Nessuno che si compiace vanamente del culto degli angeli e corre dietro alle proprie immaginazioni, gonfio di orgoglio nella sua mente carnale, vi impedisca di conseguire il premio: 
-2,19 costui non si stringe al capo, dal quale tutto il corpo riceve sostentamento e coesione per mezzo di giunture e legamenti e cresce secondo il volere di Dio. 
-2,20 Se siete morti con Cristo agli elementi del mondo, perché, come se viveste ancora nel mondo, lasciarvi imporre precetti quali: 
-2,21 "Non prendere, non gustare, non toccare"? 
-2,22 Sono tutte cose destinate a scomparire con l'uso, prescrizioni e insegnamenti di uomini, 
-2,23 che hanno una parvenza di sapienza con la loro falsa religiosità e umiltà e mortificazione del corpo, ma in realtà non hanno alcun valore se non quello di soddisfare la carne. 
-3,1 Se dunque siete risorti con Cristo, cercate le cose di lassù, dove è Cristo, seduto alla destra di Dio; 
-3,2 rivolgete il pensiero alle cose di lassù, non a quelle della terra. 
-3,3 Voi infatti siete morti e la vostra vita è nascosta con Cristo in Dio! 
-3,4 Quando Cristo, vostra vita, sarà manifestato, allora anche voi apparirete con lui nella gloria. 
-3,5 Fate morire dunque ciò che appartiene alla terra: impurità, immoralità, passioni, desideri cattivi e quella cupidigia che è idolatria; 
-3,6 a motivo di queste cose l'ira di Dio viene su coloro che gli disobbediscono. 
-3,7 Anche voi un tempo eravate così, quando vivevate in questi vizi. 
-3,8 Ora invece gettate via anche voi tutte queste cose: ira, animosità, cattiveria, insulti e discorsi osceni, che escono dalla vostra bocca. 
-3,9 Non dite menzogne gli uni agli altri: vi siete svestiti dell'uomo vecchio con le sue azioni 
-3,10 e avete rivestito il nuovo, che si rinnova per una piena conoscenza, ad immagine di Colui che lo ha creato. 
-3,11 Qui non vi è Greco o Giudeo, circoncisione o incirconcisione, barbaro, Scita, schiavo, libero, ma Cristo è tutto e in tutti. 
-3,12 Scelti da Dio, santi e amati, rivestitevi dunque di sentimenti di tenerezza, di bontà, di umiltà, di mansuetudine, di magnanimità, 
-3,13 sopportandovi a vicenda e perdonandovi gli uni gli altri, se qualcuno avesse di che lamentarsi nei riguardi di un altro. Come il Signore vi ha perdonato, così fate anche voi. 
-3,14 Ma sopra tutte queste cose rivestitevi della carità, che le unisce in modo perfetto. 
-3,15 E la pace di Cristo regni nei vostri cuori, perché ad essa siete stati chiamati in un solo corpo. E rendete grazie! 
-3,16 La parola di Cristo abiti tra voi nella sua ricchezza. Con ogni sapienza istruitevi e ammonitevi a vicenda con salmi, inni e canti ispirati, con gratitudine, cantando a Dio nei vostri cuori. 
-3,17 E qualunque cosa facciate, in parole e in opere, tutto avvenga nel nome del Signore Gesù, rendendo grazie per mezzo di lui a Dio Padre. 
-3,18 Voi, mogli, state sottomesse ai mariti, come conviene nel Signore. 
-3,19 Voi, mariti, amate le vostre mogli e non trattatele con durezza. 
-3,20 Voi, figli, obbedite ai genitori in tutto; ciò è gradito al Signore. 
-3,21 Voi, padri, non esasperate i vostri figli, perché non si scoraggino. 
-3,22 Voi, schiavi, siate docili in tutto con i vostri padroni terreni: non servite solo quando vi vedono, come si fa per piacere agli uomini, ma con cuore semplice e nel timore del Signore. 
-3,23 Qualunque cosa facciate, fatela di buon animo, come per il Signore e non per gli uomini, 
-3,24 sapendo che dal Signore riceverete come ricompensa l'eredità. Servite il Signore che è Cristo! 
-3,25 Infatti chi commette ingiustizia subirà le conseguenze del torto commesso, e non si fanno favoritismi personali. 
-4,1 Voi, padroni, date ai vostri schiavi ciò che è giusto ed equo, sapendo che anche voi avete un padrone in cielo. 
-4,2 Perseverate nella preghiera e vegliate in essa, rendendo grazie. 
-4,3 Pregate anche per noi, perché Dio ci apra la porta della Parola per annunciare il mistero di Cristo. Per questo mi trovo in prigione, 
-4,4 affinché possa farlo conoscere, parlandone come devo. 
-4,5 Comportatevi saggiamente con quelli di fuori, cogliendo ogni occasione. 
-4,6 Il vostro parlare sia sempre gentile, sensato, in modo da saper rispondere a ciascuno come si deve. 
-4,7 Tutto quanto mi riguarda ve lo riferirà Tichico, il caro fratello e ministro fedele, mio compagno nel servizio del Signore, 
-4,8 che io mando a voi perché conosciate le nostre condizioni e perché rechi conforto ai vostri cuori. 
-4,9 Con lui verrà anche Onesimo, il fedele e carissimo fratello, che è dei vostri. Essi vi informeranno su tutte le cose di qui. 
-4,10 Vi salutano Aristarco, mio compagno di carcere, e Marco, il cugino di Barnaba, riguardo al quale avete ricevuto istruzioni - se verrà da voi, fategli buona accoglienza - 
-4,11 e Gesù, chiamato Giusto. Di coloro che vengono dalla circoncisione questi soli hanno collaborato con me per il regno di Dio e mi sono stati di conforto. 
-4,12 Vi saluta Èpafra, servo di Cristo Gesù, che è dei vostri, il quale non smette di lottare per voi nelle sue preghiere, perché siate saldi, perfetti e aderenti a tutti i voleri di Dio. 
-4,13 Io do testimonianza che egli si dà molto da fare per voi e per quelli di Laodicea e di Gerapoli. 
-4,14 Vi salutano Luca, il caro medico, e Dema. 
-4,15 Salutate i fratelli di Laodicea, Ninfa e la Chiesa che si raduna nella sua casa. 
-4,16 E quando questa lettera sarà stata letta da voi, fate che venga letta anche nella Chiesa dei Laodicesi e anche voi leggete quella inviata ai Laodicesi. 
-4,17 Dite ad Archippo: "Fa' attenzione al ministero che hai ricevuto nel Signore, in modo da compierlo bene". 
-4,18 Il saluto è di mia mano, di me, Paolo. Ricordatevi delle mie catene. La grazia sia con voi. 
+1,1 Paolo, apostolo di Cristo Gesù per volontà di Dio, e il fratello Timoteo,
+1,2 ai santi e credenti fratelli in Cristo che sono a Colosse: grazia a voi e pace da Dio, Padre nostro.
+1,3 Noi rendiamo grazie a Dio, Padre del Signore nostro Gesù Cristo, continuamente pregando per voi,
+1,4 avendo avuto notizie della vostra fede in Cristo Gesù e della carità che avete verso tutti i santi
+1,5 a causa della speranza che vi attende nei cieli. Ne avete già udito l'annuncio dalla parola di verità del Vangelo
+1,6 che è giunto a voi. E come in tutto il mondo esso porta frutto e si sviluppa, così avviene anche fra voi, dal giorno in cui avete ascoltato e conosciuto la grazia di Dio nella verità,
+1,7 che avete appreso da Èpafra, nostro caro compagno nel ministero: egli è presso di voi un fedele ministro di Cristo
+1,8 e ci ha pure manifestato il vostro amore nello Spirito.
+1,9 Perciò anche noi, dal giorno in cui ne fummo informati, non cessiamo di pregare per voi e di chiedere che abbiate piena conoscenza della sua volontà, con ogni sapienza e intelligenza spirituale,
+1,10 perché possiate comportarvi in maniera degna del Signore, per piacergli in tutto, portando frutto in ogni opera buona e crescendo nella conoscenza di Dio.
+1,11 Resi forti di ogni fortezza secondo la potenza della sua gloria, per essere perseveranti e magnanimi in tutto,
+1,12 ringraziate con gioia il Padre che vi ha resi capaci di partecipare alla sorte dei santi nella luce.
+1,13 È lui che ci ha liberati dal potere delle tenebre e ci ha trasferiti nel regno del Figlio del suo amore,
+1,14 per mezzo del quale abbiamo la redenzione, il perdono dei peccati.
+1,15 Egli è immagine del Dio invisibile, primogenito di tutta la creazione,
+1,16 perché in lui furono create tutte le cose nei cieli e sulla terra, quelle visibili e quelle invisibili: Troni, Dominazioni, Principati e Potenze. Tutte le cose sono state create per mezzo di lui e in vista di lui.
+1,17 Egli è prima di tutte le cose e tutte in lui sussistono.
+1,18 Egli è anche il capo del corpo, della Chiesa. Egli è principio, primogenito di quelli che risorgono dai morti, perché sia lui ad avere il primato su tutte le cose.
+1,19 È piaciuto infatti a Dio che abiti in lui tutta la pienezza
+1,20 e che per mezzo di lui e in vista di lui siano riconciliate tutte le cose, avendo pacificato con il sangue della sua croce sia le cose che stanno sulla terra, sia quelle che stanno nei cieli.
+1,21 Un tempo anche voi eravate stranieri e nemici, con la mente intenta alle opere cattive;
+1,22 ora egli vi ha riconciliati nel corpo della sua carne mediante la morte, per presentarvi santi, immacolati e irreprensibili dinanzi a lui;
+1,23 purché restiate fondati e fermi nella fede, irremovibili nella speranza del Vangelo che avete ascoltato, il quale è stato annunciato in tutta la creazione che è sotto il cielo, e del quale io, Paolo, sono diventato ministro.
+1,24 Ora io sono lieto nelle sofferenze che sopporto per voi e do compimento a ciò che, dei patimenti di Cristo, manca nella mia carne, a favore del suo corpo che è la Chiesa.
+1,25 Di essa sono diventato ministro, secondo la missione affidatami da Dio verso di voi di portare a compimento la parola di Dio,
+1,26 il mistero nascosto da secoli e da generazioni, ma ora manifestato ai suoi santi.
+1,27 A loro Dio volle far conoscere la gloriosa ricchezza di questo mistero in mezzo alle genti: Cristo in voi, speranza della gloria.
+1,28 È lui infatti che noi annunciamo, ammonendo ogni uomo e istruendo ciascuno con ogni sapienza, per rendere ogni uomo perfetto in Cristo.
+1,29 Per questo mi affatico e lotto, con la forza che viene da lui e che agisce in me con potenza.
+2,1 Voglio infatti che sappiate quale dura lotta devo sostenere per voi, per quelli di Laodicea e per tutti quelli che non mi hanno mai visto di persona,
+2,2 perché i loro cuori vengano consolati. E così, intimamente uniti nell'amore, essi siano arricchiti di una piena intelligenza per conoscere il mistero di Dio, che è Cristo:
+2,3 in lui sono nascosti tutti i tesori della sapienza e della conoscenza.
+2,4 Dico questo perché nessuno vi inganni con argomenti seducenti:
+2,5 infatti, anche se sono lontano con il corpo, sono però tra voi con lo spirito e gioisco vedendo la vostra condotta ordinata e la saldezza della vostra fede in Cristo.
+2,6 Come dunque avete accolto Cristo Gesù, il Signore, in lui camminate,
+2,7 radicati e costruiti su di lui, saldi nella fede come vi è stato insegnato, sovrabbondando nel rendimento di grazie.
+2,8 Fate attenzione che nessuno faccia di voi sua preda con la filosofia e con vuoti raggiri ispirati alla tradizione umana, secondo gli elementi del mondo e non secondo Cristo.
+2,9 È in lui che abita corporalmente tutta la pienezza della divinità,
+2,10 e voi partecipate della pienezza di lui, che è il capo di ogni Principato e di ogni Potenza.
+2,11 In lui voi siete stati anche circoncisi non mediante una circoncisione fatta da mano d'uomo con la spogliazione del corpo di carne, ma con la circoncisione di Cristo:
+2,12 con lui sepolti nel battesimo, con lui siete anche risorti mediante la fede nella potenza di Dio, che lo ha risuscitato dai morti.
+2,13 Con lui Dio ha dato vita anche a voi, che eravate morti a causa delle colpe e della non circoncisione della vostra carne, perdonandoci tutte le colpe e
+2,14 annullando il documento scritto contro di noi che, con le prescrizioni, ci era contrario: lo ha tolto di mezzo inchiodandolo alla croce.
+2,15 Avendo privato della loro forza i Principati e le Potenze, ne ha fatto pubblico spettacolo, trionfando su di loro in Cristo.
+2,16 Nessuno dunque vi condanni in fatto di cibo o di bevanda, o per feste, noviluni e sabati:
+2,17 queste cose sono ombra di quelle future, ma la realtà è di Cristo.
+2,18 Nessuno che si compiace vanamente del culto degli angeli e corre dietro alle proprie immaginazioni, gonfio di orgoglio nella sua mente carnale, vi impedisca di conseguire il premio:
+2,19 costui non si stringe al capo, dal quale tutto il corpo riceve sostentamento e coesione per mezzo di giunture e legamenti e cresce secondo il volere di Dio.
+2,20 Se siete morti con Cristo agli elementi del mondo, perché, come se viveste ancora nel mondo, lasciarvi imporre precetti quali:
+2,21 "Non prendere, non gustare, non toccare"?
+2,22 Sono tutte cose destinate a scomparire con l'uso, prescrizioni e insegnamenti di uomini,
+2,23 che hanno una parvenza di sapienza con la loro falsa religiosità e umiltà e mortificazione del corpo, ma in realtà non hanno alcun valore se non quello di soddisfare la carne.
+3,1 Se dunque siete risorti con Cristo, cercate le cose di lassù, dove è Cristo, seduto alla destra di Dio;
+3,2 rivolgete il pensiero alle cose di lassù, non a quelle della terra.
+3,3 Voi infatti siete morti e la vostra vita è nascosta con Cristo in Dio!
+3,4 Quando Cristo, vostra vita, sarà manifestato, allora anche voi apparirete con lui nella gloria.
+3,5 Fate morire dunque ciò che appartiene alla terra: impurità, immoralità, passioni, desideri cattivi e quella cupidigia che è idolatria;
+3,6 a motivo di queste cose l'ira di Dio viene su coloro che gli disobbediscono.
+3,7 Anche voi un tempo eravate così, quando vivevate in questi vizi.
+3,8 Ora invece gettate via anche voi tutte queste cose: ira, animosità, cattiveria, insulti e discorsi osceni, che escono dalla vostra bocca.
+3,9 Non dite menzogne gli uni agli altri: vi siete svestiti dell'uomo vecchio con le sue azioni
+3,10 e avete rivestito il nuovo, che si rinnova per una piena conoscenza, ad immagine di Colui che lo ha creato.
+3,11 Qui non vi è Greco o Giudeo, circoncisione o incirconcisione, barbaro, Scita, schiavo, libero, ma Cristo è tutto e in tutti.
+3,12 Scelti da Dio, santi e amati, rivestitevi dunque di sentimenti di tenerezza, di bontà, di umiltà, di mansuetudine, di magnanimità,
+3,13 sopportandovi a vicenda e perdonandovi gli uni gli altri, se qualcuno avesse di che lamentarsi nei riguardi di un altro. Come il Signore vi ha perdonato, così fate anche voi.
+3,14 Ma sopra tutte queste cose rivestitevi della carità, che le unisce in modo perfetto.
+3,15 E la pace di Cristo regni nei vostri cuori, perché ad essa siete stati chiamati in un solo corpo. E rendete grazie!
+3,16 La parola di Cristo abiti tra voi nella sua ricchezza. Con ogni sapienza istruitevi e ammonitevi a vicenda con salmi, inni e canti ispirati, con gratitudine, cantando a Dio nei vostri cuori.
+3,17 E qualunque cosa facciate, in parole e in opere, tutto avvenga nel nome del Signore Gesù, rendendo grazie per mezzo di lui a Dio Padre.
+3,18 Voi, mogli, state sottomesse ai mariti, come conviene nel Signore.
+3,19 Voi, mariti, amate le vostre mogli e non trattatele con durezza.
+3,20 Voi, figli, obbedite ai genitori in tutto; ciò è gradito al Signore.
+3,21 Voi, padri, non esasperate i vostri figli, perché non si scoraggino.
+3,22 Voi, schiavi, siate docili in tutto con i vostri padroni terreni: non servite solo quando vi vedono, come si fa per piacere agli uomini, ma con cuore semplice e nel timore del Signore.
+3,23 Qualunque cosa facciate, fatela di buon animo, come per il Signore e non per gli uomini,
+3,24 sapendo che dal Signore riceverete come ricompensa l'eredità. Servite il Signore che è Cristo!
+3,25 Infatti chi commette ingiustizia subirà le conseguenze del torto commesso, e non si fanno favoritismi personali.
+4,1 Voi, padroni, date ai vostri schiavi ciò che è giusto ed equo, sapendo che anche voi avete un padrone in cielo.
+4,2 Perseverate nella preghiera e vegliate in essa, rendendo grazie.
+4,3 Pregate anche per noi, perché Dio ci apra la porta della Parola per annunciare il mistero di Cristo. Per questo mi trovo in prigione,
+4,4 affinché possa farlo conoscere, parlandone come devo.
+4,5 Comportatevi saggiamente con quelli di fuori, cogliendo ogni occasione.
+4,6 Il vostro parlare sia sempre gentile, sensato, in modo da saper rispondere a ciascuno come si deve.
+4,7 Tutto quanto mi riguarda ve lo riferirà Tichico, il caro fratello e ministro fedele, mio compagno nel servizio del Signore,
+4,8 che io mando a voi perché conosciate le nostre condizioni e perché rechi conforto ai vostri cuori.
+4,9 Con lui verrà anche Onesimo, il fedele e carissimo fratello, che è dei vostri. Essi vi informeranno su tutte le cose di qui.
+4,10 Vi salutano Aristarco, mio compagno di carcere, e Marco, il cugino di Barnaba, riguardo al quale avete ricevuto istruzioni - se verrà da voi, fategli buona accoglienza -
+4,11 e Gesù, chiamato Giusto. Di coloro che vengono dalla circoncisione questi soli hanno collaborato con me per il regno di Dio e mi sono stati di conforto.
+4,12 Vi saluta Èpafra, servo di Cristo Gesù, che è dei vostri, il quale non smette di lottare per voi nelle sue preghiere, perché siate saldi, perfetti e aderenti a tutti i voleri di Dio.
+4,13 Io do testimonianza che egli si dà molto da fare per voi e per quelli di Laodicea e di Gerapoli.
+4,14 Vi salutano Luca, il caro medico, e Dema.
+4,15 Salutate i fratelli di Laodicea, Ninfa e la Chiesa che si raduna nella sua casa.
+4,16 E quando questa lettera sarà stata letta da voi, fate che venga letta anche nella Chiesa dei Laodicesi e anche voi leggete quella inviata ai Laodicesi.
+4,17 Dite ad Archippo: "Fa' attenzione al ministero che hai ricevuto nel Signore, in modo da compierlo bene".
+4,18 Il saluto è di mia mano, di me, Paolo. Ricordatevi delle mie catene. La grazia sia con voi.
