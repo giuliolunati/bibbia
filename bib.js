@@ -419,7 +419,7 @@ function select(k,book,toks,query,nquery,buf,ret) {
 	//	 'comment:'
 	// query: [RE1,...REn] (txt ~ RE1&&...REn)
 	// nquery: [RE1,...REn] (txt !~ RE1&&...REn)
-	// Vers: eg. ['cei08','grk','cei74']
+	// Vers: eg. ['it-2008','grk','it-1974']
 	function cont(){
 		select(k+1,book,toks,query,nquery,buf,ret)
 	}
@@ -629,7 +629,7 @@ function toggleHelp(o) {
 	}
 }
 function truevers(v) {
-	var V={'b':'bgm','e':'ebr','g':'grk','i':'cei08','74':'cei74','n':'note','ilc':'tilc'}
+	var V={'b':'bgm','e':'ebr','g':'grk','i':'it-2008','74':'it-1974','n':'note','ilc':'tilc'}
 	if(v in V) return V[v]
 	else return v
 }
