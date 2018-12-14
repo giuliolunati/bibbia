@@ -92,12 +92,13 @@ function hili(t) {
 	a=document.getElementsByTagName('a')
 	for(i=0;i<a.length;i++) {
 		if(String(a[i].onclick).search(t.replace(/'/g,"\\\\'"))>=0) {
-			if(a[i].style.background!='yellow') {
-				a[i].style.background='yellow'
+			if(a[i].style.backgroundColor!='yellow') {
+				a[i].style.backgroundColor='yellow'
+			alert(a[i].style.backgroundColor)
 				on=1
 			}
 			else {
-				a[i].style.background=null
+				a[i].style.backgroundColor=null
 			}
 		}
 	}
@@ -654,4 +655,4 @@ that.scrollId=scrollId
 that.toggleHelp=toggleHelp
 }
 // TODO NEXT : change find add end index
-//	vim: set sw=2 ts=2 sts=2 fdm=expr nosmartindent [Lc 4,16-22:]  nocindent autoindent:
+//	vim: set sw=2 ts=2 sts=2 fdm=expr nosmartindent nocindent autoindent:
