@@ -179,10 +179,6 @@ function main() {
 			Bib.V.value=urldecode(t[1])
 		else if(t[0]=='s') {
 			v=urldecode(t[1])
-			S.value=v
-			SR.value=v[0]
-			SN.value=v[1]
-			SS.value=v[2]
 		}
 		else if(t[0]=='w') Body.style.width=t[1]
 		else if(t[0]=='fs')
@@ -193,20 +189,29 @@ function main() {
 			ST.value=urldecode(t[1])
 	}
 	r=Bib.R.value
-	v=Bib.V.value
 	q=Bib.Q.value
+  if (!v) {if (q || !r) v='=3l'; else v='-0l'}
+  S.value=v
+  SR.value=v[0]
+  SN.value=v[1]
+  SS.value=v[2]
+	v=Bib.V.value
 	if(r.length==0||v.length==0) return
 	r=r.replace(/&nbsp;|ï¿½/g,' '
-		).replace(/\./g,' ,'
+    ).replace(/\[([^\]]*)\]/g,function(match,p1,offset,string){
+      return p1.replace(/ /g,'_') + '_ ' + p1.replace(/[:\[\]]/g,'')
+    }).replace(/{([^}]*)}/g,function(match,p1,offset,string){return p1.replace(/ /g,'_') + '_ '}
 		).replace(/, +/g,','
 		).replace(/;/g,' ; '
 		).replace(/ +/g,' '
 		).replace(/^ | $/g,''
-		).split(' ')
+    )
+  //alert(r)
+	r=r.split(' ')
 	Vers=v.split(',')
 	if(q) {
 		nq=[]; pq=[] // neg/pos query
-		q=q.replace(/!/g,'&!').split('&')
+		q=q.replace(/!/g,'&!').split(/[&+]/ )
 		for(i=0;i<q.length;i++) {
 			if(q[i]=='') continue
 			if (q[i][0]=="!") neg=1; else neg=0
@@ -432,10 +437,8 @@ function select(k,book,toks,query,nquery,buf,ret) {
 					buf.push('<hr/>')
 					continue
 				}
-				if(s.indexOf('_')>=0
-					||s.indexOf(':')>=0){
-					buf.push('<p><i>'+s.replace(/_$/,'').replace(/_/g,' ')+'</i></p>')
-					//if(FBrkl==1) FBrkl=0
+				if (s.indexOf(':')>=0 || s.indexOf('_')>=0) {
+					buf.push('<br><i>'+s.replace(/_$/,'').replace(/_/g,' ')+'</i> ')
 					continue
 				}
 			}
@@ -515,7 +518,7 @@ function select(k,book,toks,query,nquery,buf,ret) {
 	}
 }
 function Show(r,query,nquery,stat) {
-	var a,b,c,d,book='',s,t=[]
+	var a,b,c,d,book='',i,s,ss,t=[]
 	function cont(){
 		Show(r,query,nquery,stat)
 	}
@@ -579,31 +582,35 @@ function Show(r,query,nquery,stat) {
 			t.push(s)
 			continue
 		}
-		// a,b-c,d | a?,b-d | a-c | a?,b | a
-		s=s.split('-')
-		b=s[0].split(',')
-		a=b[0]
-		if(a=='') a=c // ,b
-		a=Number(a)
-		if(b.length==1) // a-c | a
-				b=0
-		else // a,b-c,d | a?,b-d | a?,b
-				b=Number(b[1])
-		if(s.length==1) { // a?,b | a
-			if(b) c=a // a?,
-			else c=a+1 // a
-			d=b
-		}else{
-			d=s[1].split(',')
-			c=Number(d[0])
-			if(d.length==1) {
-				if(b) {d=c;c=a}
-				else {c+=1;d=0}
-			}
-			else d=Number(d[1])
-		}
-		t.push(1000*a+b)
-		t.push(1000*c+d)
+    ss=s.replace(/\./g,' ,').split(' ')
+    while (ss.length) {
+      s=ss.shift()
+      // a,b-c,d | a?,b-d | a-c | a?,b | a
+      s=s.split('-')
+      b=s[0].split(',')
+      a=b[0]
+      if(a=='') a=c // ,b
+      a=Number(a)
+      if(b.length==1) // a-c | a
+          b=0
+      else // a,b-c,d | a?,b-d | a?,b
+          b=Number(b[1])
+      if(s.length==1) { // a?,b | a
+        if(b) c=a // a?,
+        else c=a+1 // a
+        d=b
+      }else{
+        d=s[1].split(',')
+        c=Number(d[0])
+        if(d.length==1) {
+          if(b) {d=c;c=a}
+          else {c+=1;d=0}
+        }
+        else d=Number(d[1])
+      }
+      t.push(1000*a+b)
+      t.push(1000*c+d)
+    }
 	}
 	select(0,book,t,query,nquery,null,last_print_buf)
 }
@@ -647,4 +654,4 @@ that.scrollId=scrollId
 that.toggleHelp=toggleHelp
 }
 // TODO NEXT : change find add end index
-//	vim: set sw=2 ts=2 sts=2 fdm=expr nosmartindent nocindent autoindent:
+//	vim: set sw=2 ts=2 sts=2 fdm=expr nosmartindent [Lc 4,16-22:]  nocindent autoindent:
