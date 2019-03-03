@@ -94,7 +94,6 @@ function hili(t) {
 		if(String(a[i].onclick).search(t.replace(/'/g,"\\\\'"))>=0) {
 			if(a[i].style.backgroundColor!='yellow') {
 				a[i].style.backgroundColor='yellow'
-			alert(a[i].style.backgroundColor)
 				on=1
 			}
 			else {
@@ -191,7 +190,8 @@ function main() {
 	}
 	r=Bib.R.value
 	q=Bib.Q.value
-  if (!v) {if (q || !r) v='=3l'; else v='-0l'}
+  //if (!v) {if (q || !r) v='=3l'; else v='-0l'}
+  if (!v) {v='=3l';}
   S.value=v
   SR.value=v[0]
   SN.value=v[1]
@@ -305,14 +305,18 @@ function Print(buf,format) {
 				t=document.createElement('span')
 				if(j%3==2) t.style.color='red'
 				if(j%3==0) t.style.color='darkgreen'
-				t.innerHTML=o[j+j+1].replace(CLEAN,count_replace
-					).replace(NOTES,
-						'<a href="?r=$1&v='
-						+fix(vers)+'&f='+format
-						+';" target="bib2"><u>$1</u></a>'
-					)+' '
-				a.appendChild(t)
-			}
+        if(truevers(Vers[j-1])=='note') {
+          t.innerHTML=o[j+j+1].replace(NOTES,
+              '<a href="?r=$1&v='
+              +fix(vers)+'&f='+format
+              +';" target="bib2"><u>$1</u></a>'
+            )+' '
+        } else {
+          t.innerHTML=o[j+j+1].replace(CLEAN,count_replace
+            )+' '
+        }
+        a.appendChild(t)
+      }
 			if(!FHide) {
 				Stdout.appendChild(a)
 				if (FBrkl) {
@@ -439,7 +443,7 @@ function select(k,book,toks,query,nquery,buf,ret) {
 					continue
 				}
 				if (s.indexOf(':')>=0 || s.indexOf('_')>=0) {
-					buf.push('<br><i>'+s.replace(/_$/,'').replace(/_/g,' ')+'</i> ')
+					buf.push('<i>'+s.replace(/_$/,'').replace(/_/g,' ')+'</i><br>')
 					continue
 				}
 			}
