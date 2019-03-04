@@ -129,7 +129,7 @@ function jsonpget(src,ret) {
 }
 function load(book,ver,ret) {
 	// ret( [[chap,vers,txt], ...])
-	// load 'ver/book.txt' or 'note/book.html'
+	// load 'ver/book.txt' or 'notes/book.html'
 	// return: [[chap,vers,txt],...]
 	var b,src
 	ver=truevers(ver)
@@ -231,12 +231,10 @@ function main() {
 	Show(r,pq,nq,Stat.value)
 }
 function Print(buf,format) {
-	vers = Vers
-	function fix(v) {
-		if(truevers(v[0])=='note')
-				v.push(v.shift())
-		return v.join(',')
-	}
+	vers = Vers.slice()
+  if(truevers(Vers[0])=='notes')
+  {vers.push(vers.shift())}
+  vers = vers.join(',')
 	FHide=format.indexOf('X')+1
 	var FBook=format.indexOf('3')+1
 	var FChap=format.indexOf('2')+1+FBook
@@ -287,7 +285,7 @@ function Print(buf,format) {
 						if(FChap||(FVers&&v==1)||j>1) t+=c+','
 						if(FVers||j>1)t+=v
 					}
-					cl='blue '
+					cl='ublue '
 					if(FPar){t=' ['+t+'] ';cl=''}
 					if(FSup){t=' <sup>'+t+'</sup> ';cl=''}
 					if(FItal){t=' <i>'+t+'</i> ';cl=''}
@@ -303,13 +301,15 @@ function Print(buf,format) {
 					a.appendChild(b)
 				}
 				t=document.createElement('span')
-				if(j%3==2) t.style.color='red'
+				if(j%3==2) t.style.color='#dd0000'
 				if(j%3==0) t.style.color='darkgreen'
-        if(truevers(Vers[j-1])=='note') {
-          t.innerHTML=o[j+j+1].replace(NOTES,
+        if(truevers(Vers[j-1])=='notes') {
+          t.innerHTML=o[j+j+1]
+            .replace(/<([^>]*)>/g, "&lt;$1&gt;")
+            .replace(NOTES,
               '<a href="?r=$1&v='
-              +fix(vers)+'&f='+format
-              +';" target="bib2"><u>$1</u></a>'
+              +vers+'&f='+format
+              +';" target="bib2"><span class="blue">$1</span></a>'
             )+' '
         } else {
           t.innerHTML=o[j+j+1].replace(CLEAN,count_replace
@@ -400,7 +400,7 @@ function PrintStat(j,num,stat,a) {
 			k=t[0];s=t[1];n=t[2];n1=t[3];j=t[4]
 			if(j%3==2) j='darkgreen'
 			else if(j%3==0) j='black'
-			else j='red'
+			else j='#dd0000'
 			p+='<tr><td class="blue">'
 			if(s==Infinity) p+="&infin;"
 			else p+=s
@@ -503,7 +503,7 @@ function select(k,book,toks,query,nquery,buf,ret) {
 					s=s.slice(2).join(' ')
 				}
 			}
-			else if(truevers(Vers[k])=='note') s=''
+			else if(truevers(Vers[k])=='notes') s=''
 			else s='---'
 			buf[j].push(b)
 			buf[j].push(s)
@@ -546,6 +546,8 @@ function Show(r,query,nquery,stat) {
 			s=r[0]
 			if(s=='anti'){
 				a='pent stor prof sapi poet'
+			}else if(s=='bib'){
+				a='anti nuov'
 			}else if(s=='catt'){
 				a='Gc 1Pt 2Pt 1Gv 2Gv 3Gv Gd'
 			}else if(s=='nuov'){
@@ -568,8 +570,6 @@ function Show(r,query,nquery,stat) {
 				a='Gs Gdc 1Sam 2Sam 1Re 2Re 1Cr 2Cr Esd Ne 1Mac 2Mac'
 			}else if(s=='vang'){
 				a='Mc Mt Lc Gv'
-			}else if(s=='bib'){
-				a='anti nuov'
 			}
 			if(a) r=a.split(' ').concat(r.slice(1))
 		}
@@ -641,7 +641,7 @@ function toggleHelp(o) {
 	}
 }
 function truevers(v) {
-	var V={'b':'bgm','e':'ebr','g':'grk','i':'it-2008','74':'it-1974','n':'note','ilc':'tilc'}
+	var V={'b':'bgm','e':'ebr','g':'grk','i':'it-2008','74':'it-1974','n':'notes','ilc':'tilc'}
 	if(v in V) return V[v]
 	else return v
 }
