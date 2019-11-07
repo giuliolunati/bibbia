@@ -98,9 +98,13 @@
     <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Bib.V.value='';Bib.V.value+=VS.value;Bib.V.value=Bib.V.value.replace(/^,/,'')">
       <option value="">...</option>
       <option value="g">greco</option>
+      <option value="e">ebraico</option>
       <option value="i">italiano(2008)</option>
       <option value="i,g">italiano+greco</option>
       <option value="g,i">greco+italiano</option>
+      <option value="i,e">italiano+ebraico</option>
+      <option value="e,i">ebraico+italiano</option>
+      <option value="i,g,e">ita+greco+ebraico</option>
     </select>
     <input type=button value=X  style="vertical-align:middle" onclick="Bib.V.value='';Bib.V.focus()">
   </p>
