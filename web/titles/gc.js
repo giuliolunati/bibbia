@@ -1,0 +1,18 @@
+Bib.ret([
+[  1001, "{Gc 1,1-1,1} Saluto" ],
+[  1002, "{Gc 1,2-1,7-8} Fede e saggezza" ],
+[  1009, "{Gc 1,9-1,11} Povertà e ricchezza" ],
+[  1012, "{Gc 1,12-1,18} Prove e tentazioni" ],
+[  1019, "{Gc 1,19-1,27} Ascoltare e agire" ],
+[  2001, "{Gc 2,1-2,13} Contro le ingiuste preferenze" ],
+[  2014, "{Gc 2,14-2,26} La fede e i fatti" ],
+[  3001, "{Gc 3,1-3,12} Moderate la lingua" ],
+[  3013, "{Gc 3,13-3,18} La saggezza che viene dall'alto" ],
+[  4001, "{Gc 4,1-4,6} La causa delle discordie" ],
+[  4007, "{Gc 4,7-4,10} Dio si oppone agli orgogliosi, ma tratta con bontà gli umili." ],
+[  4011, "{Gc 4,11-4,12} Non giudicate gli altri" ],
+[  4013, "{Gc 4,13-4,17} Contro l'orgoglio" ],
+[  5001, "{Gc 5,1-5,6} Contro i ricchi" ],
+[  5007, "{Gc 5,7-5,12} Pazienza e sincerità" ],
+[  5013, "{Gc 5,13-5,20} La preghiera e la vita" ],
+])

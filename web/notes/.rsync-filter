@@ -1,0 +1,11 @@
+#> target=B/Prog/Bibbia/notes;
+
+#> case $HOSTNAME in
+#>   android*) target=user@giuliolunati.no-ip.org:$target ;;
+#>   gandalf ) target=/BAK/home/user/$target ;;
+#>   *) echo "'$HOSTNAME'" not found in .rsync-filter; exit 1 ;;
+#> esac;
+
+#> ftp=ftp.dongiulio.altervista.org/bibbia/notes
+- *~
+- _*

@@ -1,0 +1,23 @@
+Bib.ret([
+[1001, "ChăŹôN<ChāŹôN> `oVaD:Yâ<`oVaD:Yâ> .KoH<.KoH>-'āMaR<'MR> 'ăDoNāY<'ăDoNāY> Y:HWiH<YHWH> Le'ĕDôM<'ĕDôM> Sh:Mû`â<Sh:Mû`â> ShāMa`:Nû<ShM`> Mē'ēT<'ēT> YHWH<YHWH> W:ZîR<ZîR> BagGôYiM<.GôY> ShulLāCh<ShLCh> QûMû<QWM> W:NāQûMâ<QWM> `āLëHā<`aL> LamMiL:ChāMâ<MiL:ChāMâ>"],
+[1002, "HinNēH<HinNēH> QāThoN<QāThoN> N:TatTîKā<NTN> BagGôYiM<.GôY> BāŹûY<BŹH> 'atTâ<'atTâ> M:'oD<M:'oD>"],
+[1003, "Ź:DôN<ŹāDôN> LiB:Kā<LēV> HisShî'eKā<NSh'> ShoK:Nî<ShKN> V:ChaG:Wê<ChăGāWîM>-śŚeLa`<ŚeLa`> M:RôM<MāRôM> ShiV:.Tô<SheVeT> 'oMēR<'MR> B:LiBô<LēV> Mî<Mî> YôRiDēNî<YRD> 'āReZ<'eReZ>"],
+[1004, "'iM<'iM>-.TaG:Bî,ahH<.GVH> .KanNeSheR<NeSheR> W:'iM<'iM>-BêN<BaYiN> .KôKāVîM<.KôKāV> SîM<SYM> QinNeKā<QēN> MisShāM<ShāM> 'ôRîD:Kā<YRD> N:'uM<N:'uM>-YHWH<YHWH>"],
+[1005, "'iM<'iM>-.GanNāVîM<.GanNāV> Bā'û<BW'>-L:Kā<L> 'iM<'iM>-ShôD:Dê<ShDD> LaY:Lâ<LaY:Lâ> 'êK:<'êK:> NiD:MêTâ<.DMH> HăLô'<Lo'> YiG:N:Vû<.GNV> .DayYāM<.DaY> 'iM<'iM>-BoZ:RîM<BZR> Bā'û<BW'> LāK:<L> HăLô'<Lo'> YaSh:'îRû<Sh'R> `oLēLôT<`ôLēLâ>"],
+[1006, "'êK:<'êK:> NeCh:P:Sû<ChFS> `ēSāW<`ēSāW> NiV:`û<B`H> MaZ:PuNâv<MaZ:PûN>"],
+[1007, "`aD<`aD>-HagG:VûL<.G:VûL> ShilL:ChûKā<ShLCh> .KoL<.KoL> 'aN:Shê<'îSh> V:RîTeKā<B:RîT> HisShî'ûKā<NSh'> YāK:Lû<YKL> L:Kā<L> 'aN:Shê<'îSh> Sh:LoMeKā<ShāLôM> LaCh:M:Kā<LeCheM> YāSîMû<SYM> MāŹôR<MāŹôR> .TaCh:.TëKā<.TaChaT> 'êN<'aYiN> .T:VûNâ<.T:VûNâ> Bô<B>"],
+[1008, "HăLô'<Lo'> BayYôM<YôM> HaHû'<Hû'> N:'uM<N:'uM> YHWH<YHWH> W:Ha'ăVaD:.Tî<'VD> ChăKāMîM<ChāKāM> Mē'ĕDôM<'ĕDôM> ûT:VûNâ<.T:VûNâ> MēHaR<HaR> `ēSāW<`ēSāW>"],
+[1009, "W:ChatTû<ChTT> GiBôRëKā<.GiBôR> .TêMāN<.TêMāN> L:Ma`aN<L:Ma`aN> YikKāReT<.KRT>-'îSh<'îSh> MēHaR<HaR> `ēSāW<`ēSāW> MiqQāTheL<QeTheL>"],
+[1010, "MēChăMaŚ<ChāMāŚ> 'āChîKā<'āCh> Ya`ăQoV<Ya`ăQoV> .T:KaśŚ:Kā<.KŚH> VûShâ<BûShâ> W:NiK:RatTā<.KRT> L:`ôLāM<`ôLāM>"],
+[1011, "B:YôM<YôM> `ăMāD:Kā<`MD> MinNeGeD<NeGeD> B:YôM<YôM> Sh:VôT<ShVH> ŹāRîM<ŹWR> ChêLô<ChaYiL> W:NāK:RîM<NāK:Rî> Bā'û<BW'> [1 Sha`ăRô<Sha`aR> 1] [2 Sh:`āRâv<Sha`aR> 2] W:`aL<`aL>-Y:RûShāLaiM<Y:RûShāLaiM> YadDû<YDD> GôRāL<.GôRāL> .GaM<.GaM>-'atTâ<'atTâ> .K:'aChaD<'eChāD> MēHeM<MiN>"],
+[1012, "W:'aL<'aL>-.TēRe'<R'H> V:YôM<YôM>-'āChîKā<'āCh> B:YôM<YôM> NāK:Rô<NeKeR> W:'aL<'aL>-.TiS:MaCh<SMCh> LiV:Nê<BēN>-Y:HûDâ<Y:HûDâ> B:YôM<YôM> 'āV:DāM<'VD> W:'aL<'aL>-.TaG:.DēL<.GDL> PîKā<PeH> B:YôM<YôM> ZāRâ<ZāRâ>"],
+[1013, "'aL<'aL>-.TāVô'<BW'> V:Sha`aR<Sha`aR>-`amMî<`aM> B:YôM<YôM> 'êDāM<'êD> 'aL<'aL>-.TēRe'<R'H> GaM<.GaM>-'atTâ<'atTâ> B:Rā`āTô<Rā`â> B:YôM<YôM> 'êDô<'êD> W:'aL<'aL>-.TiSh:LaCh:Nâ<ShLCh> V:ChêLô<ChaYiL> B:YôM<YôM> 'êDô<'êD>"],
+[1014, "W:'aL<'aL>-.Ta`ăMoD<`MD> `aL<`aL>-HaPeReQ<PeReQ> L:HaK:RîT<.KRT> 'eT<'ēT>-P:LîThâv<PāLîTh> W:'aL<'aL>-.TaŚ:.GēR<ŚGR> S:RîDâv<SāRîD> B:YôM<YôM> ZāRâ<ZāRâ>"],
+[1015, ".Kî<.Kî>-QāRôV<QāRôV> YôM<YôM>-YHWH<YHWH> `aL<`aL>-.KāL<.KoL>-HagGôYiM<.GôY> .Ka'ăSheR<'ăSheR> `āSîTā<`SH> Yē`āSeH<`SH> lLāK:<L> .G:MuL:Kā<.G:MûL> YāShûV<ShWV> B:Ro'SheKā<Ro'Sh>"],
+[1016, ".Kî<.Kî> .Ka'ăSheR<'ăSheR> Sh:TîTeM<ShTH> `aL<`aL>-HaR<HaR> QāD:Shî<QoDeSh> YiSh:.Tû<ShTH> KāL<.KoL>-HagGôYiM<.GôY> .TāMîD<.TāMîD> W:ShāTû<ShTH> W:Lā`û<LW`> W:HāYû<HYH> .K:Lô'<Lo'> HāYû<HYH>"],
+[1017, "ûV:HaR<HaR> ZiyYôN<ZiyYôN> .TiH:YeH<HYH> F:LêThâ<P:LêThâ> W:HāYâ<HYH> QoDeSh<QoDeSh> W:YāR:Shû<YRSh> BêT<BaYiT> Ya`ăQoV<Ya`ăQoV> 'ēT<'ēT> MôRāShêHeM<MôRāSh>"],
+[1018, "W:HāYâ<HYH> VêT<BaYiT>-Ya`ăQoV<Ya`ăQoV> 'ēSh<'ēSh> ûVêT<BaYiT> YôŚēF<YôŚēF> LeHāVâ<LeHāVâ> ûVêT<BaYiT> `ēSāW<`ēSāW> L:QaSh<QaSh> W:DāL:Qû<.DLQ> VāHeM<B> Wa'ăKāLûM<'KL> W:Lo'<Lo'>-YiH:YeH<HYH> SāRîD<SāRîD> L:VêT<BaYiT> `ēSāW<`ēSāW> .Kî<.Kî> YHWH<YHWH> .DiBēR<.DVR>"],
+[1019, "W:YāR:Shû<YRSh> HanNeGeV<NeGeV> 'eT<'ēT>-HaR<HaR> `ēSāW<`ēSāW> W:HasSh:FēLâ<Sh:FēLâ> 'eT<'ēT>-P:LiSh:.TîM<P:LiSh:.Tî> W:YāR:Shû<YRSh> 'eT<'ēT>-S:DēH<SāDeH> 'eF:RaYiM<'eF:RaYiM> W:'ēT<'ēT> S:DēH<SāDeH> ShoM:RôN<ShoM:RôN> ûViN:YāMiN<BiNeYāMiN> 'eT<'ēT>-HagGiL:`āD<.GiL:`āD>"],
+[1020, "W:GāLuT<.GāLûT> HaChēL<ChêL>-HaźŹeH<ŹeH> LiV:Nê<BēN> YiS:Rā'ēL<YiS:Rā'ēL> 'ăSheR<'ăSheR>-.K:Na`ăNîM<.K:Na`ăNî> `aD<`aD>-ZāR:FaT<ZāR:FaT> W:GāLuT<.GāLûT> Y:RûShāLaiM<Y:RûShāLaiM> 'ăSheR<'ăSheR> BiŚ:FāRaD<Ś:FāRaD> YiR:Shû<YRSh> 'ēT<'ēT> `āRê<`îR> HanNeGeV<NeGeV>"],
+[1021, "W:`āLû<`LH> MôShi`îM<YSh`> B:HaR<HaR> ZiyYôN<ZiyYôN> LiSh:PoTh<ShFTh> 'eT<'ēT>-HaR<HaR> `ēSāW<`ēSāW> W:HāY:Tâ<HYH> LaYHWâ<YHWH> HamM:LûKâ<M:LûKâ>"]
+])

@@ -1,0 +1,17 @@
+Bib.ret([
+[  1001, "{Ef 1,1-1,2} Saluti" ],
+[  1003, "{Ef 1,3-1,14} Dio ci ha amati per mezzo di Cristo" ],
+[  1015, "{Ef 1,15-1,23} La preghiera di Paolo" ],
+[  2001, "{Ef 2,1-2-2,10} Dalla morte alla vita" ],
+[  2011, "{Ef 2,11-2,22} Cristo elimina la separazione tra Ebrei e pagani" ],
+[  3001, "{Ef 3,1-3,13} Paolo, l'apostolo dei non Ebrei" ],
+[  3014, "{Ef 3,14-3,21} L'amore di Cristo" ],
+[  4001, "{Ef 4,1-4,16} L'unità del corpo di Cristo" ],
+[  4017, "{Ef 4,17-4,32} La vecchia vita e la nuova vita" ],
+[  5001, "{Ef 5,1-5,20} Vivere nella luce" ],
+[  5021, "{Ef 5,21-5,33} Mogli e mariti" ],
+[  6001, "{Ef 6,1-6,4} Genitori e figli" ],
+[  6005, "{Ef 6,5-6,9} Schiavi e padroni" ],
+[  6010, "{Ef 6,10-6,20} Le armi del cristiano" ],
+[  6021, "{Ef 6,21-22-6,24} Saluti finali" ],
+])

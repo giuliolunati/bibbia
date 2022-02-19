@@ -1,0 +1,16 @@
+Bib.ret([
+[  1001, "{1Gv 1,1-1,4} Veri testimoni di Gesù" ],
+[  1005, "{1Gv 1,5-2,2} Rottura con il peccato" ],
+[  2003, "{1Gv 2,3-2,11} Chi conosce Dio deve osservare i suoi comandamenti" ],
+[  2012, "{1Gv 2,12-2,17} I credenti di fronte al mondo" ],
+[  2018, "{1Gv 2,18-2,27} Avvertimenti per chi rifiuta Gesù" ],
+[  2028, "{1Gv 2,28-3,3} La speranza dei credenti" ],
+[  3004, "{1Gv 3,4-3,10} I figli di Dio non sono più schiavi del peccato" ],
+[  3011, "{1Gv 3,11-3,18} L'amore di Dio e l'amore per i fratelli" ],
+[  3019, "{1Gv 3,19-3,24} La fiducia in Dio" ],
+[  4001, "{1Gv 4,1-4,6} Spirito di Dio e predicazione di Gesù Cristo" ],
+[  4007, "{1Gv 4,7-4,21} L'amore e la fede" ],
+[  5001, "{1Gv 5,1-5,13} La fede e l'amore" ],
+[  5014, "{1Gv 5,14-5,17} La preghiera" ],
+[  5018, "{1Gv 5,18-5,21} Conclusione" ],
+])

@@ -1,0 +1,15 @@
+Bib.ret([
+[  1001, "{Est 1,1-3-1,22} La regina Vasti offende il re Assuero" ],
+[  2001, "{Est 2,1-2,18} Ester diventa regina" ],
+[  2019, "{Est 2,19-2,23} Mardocheo scopre una congiura di corte" ],
+[  3001, "{Est 3,1-3,15} Aman vuole sterminare gli Ebrei" ],
+[  4001, "{Est 4,1-4,17} Mardocheo chiede l'aiuto di Ester" ],
+[  5001, "{Est 5,1-5,8} Ester invita a banchetto il re e Aman" ],
+[  5009, "{Est 5,9-5,14} Aman vuole eliminare Mardocheo" ],
+[  6001, "{Est 6,1-6,14} Aman costretto ad onorare Mardocheo" ],
+[  7001, "{Est 7,1-7,10} La fine di Aman" ],
+[  8001, "{Est 8,1-8,17} Gli Ebrei autorizzati a difendersi" ],
+[  9001, "{Est 9,1-9,19} Gli Ebrei distruggono i loro nemici" ],
+[  9020, "{Est 9,20-9,30-31} La festa dei Purim" ],
+[ 10001, "{Est 10,1-10,3} Il successo di Mardocheo" ],
+])
