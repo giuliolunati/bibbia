@@ -15,6 +15,7 @@ Bib.ret([
   ,"| nel deserto <erēmos>: dove si riceve la Parola e la si condivide {Mosè: At 7,30 At 7,38; il_Battista: Lc 1,80 3,2.4 7,24; Gesù: Lc 4,42 5,16 9,12}"
 ],
 [ 6020, "#beato/lc" ],
+[ 6040, "preparato: katartizō = correggere, consolidare, preparare, portare a termine"],
 [ 6041,
   "#occhi:# {vedono_Gesù: Lc 2,30 4,20 10,23 19,42 24,16 24,31; lampada_del_corpo,_semplice/cattivo Lc 11,34}"
 ],
