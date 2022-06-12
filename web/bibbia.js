@@ -158,35 +158,51 @@ function hili(t) {
   Bib.Q.value= a
 }
 
-function jsonpget(src, ret) {
-  let jsonp= document.createElement('script')
-  let t
-  function Bib_ret(x) {
-    function cont() {
-      Status.set(src+'.')
-      ret(x)
+function load_jsonp( url, namespace, funame, timeout ) {
+  return new Promise( function (resolve, reject) {
+    var head = document.getElementsByTagName('head')[0] || document.documentElement;
+    let script = document.createElement('script');
+    script.src = url
+    script.async = "true";
+
+    namespace[funame] = function(data) {
+      cleanUp();
+      resolve(data);
     }
-    jsonp.parentNode.removeChild(jsonp)
-    t= setTimeout(cont, 10)
-    Status.set(src+'..')
-  }
-  Bib.ret= Bib_ret
-  jsonp.src= src
-  document.getElementsByTagName('head')[0].appendChild(jsonp)
-  Status.set(src+'...')
+
+    script.onerror = function(e) {
+      cleanUp();
+      reject( Error("NetworK error loading " + script.src) );
+    }
+
+    head.appendChild(script);
+    if (timeout) {
+      var timeoutFunction = setTimeout(function() {
+        cleanUp();
+        reject( Error("Request to " + url + " failed to execute callback after " + timeout + "ms.") )  
+      }, timeout);
+    }
+  
+    function cleanUp() {
+      timeoutFunction && clearTimeout(timeoutFunction);
+      script && head.removeChild(script);
+    }
+
+  } );
 }
 
-function load(book, ver, ret) {
-  // ret( [[chap, vers, txt], ...])
-  // load 'ver/book.txt' or 'notes/book.html'
-  // return: [[chap, vers, txt], ...]
+load_book= async (ver, book, ext, ret) => {
+  // load 'ver/book.js'
+  // call ret( [[chap, vers, txt], ...])
   let b, src
   ver= truevers(ver)
   b= book.toLowerCase()
   if (b in BOOKS) b= BOOKS[b]
   if (b == '') ret([])
-  src= ver+"/"+b+".js"
-  jsonpget(src, ret)
+  src= ver+"/"+b+ext
+  Status.set(src+'...')
+  try { ret( await load_jsonp(src, Bib, 'ret') ) }
+  catch { ret([]) }
 }
 
 function main() {
@@ -532,9 +548,9 @@ function select(k, book, toks, query, nquery, buf, ret) {
   }
   if (k == 0) {
     buf= []
-    load(book, Vers[0], select0)
+    load_book(Vers[0], book, '.js', select0)
   } else {
-    load(book, Vers[k], select1)
+    load_book(Vers[k], book, '.js', select1)
   }
 }
 
@@ -702,7 +718,7 @@ function PrintStat(j, num, stat, a) {
     PrintStat(j+1, num, stat, a)
   }
   if (j < Vers.length) {
-    jsonpget(truevers(Vers[j])+'/'+stat+'.freq', proc_freq)
+    load_book(truevers(Vers[j]), stat, '.freq', proc_freq)
   }
   else {
     sortResult(a, 1)
