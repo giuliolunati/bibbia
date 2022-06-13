@@ -201,8 +201,13 @@ load_book= async (ver, book, ext, ret) => {
   if (b == '') ret([])
   src= ver+"/"+b+ext
   Status.set(src+'...')
-  try { ret( await load_jsonp(src, Bib, 'ret') ) }
-  catch { ret([]) }
+  if (ret) {
+    try { ret( await load_jsonp(src, Bib, 'ret') ) }
+    catch { ret([]) }
+  } else {
+    try { return await load_jsonp(src, Bib, 'ret') }
+    catch { return [] }
+  }
 }
 
 function main() {
@@ -445,7 +450,7 @@ function scrollId(id) {
   document.getElementById(id).scrollIntoView(true)
 }
 
-function select(k, book, toks, query, nquery, buf, ret) {
+async function select(book, toks, query, nquery, buf) {
   // ret( [[book, chap, verse, ver1...]...] )
   // book: eg. 'Mt' '1Cor'
   // toks: [tok, ...] eg.:
@@ -456,10 +461,8 @@ function select(k, book, toks, query, nquery, buf, ret) {
   // query: [RE1,...REn] (txt ~ RE1 && ...REn)
   // nquery: [RE1,...REn] (txt !~ RE1 && ...REn)
   // Vers: eg. ['it-2008', 'grk', 'it-1974']
-  function cont() {
-    select(k+1, book, toks, query, nquery, buf, ret)
-  }
-  function select0(txt) {
+
+  function select_main_ver(txt) {
     let a, b, beg, end, i, j, l, s, t
     while (toks.length>0) {
       s= toks.shift()
@@ -503,9 +506,9 @@ function select(k, book, toks, query, nquery, buf, ret) {
         buf.push([book, a, b, t])
       }
     }
-    setTimeout(cont, 0)
   }
-  function select1(txt) {
+
+  function select_other_ver(txt) {
     let a, b, j, s, t
     t= 0
     m= {}
@@ -537,41 +540,24 @@ function select(k, book, toks, query, nquery, buf, ret) {
       buf[j].push(b)
       buf[j].push(s)
     }
-    setTimeout(cont, 0)
   }
+
   if (toks.length == 0) toks= [0, 10000000]
-  if (k == Vers.length
-    || (k > 0 && buf.length == 0)
-  ) {
-    ret(buf)
-    return
+  for (let k= 0; k < Vers.length; k++) {
+    if (k == 0) {
+      buf= []
+      select_main_ver(await load_book(Vers[0], book, '.js'))
+    } else {
+      if (buf.length == 0) break;
+      select_other_ver(await load_book(Vers[k], book, '.js'))
+    }
   }
-  if (k == 0) {
-    buf= []
-    load_book(Vers[0], book, '.js', select0)
-  } else {
-    load_book(Vers[k], book, '.js', select1)
-  }
+  return buf
 }
 
-function Show(r, query, nquery, stat) {
+async function Show(r, query, nquery, stat) {
   let a, b, c, d, book= '', i, s, ss, t= []
-  function cont() {
-    Show(r, query, nquery, stat)
-  }
-  function print_buf(buf) {
-    Print(buf, S.value)
-    setTimeout(cont, 0)
-  }
-  function last_print_buf(buf) {
-    Print(buf, S.value)
-    if (stat) PrintStat(0, Num, stat, [])
-    else Status.set('>')
-  }
-  function select0() {
-    select(0, book, t, query, nquery, null, print_buf)
-  }
-  while (r.length) {
+  while (1) {
     a= true
     while (a) {
       a= false
@@ -605,11 +591,12 @@ function Show(r, query, nquery, stat) {
       }
       if (a) r= a.split(' ').concat(r.slice(1))
     }
-    if (s.search(/^[1-3]?[A-Za-z]+$/) == 0) {
+    if (!r.length || s.search(/^[1-3]?[A-Za-z]+$/) == 0) {
       if (book) {
-        setTimeout(select0, 0)
-        return
+        Print(await select(book, t, query, nquery, null), S.value)
+        book='', t=[]
       }
+      if (!r.length) break
       s= r.shift()
       book= s
       continue
@@ -651,15 +638,8 @@ function Show(r, query, nquery, stat) {
       t.push(1000*c+d)
     }
   }
-  select(0, book, t, query, nquery, null, last_print_buf)
-}
-
-function logfact(n) {
-  switch (n) {
-    case 0:
-    case 1: return 0
-    default: return n * log(n) - n + log(2*PI*n)/2 + 1/(12*n)
-  }
+  if (stat) PrintStat(Num, stat, [])
+  else Status.set('>')
 }
 
 function logcomb(a, b) {
@@ -694,10 +674,11 @@ function sortResult(a, k) {
   })
 }
 
-function PrintStat(j, num, stat, a) {
+async function PrintStat(num, stat, a) {
   let i, k, l, n, n1, p, s, t
   let include= (document.getElementById("ST").value == "I")
-  function proc_freq(freq) {
+  for (let j= 0; j < Vers.length; j++) {
+    let freq= await load_book(truevers(Vers[j]), stat, '.freq')
     let b= 1, C, c, l, r, t1
     t= num[j]['']
     t1= freq['']
@@ -715,39 +696,34 @@ function PrintStat(j, num, stat, a) {
       s= bits(n, t, c, n1, t1, C)
       a.push([i, s, n, n1, j])
     }
-    PrintStat(j+1, num, stat, a)
   }
-  if (j < Vers.length) {
-    load_book(truevers(Vers[j]), stat, '.freq', proc_freq)
+  sortResult(a, 1)
+  p= ''
+  if (a.length && a[0][1] == Infinity)
+    p+= '<tr><td></td><td></td><td><p class="godown"><a name="stats" href="#endhapax">&darr;&darr;&darr;</a></td></tr>'
+  for (i= 0; i < a.length; i++) {
+    t= a[i]
+    if (s == Infinity && isFinite(t[1]))
+      p+= '<tr><td><p class="goup"><a name="endhapax" href="#stats">&uarr;&uarr;&uarr;</a></td><td></td></tr>'
+    k= t[0]; s= t[1]; n= t[2]; n1= t[3]; j= t[4]
+    if (j%3 == 2) j= 'darkgreen'
+    else if (j%3 == 0) j= 'black'
+    else j= '#dd0000'
+    p+= '<tr><td class= "blue">'
+    if (s == Infinity) p+= "&infin; "
+    else p+= round(s*100)/100
+    p+= '</td>'
+    p+= '<td><a '+'style="color:'+j+'" onclick="Bib.hili(\'<'+k.replace(/'/g, "\\'")+'>\')">'+k+'</a></td>'
+    p+= '<td class="blue">'+n+'/'+n1+'</td></tr>'
   }
-  else {
-    sortResult(a, 1)
-    p= ''
-    if (a.length && a[0][1] == Infinity)
-      p+= '<tr><td></td><td></td><td><p class="godown"><a name="stats" href="#endhapax">&darr;&darr;&darr;</a></td></tr>'
-    for (i= 0; i < a.length; i++) {
-      t= a[i]
-      if (s == Infinity && isFinite(t[1]))
-        p+= '<tr><td><p class="goup"><a name="endhapax" href="#stats">&uarr;&uarr;&uarr;</a></td><td></td></tr>'
-      k= t[0]; s= t[1]; n= t[2]; n1= t[3]; j= t[4]
-      if (j%3 == 2) j= 'darkgreen'
-      else if (j%3 == 0) j= 'black'
-      else j= '#dd0000'
-      p+= '<tr><td class= "blue">'
-      if (s == Infinity) p+= "&infin; "
-      else p+= round(s*100)/100
-      p+= '</td>'
-      p+= '<td><a '+'style="color:'+j+'" onclick="Bib.hili(\'<'+k.replace(/'/g, "\\'")+'>\')">'+k+'</a></td>'
-      p+= '<td class="blue">'+n+'/'+n1+'</td></tr>'
-    }
-    l= document.createElement('hr')
-    Stats.appendChild(l)
-    l= document.createElement('table')
-    l.innerHTML= p
-    Stats.appendChild(l)
-    Status.set('>')
-  }
+  l= document.createElement('hr')
+  Stats.appendChild(l)
+  l= document.createElement('table')
+  l.innerHTML= p
+  Stats.appendChild(l)
+  Status.set('>')
 }
+
 
 // EXPORT
 
