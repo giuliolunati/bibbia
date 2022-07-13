@@ -252,16 +252,24 @@ function main() {
     else if (t[0] == 'st')
       ST.value= urldecode(t[1])
   }
-  r= Bib.R.value
-  q= Bib.Q.value
-  document.title= r+" "+q
-  if (! document.title) document.title= "Bibbia"
-  //if (!v) {if (q || !r) v= '=3l'; else v= '-0l'}
   if (!v) {v= '=3l';}
   S.value= v
   SR.value= v[0]
   SN.value= v[1]
   SS.value= v[2]
+  Show()
+}
+
+async function Show(n) {
+  let neg, q, r, s, t, v
+  let nq= []; pq= [] // neg/pos query
+  let stat= Stat.value
+  Stdout.innerHTML=""
+  r= Bib.R.value
+  q= Bib.Q.value
+  document.title= r+" "+q
+  if (! document.title) document.title= "Bibbia"
+  //if (!v) {if (q || !r) v= '=3l'; else v= '-0l'}
   v= Bib.V.value
   if (r.length == 0 || v.length == 0) return
   if (S.value.startsWith('-0')) {
@@ -295,11 +303,9 @@ function main() {
     if (a) Vers.push(a)
   }
   Bib.V.value= Vers.join(",")
-
   if (q) {
-    nq= []; pq= [] // neg/pos query
     q= q.replace(/\!/g, '&!').split(/[&+]/ )
-    for (i= 0; i < q.length; i++) {
+    for (let i= 0; i < q.length; i++) {
       if (q[i] == '') continue
       if (q[i][0] == "!") neg= 1; else neg= 0
       s= q[i].substr(neg).replace(
@@ -313,8 +319,93 @@ function main() {
       else pq.push(new RegExp(s, t))
     }
   } else {pq= nq= null;}
-  for (i= 0; i < Vers.length; i++) Num.push({"":0})
-  Show(r, pq, nq, Stat.value)
+  for (let i= 0; i < Vers.length; i++) Num.push({"":0})
+
+  let a, b, c, d, book= '', i, ss
+  t= []
+  while (1) {
+    a= true
+    while (a) {
+      a= false
+      s= r[0]
+      if (s == 'a') {
+        a= 'pent stor prof sapi poet'
+      } else if (s == 'b') {
+        a= 'a n'
+      } else if (s == 'catt') {
+        a= 'Gc 1Pt 2Pt 1Gv 2Gv 3Gv Gd'
+      } else if (s == 'n') {
+        a= 'vang At paol catt Eb Ap'
+      } else if (s == 'opgv') {
+        a= 'Gv 1Gv 2Gv 3Gv Ap'
+      } else if (s == 'oplc') {
+        a= 'Lc At'
+      } else if (s == 'paol') {
+        a= '1Ts 2Ts 1Cor 2Cor Gal Rom Fil Fm Col Ef 1Tm Tt 2Tm'
+      } else if (s == 'pent') {
+        a= 'Gn Es Lv Num Dt'
+      } else if (s == 'poet') {
+        a= 'Gb Ct Rut Gdt Dn Gio Tb Est'
+      } else if (s == 'prof') {
+        a= 'Am Os Mic Na Ab Sof Is Ger Bar Lam Ez Gl Abd Ag Zac Mal'
+      } else if (s == 'sapi') {
+        a= 'Sal Qo Pro Sir Sap'
+      } else if (s == 'stor') {
+        a= 'Gs Gdc 1Sam 2Sam 1Re 2Re 1Cr 2Cr Esd Ne 1Mac 2Mac'
+      } else if (s == 'vang') {
+        a= 'Mc Mt Lc Gv'
+      }
+      if (a) r= a.split(' ').concat(r.slice(1))
+    }
+    if (!r.length || s.search(/^[1-3]?[A-Za-z]+$/) == 0) {
+      if (book) {
+        Print(await select(book, t, pq, nq, null), S.value)
+        book='', t=[]
+      }
+      if (!r.length) break
+      s= r.shift()
+      book= s
+      continue
+    }
+    s= r.shift()
+    if (s == ';' || s.indexOf('_') >= 0 || s.indexOf(':') >= 0) {
+      t.push(s)
+      continue
+    }
+    ss= s.replace(/\.\.+/g, '-999')
+      .replace(/\(.*\)/g, '')
+      .replace(/\./g, ' ,').split(' ')
+    while (ss.length) {
+      s= ss.shift()
+      // a,b-c,d | a?,b-d | a-c | a?,b | a
+      s= s.split('-')
+      b= s[0].split(',')
+      a= b[0]
+      if (a == '') a= c // ,b
+      a= verseToNumber(a)
+      if (b.length == 1) // a-c | a
+          b= 0
+      else // a,b-c,d | a?,b-d | a?,b
+          b= verseToNumber(b[1])
+      if (s.length == 1) { // a?,b | a
+        if (b) c= a // a?,
+        else c= a+1 // a
+        d= b
+      } else {
+        d= s[1].split(',')
+        c= verseToNumber(d[0])
+        if (d.length == 1) {
+          if (b) {d= c; c= a}
+          else {c+= 1; d= 0}
+        }
+        else d= verseToNumber(d[1])
+      }
+      t.push(1000*a+b)
+      t.push(1000*c+d)
+    }
+  }
+  if (stat) PrintStat(Num, stat, [])
+  else Status.set('>')
 }
 
 function Print(buf, format) {
@@ -560,93 +651,6 @@ async function select(book, toks, query, nquery, buf) {
   return buf
 }
 
-async function Show(r, query, nquery, stat) {
-  let a, b, c, d, book= '', i, s, ss, t= []
-  while (1) {
-    a= true
-    while (a) {
-      a= false
-      s= r[0]
-      if (s == 'a') {
-        a= 'pent stor prof sapi poet'
-      } else if (s == 'b') {
-        a= 'a n'
-      } else if (s == 'catt') {
-        a= 'Gc 1Pt 2Pt 1Gv 2Gv 3Gv Gd'
-      } else if (s == 'n') {
-        a= 'vang At paol catt Eb Ap'
-      } else if (s == 'opgv') {
-        a= 'Gv 1Gv 2Gv 3Gv Ap'
-      } else if (s == 'oplc') {
-        a= 'Lc At'
-      } else if (s == 'paol') {
-        a= '1Ts 2Ts 1Cor 2Cor Gal Rom Fil Fm Col Ef 1Tm Tt 2Tm'
-      } else if (s == 'pent') {
-        a= 'Gn Es Lv Num Dt'
-      } else if (s == 'poet') {
-        a= 'Gb Ct Rut Gdt Dn Gio Tb Est'
-      } else if (s == 'prof') {
-        a= 'Am Os Mic Na Ab Sof Is Ger Bar Lam Ez Gl Abd Ag Zac Mal'
-      } else if (s == 'sapi') {
-        a= 'Sal Qo Pro Sir Sap'
-      } else if (s == 'stor') {
-        a= 'Gs Gdc 1Sam 2Sam 1Re 2Re 1Cr 2Cr Esd Ne 1Mac 2Mac'
-      } else if (s == 'vang') {
-        a= 'Mc Mt Lc Gv'
-      }
-      if (a) r= a.split(' ').concat(r.slice(1))
-    }
-    if (!r.length || s.search(/^[1-3]?[A-Za-z]+$/) == 0) {
-      if (book) {
-        Print(await select(book, t, query, nquery, null), S.value)
-        book='', t=[]
-      }
-      if (!r.length) break
-      s= r.shift()
-      book= s
-      continue
-    }
-    s= r.shift()
-    if (s == ';' || s.indexOf('_') >= 0 || s.indexOf(':') >= 0) {
-      t.push(s)
-      continue
-    }
-    ss= s.replace(/\.\.+/g, '-999')
-      .replace(/\(.*\)/g, '')
-      .replace(/\./g, ' ,').split(' ')
-    while (ss.length) {
-      s= ss.shift()
-      // a,b-c,d | a?,b-d | a-c | a?,b | a
-      s= s.split('-')
-      b= s[0].split(',')
-      a= b[0]
-      if (a == '') a= c // ,b
-      a= verseToNumber(a)
-      if (b.length == 1) // a-c | a
-          b= 0
-      else // a,b-c,d | a?,b-d | a?,b
-          b= verseToNumber(b[1])
-      if (s.length == 1) { // a?,b | a
-        if (b) c= a // a?,
-        else c= a+1 // a
-        d= b
-      } else {
-        d= s[1].split(',')
-        c= verseToNumber(d[0])
-        if (d.length == 1) {
-          if (b) {d= c; c= a}
-          else {c+= 1; d= 0}
-        }
-        else d= verseToNumber(d[1])
-      }
-      t.push(1000*a+b)
-      t.push(1000*c+d)
-    }
-  }
-  if (stat) PrintStat(Num, stat, [])
-  else Status.set('>')
-}
-
 function logcomb(a, b) {
   if (2*b > a) b= a-b
   if (b == 0) return 0
@@ -738,6 +742,7 @@ this.hili= hili
 this.main= main
 this.scrollId= scrollId
 this.toggleHelp= toggleHelp
+this.Show= Show
 
 
 } // Bib
