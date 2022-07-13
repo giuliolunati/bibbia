@@ -7,7 +7,7 @@ let BOOKS= {
   '1tim':'1tm','dn':'dan',
   'gn':'gen','ml':'mal','mat':'mt','nm':'num',
   'prv':'pro','rm':'rom','rt':'rut','zc':'zac'}
-let CLEAN= new RegExp('([^ <]*)<([^>]*)>','g')
+let CLEAN= new RegExp('([^ <]*)((<[^>]*>)+)','g')
 let FBrkl= ''
 let FStat
 let FHide
@@ -335,15 +335,20 @@ function Print(buf, format) {
   if (format.indexOf('=') >= 0)  FBrkl= 1
   let cl= '', i, j, o, t, a, b, c, u, v, n
   function count(str, word, root) {
+    if (root.indexOf("><") >= 0) return
+    root= root.replace(/^.|.$/g, '')
     Num[j-1]['']++
     if (root in Num[j-1]) Num[j-1][root]++
     else Num[j-1][root]= 1
     return
   }
   function count_replace(str, word, root) {
-    Num[j-1]['']++
-    if (root in Num[j-1]) Num[j-1][root]++
-    else Num[j-1][root]= 1
+    root= root.replace(/^.|.$/g, '')
+    if (root.indexOf("><") < 0) {
+      Num[j-1]['']++
+      if (root in Num[j-1]) Num[j-1][root]++
+      else Num[j-1][root]= 1
+    }
     return '<a href="#" onclick="if (Bib.Q.value)Bib.Q.value+=\'|\'; Bib.Q.value+=\'&lt;'+root.replace(/'/g, "\\'")+'&gt;\'; return false">'+word+'</a>'
   }
   for (i= 0; i < buf.length; i++) {
