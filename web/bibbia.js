@@ -22,8 +22,8 @@ let log= Math.log, exp= Math.exp
 let pow= Math.pow, sqrt= Math.sqrt
 let round= Math.round, floor= Math.floor
 let PI= Math.PI, L2= log(2)
-let Body, Num= [], Status, Stdout, Stats
-
+let Num= []
+let Vers
 
 // FUNCS
 
@@ -41,58 +41,6 @@ function truevers(v) {
   }
   if (v in vers) return vers[v]
   else return v
-}
-
-function urldecode(s) {
-  s= s.replace(/\+/g, ' ')
-  s= decodeURIComponent(s)
-  return s
-}
-
-function changeValue(id, prop, chg) {
-  let o= document.getElementById(id)
-  let p= o.style[prop]
-  p= p.replace(/(^[0-9]*)(.*)/,
-    function(s, n, u) {
-      n= Math.round(Number(n)*chg)
-      return n+u
-    })
-  o.style[prop]= p
-}
-
-function cycleValue(o, values) {
-  let i= values.indexOf(o.value)+1
-  if (i >= values.length)i= 0
-  o.value= values[i]
-}
-
-function toggleHelp(o) {
-  if (o.innerHTML == '[?]') {
-    o.innerHTML= '[X]'
-    o.parentNode.nextElementSibling.style.display= 'block'
-  } else {
-    o.innerHTML= '[?]'
-    o.parentNode.nextElementSibling.style.display= 'none'
-  }
-}
-
-function Display(id) {
-  let node= document.getElementById(id)
-  let stack= []
-  function set(s) {
-    if (s.constructor == Array) s= s.join(' ')
-    node.innerHTML= s
-  }
-  function push(s) {
-    stack.push(node.innerHTML)
-    set(s)
-  }
-  function pop() {
-    node.innerHTML= stack.pop()
-  }
-  this.set= set
-  this.push= push
-  this.pop= pop
 }
 
 function find(txt, i, j, hint) {
@@ -117,50 +65,9 @@ function find(txt, i, j, hint) {
   return -1
 }
 
-function fixForm(o) {
-  let S= document.getElementById('S')
-  let SR= document.getElementById('SR')
-  let SN= document.getElementById('SN')
-  let SS= document.getElementById('SS')
-  let FS= document.getElementById('FS')
-  let ST= document.getElementById('ST')
-  let STH= document.getElementById('STH')
-  S.value= SR.value+SN.value+SS.value
-  FS.value= Body.style.fontSize
-  STH.value= ST.value
-}
-
-function hili(t) {
-  let a, i, on= 0
-  a= document.getElementsByTagName('a')
-  for (i= 0; i < a.length; i++) {
-    if (
-      String(a[i].onclick).search(
-        t.replace(/'/g,"\\\\'")
-      ) >= 0
-    ) { //}
-      if (a[i].style.backgroundColor != 'yellow') {
-        a[i].style.backgroundColor= 'yellow'
-        on= 1
-      }
-      else {
-        a[i].style.backgroundColor= null
-      }
-    }
-  }
-  a= Bib.Q.value
-  if (on) {
-    if (a) a+= '|'+t
-    else a= t
-  } else {
-    a= a.replace(t, '').replace(/\&\&/g, '\&').replace(/^\&/, '')
-  }
-  Bib.Q.value= a
-}
-
 function load_jsonp( url, namespace, funame, timeout ) {
   return new Promise( function (resolve, reject) {
-    var head = document.getElementsByTagName('head')[0] || document.documentElement;
+    let head = document.getElementsByTagName('head')[0] || document.documentElement;
     let script = document.createElement('script');
     script.src = url
     script.async = "true";
@@ -210,68 +117,24 @@ load_book= async (ver, book, ext, ret) => {
   }
 }
 
-function main() {
-  // get elements //
-  Body= document.getElementsByTagName('body')[0]
-  Bib.Q= document.getElementById('Q')
-  Bib.R= document.getElementById('R')
-  let RS= document.getElementById('RS')
-  let SN= document.getElementById('SN')
-  let SR= document.getElementById('SR')
-  let SS= document.getElementById('SS')
-  let SH= document.getElementById('SH')
-  Status= new Display('Status')
-  Status.set('>')
-  Stdout= document.getElementById('Stdout')
-  Stats= document.getElementById('Stats')
-  Bib.V= document.getElementById('V')
-  let VS= document.getElementById('VS')
-  let S= document.getElementById('S')
-  let Stat= document.getElementById('Stat')
-  let ST= document.getElementById('ST')
-  // init from url parameters //
-  let s= location.search.substr(1).split('&')
-  let buf, i, q, r, t, v
-  for (i in s) {
-    t= s[i].split('=')
-    if (t[0] == 'r')
-      Bib.R.value= urldecode(t[1])
-    else if (t[0] == 'q') {
-      Bib.Q.value= urldecode(t[1])
-    }
-    else if (t[0] == 'v')
-      Bib.V.value= urldecode(t[1])
-    else if (t[0] == 's') {
-      v= urldecode(t[1])
-    }
-    else if (t[0] == 'w') Body.style.width= t[1]
-    else if (t[0] == 'fs')
-      Body.style.fontSize= t[1]+'pt'
-    else if (t[0] == 'stat')
-      Stat.value= urldecode(t[1])
-    else if (t[0] == 'st')
-      ST.value= urldecode(t[1])
-  }
-  if (!v) {v= '=3l';}
-  S.value= v
-  SR.value= v[0]
-  SN.value= v[1]
-  SS.value= v[2]
-  Show()
-}
-
 async function Show(n) {
-  let neg, q, r, s, t, v
-  let nq= []; pq= [] // neg/pos query
-  let stat= Stat.value
-  Stdout.innerHTML=""
-  r= Bib.R.value
-  q= Bib.Q.value
+  let r= Range.value
+  let v= Versions.value
+  if (r.length == 0 || v.length == 0) return
+  Vers= []
+  v= v.split(',')
+  for (let a of v) {
+    for (let b of Vers) if (a == b) a= null
+    if (a) Vers.push(a)
+  }
+  Versions.value= Vers.join(",")
+  let q= Query.value
   document.title= r+" "+q
   if (! document.title) document.title= "Bibbia"
-  //if (!v) {if (q || !r) v= '=3l'; else v= '-0l'}
-  v= Bib.V.value
-  if (r.length == 0 || v.length == 0) return
+  let stat= Stat.value
+  let neg, s, t
+  let nq= []; pq= [] // neg/pos query
+  Stdout.innerHTML=""
   if (S.value.startsWith('-0')) {
     r= r.replace(/([^;]*);/g, (match, p1)=> {
       if (/[_:]/.test(p1)) return match
@@ -296,13 +159,6 @@ async function Show(n) {
     )
   //alert(r)
   r= r.split(' ')
-  v= v.split(',')
-  Vers= new Array();
-  for (let a of v) {
-    for (let b of Vers) if (a == b) a= null
-    if (a) Vers.push(a)
-  }
-  Bib.V.value= Vers.join(",")
   if (q) {
     q= q.replace(/\!/g, '&!').split(/[&+]/ )
     for (let i= 0; i < q.length; i++) {
@@ -440,7 +296,7 @@ function Print(buf, format) {
       if (root in Num[j-1]) Num[j-1][root]++
       else Num[j-1][root]= 1
     }
-    return '<a href="#" onclick="if (Bib.Q.value)Bib.Q.value+=\'|\'; Bib.Q.value+=\'&lt;'+root.replace(/'/g, "\\'")+'&gt;\'; return false">'+word+'</a>'
+    return '<a href="#" onclick="if (Query.value)Query.value+=\'|\'; Query.value+=\'&lt;'+root.replace(/'/g, "\\'")+'&gt;\'; return false">'+word+'</a>'
   }
   for (i= 0; i < buf.length; i++) {
     o= buf[i]
@@ -475,7 +331,7 @@ function Print(buf, format) {
           if (FBold) {t= ' <b>'+t+'</b> '; cl= ''}
           if (cl) {
             t= '<a class="'+cl
-              +'" onclick="if (Bib.R.value)Bib.R.value+=\' \'; Bib.R.value+=\''+t+'\';">'+t+'</a> '
+              +'" onclick="if (Range.value)Range.value+=\' \'; Range.value+=\''+t+'\';">'+t+'</a> '
           } else {
             t= '<span>'+t+'</span> '
           }
@@ -540,10 +396,6 @@ function Print(buf, format) {
     }
   }
   //scrollId('hr')
-}
-
-function scrollId(id) {
-  document.getElementById(id).scrollIntoView(true)
 }
 
 async function select(book, toks, query, nquery, buf) {
@@ -722,7 +574,7 @@ async function PrintStat(num, stat, a) {
     if (s == Infinity) p+= "&infin; "
     else p+= round(s*100)/100
     p+= '</td>'
-    p+= '<td><a '+'style="color:'+j+'" onclick="Bib.hili(\'<'+k.replace(/'/g, "\\'")+'>\')">'+k+'</a></td>'
+    p+= '<td><a '+'style="color:'+j+'" onclick="hili(\'<'+k.replace(/'/g, "\\'")+'>\')">'+k+'</a></td>'
     p+= '<td class="blue">'+n+'/'+n1+'</td></tr>'
   }
   l= document.createElement('hr')
@@ -736,12 +588,6 @@ async function PrintStat(num, stat, a) {
 
 // EXPORT
 
-this.cycleValue= cycleValue
-this.fixForm= fixForm
-this.hili= hili
-this.main= main
-this.scrollId= scrollId
-this.toggleHelp= toggleHelp
 this.Show= Show
 
 

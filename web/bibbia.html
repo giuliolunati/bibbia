@@ -29,7 +29,7 @@
     input,select{color:#ff8800}
     input[type=button],input[type=submit]{margin:1px;background:#ddddaa;border-radius:4px}
     p{margin:2pt}
-    table,#R,#Q,#V{width:100%}
+    table,#Range,#Query,#V{width:100%}
     table,tbody,td,tr{padding:0px;margin:0px}
   </style>
   <script>
@@ -41,10 +41,10 @@
   <script type="text/javascript" id="jsonp"></script>
 
 </head>
-<body id="body" onload=Bib.main()>
-<form id=Form accept-charset='utf8' onsubmit="Bib.fixForm(this)">
+<body id="body">
+<form id=Form accept-charset='utf8' onsubmit="fixForm(this)">
   <p>CERCA
-    <a onclick="Bib.toggleHelp(this)">[?]</a>
+    <a onclick="toggleHelp(this)">[?]</a>
   </p>
   <div class="help">
     <p>Testo da cercare (facoltativo).
@@ -55,13 +55,13 @@
     </p>
   </div>
   <table><tr>
-    <td><textarea id=Q name=q rows=2></textarea></td>
-    <td><input id="QX" type=button value=X onclick="Bib.Q.value='';Bib.Q.focus()"></td>
+    <td><textarea id="Query" name=q rows=2></textarea></td>
+    <td><input id="QX" type=button value=X onclick="Query.value='';Query.focus()"></td>
   </tr></table>
   <hr/>
   <p>IN
-    <a onclick="Bib.toggleHelp(this)">[?]</a>
-    <select id=RS  onchange="Bib.R.value+=' '+RS.value">
+    <a onclick="toggleHelp(this)">[?]</a>
+    <select id=RS  onchange="Range.value+=' '+RS.value">
       <option value="">(aggiungi libri)</option>
       <option value="b">Bibbia</option>
       <option value="a">Antico Testamento</option>
@@ -89,14 +89,14 @@
     </p>
   </div>
   <table><tr>
-    <td><textarea id=R name=r rows=2></textarea></td>
-    <td><input type=button value=X onclick="Bib.R.value='';Bib.R.focus()"></td>
+    <td><textarea id="Range" name=r rows=2></textarea></td>
+    <td><input type=button value=X onclick="Range.value='';Range.focus()"></td>
   </tr></table>
   <hr/>
   <p><span style="vertical-align:middle"> VERSIONI
-    <a onclick="Bib.toggleHelp(this)">[?]</a></span>
+    <a onclick="toggleHelp(this)">[?]</a></span>
     <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
-    <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Bib.V.value='';Bib.V.value+=VS.value;Bib.V.value=Bib.V.value.replace(/^,/,'')">
+    <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
       <option value="">...</option>
       <option value="g">greco</option>
       <option value="e">ebraico</option>
@@ -107,7 +107,7 @@
       <option value="e,i">ebraico+italiano</option>
       <option value="i,g,e">ita+greco+ebraico</option>
     </select>
-    <input type=button value=X  style="vertical-align:middle" onclick="Bib.V.value='';Bib.V.focus()">
+    <input type=button value=X  style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
   </p>
   <div class="help">
     <p><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
@@ -118,16 +118,16 @@
   <table><tr>
   </tr></table>
   <hr id='hr'/>
-  <p><input type=button value='mostra' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
+  <p><input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
     <input type=submit value='in nuova scheda' onclick="Form.target='_blank';Form.submit"></p>
   <hr/>
   <p>STILE
-    <a onclick="Bib.toggleHelp(this)">[?]</a>
-    <input id=SR type=button value="=" onclick="Bib.cycleValue(this,'=-X')">
-    <input id=SN type=button value="3" onclick="Bib.cycleValue(this,'3210')">
-    <input id=SS type=button value="l" onclick="Bib.cycleValue(this,'lpbi^')">
-    <input type="button" value="+" onclick="Bib.changeValue('body','fontSize',1.11);Bib.scrollId('hr')"/>
-    <input type="button" value="-" onclick="Bib.changeValue('body','fontSize',0.9);Bib.scrollId('hr')"/>
+    <a onclick="toggleHelp(this)">[?]</a>
+    <input id=SR type=button value="=" onclick="cycleValue(this,'=-X')">
+    <input id=SN type=button value="3" onclick="cycleValue(this,'3210')">
+    <input id=SS type=button value="l" onclick="cycleValue(this,'lpbi^')">
+    <input type="button" value="+" onclick="mulValue(Body,'fontSize',1.11)"/>
+    <input type="button" value="-" onclick="mulValue(Body,'fontSize',0.9)"/>
     <input id=S name=s type="hidden" value='=3l'>
     <input id=STH name=st type="hidden" value='I'>
     <input id=FS name=fs type="hidden" value='12pt'>
@@ -157,7 +157,7 @@
   <hr/>
   <p>STAT.
     <input size=4 id=Stat name=stat type=text value=''>
-    <input id=ST type=button value="I" onclick="Bib.cycleValue(this,'IE')">
+    <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
   </p>
 </form>
 <div id=Status>ok</div>
@@ -167,5 +167,155 @@
 <div id=Stats style="font-size:100%">
 <a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br/>
 </div>
+
+<script>
+
+function mulValue(id, prop, mul) {
+  if (typeof id != 'object')
+    id= document.getElementById(id)
+  let p= getComputedStyle(id)[prop]
+  p= p.replace(/(^[0-9]*)(.*)/,
+    function(s, n, u) {
+      n= Math.round(Number(n) * mul)
+      return n+u
+    })
+  id.style[prop]= p
+}
+
+function cycleValue(o, values) {
+  let i= values.indexOf(o.value)+1
+  if (i >= values.length)i= 0
+  o.value= values[i]
+}
+
+function Display(id) {
+  let node= document.getElementById(id)
+  let stack= []
+  function set(s) {
+    if (s.constructor == Array) s= s.join(' ')
+    node.innerHTML= s
+  }
+  function push(s) {
+    stack.push(node.innerHTML)
+    set(s)
+  }
+  function pop() {
+    node.innerHTML= stack.pop()
+  }
+  this.set= set
+  this.push= push
+  this.pop= pop
+}
+
+function fixForm(o) {
+  let S= document.getElementById('S')
+  let SR= document.getElementById('SR')
+  let SN= document.getElementById('SN')
+  let SS= document.getElementById('SS')
+  let FS= document.getElementById('FS')
+  let ST= document.getElementById('ST')
+  let STH= document.getElementById('STH')
+  S.value= SR.value+SN.value+SS.value
+  FS.value= Body.style.fontSize
+  STH.value= ST.value
+}
+
+function hili(t) {
+  let a, i, on= 0
+  a= document.getElementsByTagName('a')
+  for (i= 0; i < a.length; i++) {
+    if (
+      String(a[i].onclick).search(
+        t.replace(/'/g,"\\\\'")
+      ) >= 0
+    ) { //}
+      if (a[i].style.backgroundColor != 'yellow') {
+        a[i].style.backgroundColor= 'yellow'
+        on= 1
+      }
+      else {
+        a[i].style.backgroundColor= null
+      }
+    }
+  }
+  a= Query.value
+  if (on) {
+    if (a) a+= '|'+t
+    else a= t
+  } else {
+    a= a.replace(t, '').replace(/\&\&/g, '\&').replace(/^\&/, '')
+  }
+  Query.value= a
+}
+
+function scrollId(id) {
+  document.getElementById(id).scrollIntoView(true)
+}
+
+function toggleHelp(o) {
+  if (o.innerHTML == '[?]') {
+    o.innerHTML= '[X]'
+    o.parentNode.nextElementSibling.style.display= 'block'
+  } else {
+    o.innerHTML= '[?]'
+    o.parentNode.nextElementSibling.style.display= 'none'
+  }
+}
+
+function urldecode(s) {
+  s= s.replace(/\+/g, ' ')
+  s= decodeURIComponent(s)
+  return s
+}
+
+// MAIN //
+  let Body= document.getElementsByTagName("body")[0]
+  let Query= document.getElementById('Query')
+  let Range= document.getElementById('Range')
+  let RS= document.getElementById('RS')
+  let SN= document.getElementById('SN')
+  let SR= document.getElementById('SR')
+  let SS= document.getElementById('SS')
+  let SH= document.getElementById('SH')
+  let Status= new Display('Status')
+  Status.set('>')
+  let Stdout= document.getElementById('Stdout')
+  let Stats= document.getElementById('Stats')
+  let Versions= document.getElementById('V')
+  let VS= document.getElementById('VS')
+  let S= document.getElementById('S')
+  let Stat= document.getElementById('Stat')
+  let ST= document.getElementById('ST')
+  // init from url parameters //
+  let s= location.search.substr(1).split('&')
+  let buf, i, q, r, t, v
+  for (i in s) {
+    t= s[i].split('=')
+    if (t[0] == 'r')
+      Range.value= urldecode(t[1])
+    else if (t[0] == 'q')
+      Query.value= urldecode(t[1])
+    else if (t[0] == 'v')
+      Versions.value= urldecode(t[1])
+    else if (t[0] == 's')
+      v= urldecode(t[1])
+    else if (t[0] == 'w')
+      Body.style.width= t[1]
+    else if (t[0] == 'fs')
+      Body.style.fontSize= t[1]+'pt'
+    else if (t[0] == 'stat')
+      Stat.value= urldecode(t[1])
+    else if (t[0] == 'st')
+      ST.value= urldecode(t[1])
+  }
+  if (!v) {v= '=3l';}
+  S.value= v
+  SR.value= v[0]
+  SN.value= v[1]
+  SS.value= v[2]
+
+  Bib.Show()
+
+</script>
 </html>    
 <!-- vim: set sw=2 fdm=expr : -->
