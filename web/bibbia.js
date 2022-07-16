@@ -134,7 +134,7 @@ async function Show(n) {
   let stat= Stat.value
   let neg, s, t
   let nq= []; pq= [] // neg/pos query
-  Stdout.innerHTML=""
+  Tabs[TabNum].innerHTML=""
   if (S.value.startsWith('-0')) {
     r= r.replace(/([^;]*);/g, (match, p1)=> {
       if (/[_:]/.test(p1)) return match
@@ -382,17 +382,17 @@ function Print(buf, format) {
         a.appendChild(t)
       }
       if (!FHide) {
-        Stdout.appendChild(a)
+        Tabs[TabNum].appendChild(a)
         if (FBrkl) {
           a= document.createElement('br')
-          Stdout.appendChild(a)
+          Tabs[TabNum].appendChild(a)
         }
       }
     }
     else if (!FHide) {
       a= document.createElement('span')
       a.innerHTML= buf[i]
-      Stdout.appendChild(a)
+      Tabs[TabNum].appendChild(a)
     }
   }
   //scrollId('hr')
@@ -589,7 +589,6 @@ async function PrintStat(num, stat, a) {
 // EXPORT
 
 this.Show= Show
-
 
 } // Bib
 

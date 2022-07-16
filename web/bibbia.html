@@ -12,37 +12,86 @@
   />
 
   <style type="text/css" id="css">
-    #Form{color:#dd7700;font-weight:bold;border:2px solid orange;background:#ffff66;margin:0pt;padding:4pt;text-align:center}
-    #Status{background:orange}
-    #Stdout,#Stats{padding:3pt;line-height:132%}
+    body{font-size:12pt;padding:0px;margin:2px}
+    #Status { background:#ffcc44; text-align:left }
+    #Form {
+      background:#ffff66;
+      color:#dd7700;
+      font-weight:bold;
+    }
+    #Stats { padding:3px; line-height:132% }
+    #TabBox { position:relative; }
+
     .blue{color:blue}
     .ublue{color:blue; text-decoration:underline}
     .godown{float:right; background:lightgray}
     .goup{float:left; background:lightgray}
     .help{display:none;color:red;border:orange 3pt dotted;text-align:left;font-weight:normal}
-    .rfloat{float:right}
+    .right {text-align:right}
     .ver1{color:red}
     .ver2{color:darkgreen}
+    .tab {
+      box-sizing: border-box;
+      margin: 0px 2px; 
+      border:3px solid; padding: 2px;
+      overflow:scroll;
+      position:absolute;
+      height:100%;
+    }
     a{text-decoration:none;color:inherit}
-    body{font-size:12pt;padding:0px;margin:2px}
-    div{margin:0pt;}
     input,select{color:#ff8800}
     input[type=button],input[type=submit]{margin:1px;background:#ddddaa;border-radius:4px}
-    p{margin:2pt}
+    p{margin:2px}
     table,#Range,#Query,#V{width:100%}
     table,tbody,td,tr{padding:0px;margin:0px}
   </style>
+
   <script>
     window.onerror= function (m,f,r,c) {
       alert(m+'\nIN '+f+'\nAT '+r+','+c)
     }
   </script>
-  <script type="text/javascript" src="bibbia.js"></script>
+  <script type="text/javascript" src="bibbia.js?2">
+  </script>
   <script type="text/javascript" id="jsonp"></script>
 
 </head>
-<body id="body">
-<form id=Form accept-charset='utf8' onsubmit="fixForm(this)">
+
+<div id=Status>ok</div>
+<form id=Form accept-charset='utf8' onsubmit="Bib.fixForm(this)">
+  <table><tr>
+    <td>
+      <p><span style="vertical-align:middle"> VERSIONI
+        <a onclick="toggleHelp(this)">[?]</a></span>
+        <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
+        <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
+          <option value="">...</option>
+          <option value="g">greco</option>
+          <option value="e">ebraico</option>
+          <option value="i">italiano(2008)</option>
+          <option value="i,g">italiano+greco</option>
+          <option value="g,i">greco+italiano</option>
+          <option value="i,e">italiano+ebraico</option>
+          <option value="e,i">ebraico+italiano</option>
+          <option value="i,g,e">ita+greco+ebraico</option>
+        </select>
+        <input type=button value=X  style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
+      </p>
+      <div class="help">
+        <p><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
+          <br/>&ndash; g = cerca nel testo greco
+          <br/>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
+        </p>
+      </div>
+    </td>
+    <td class="right">
+      <p>STAT.
+        <input size=4 id=Stat name=stat type=text value=''>
+        <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
+      </p>
+    </td>
+  </tr></table>
+
   <p>CERCA
     <a onclick="toggleHelp(this)">[?]</a>
   </p>
@@ -56,9 +105,9 @@
   </div>
   <table><tr>
     <td><textarea id="Query" name=q rows=2></textarea></td>
-    <td><input id="QX" type=button value=X onclick="Query.value='';Query.focus()"></td>
+    <td class="right"><input id="QX" type=button value=X onclick="Query.value='';Query.focus()"></td>
   </tr></table>
-  <hr/>
+
   <p>IN
     <a onclick="toggleHelp(this)">[?]</a>
     <select id=RS  onchange="Range.value+=' '+RS.value">
@@ -90,37 +139,9 @@
   </div>
   <table><tr>
     <td><textarea id="Range" name=r rows=2></textarea></td>
-    <td><input type=button value=X onclick="Range.value='';Range.focus()"></td>
+    <td class="right"><input type=button value=X onclick="Range.value='';Range.focus()"></td>
   </tr></table>
-  <hr/>
-  <p><span style="vertical-align:middle"> VERSIONI
-    <a onclick="toggleHelp(this)">[?]</a></span>
-    <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
-    <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
-      <option value="">...</option>
-      <option value="g">greco</option>
-      <option value="e">ebraico</option>
-      <option value="i">italiano(2008)</option>
-      <option value="i,g">italiano+greco</option>
-      <option value="g,i">greco+italiano</option>
-      <option value="i,e">italiano+ebraico</option>
-      <option value="e,i">ebraico+italiano</option>
-      <option value="i,g,e">ita+greco+ebraico</option>
-    </select>
-    <input type=button value=X  style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
-  </p>
-  <div class="help">
-    <p><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
-      <br/>&ndash; g = cerca nel testo greco
-      <br/>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
-    </p>
-  </div>
-  <table><tr>
-  </tr></table>
-  <hr id='hr'/>
-  <p><input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
-    <input type=submit value='in nuova scheda' onclick="Form.target='_blank';Form.submit"></p>
-  <hr/>
+
   <p>STILE
     <a onclick="toggleHelp(this)">[?]</a>
     <input id=SR type=button value="=" onclick="cycleValue(this,'=-X')">
@@ -131,6 +152,8 @@
     <input id=S name=s type="hidden" value='=3l'>
     <input id=STH name=st type="hidden" value='I'>
     <input id=FS name=fs type="hidden" value='12pt'>
+    <input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
+    <!--input type=submit value='in nuova scheda' onclick="Form.target='_blank';Form.submit"-->
   </p>
   <div class="help">
     <p><b>1° pulsante: testo [=/-/X]:</b>
@@ -154,25 +177,41 @@
     <p><b>4° pulsante: aumenta carattere [+]:</b></p>
     <p><b>5° pulsante: diminuisci carattere [-]:</b></p>
   </div>
-  <hr/>
-  <p>STAT.
-    <input size=4 id=Stat name=stat type=text value=''>
-    <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
+
+  <div id="Bar"><p>Colonne: 
+    <input type="button" value="1" onclick="setColNum(1)">
+    <input type="button" value="2" onclick="setColNum(2)">
+    <input type="button" value="3" onclick="setColNum(3)">
+    <input type="button" value="4" onclick="setColNum(4)">
+    <input type="button" value="5" onclick="setColNum(5)">
+    &nbsp;&nbsp;
+    <input type="button" value="&gt;" style="color: white; background-color:#ffaa00" onclick="selectTab(0)">
+    <input type="button" value="&gt;" style="color: white; background-color:#ff00aa" onclick="selectTab(1)">
+    <input type="button" value="&gt;" style="color: white; background-color:#4444ff" onclick="selectTab(2)">
+    <input type="button" value="&gt;" style="color: white; background-color:#00ccff" onclick="selectTab(3)">
+    <input type="button" value="&gt;" style="color: white; background-color:#00ff00" onclick="selectTab(4)">
   </p>
+  </div>
 </form>
-<div id=Status>ok</div>
-<div id=Stdout style="font-size:100%">
+
+<div id=TabBox style="font-size:100%">
+  <div class="tab" style="border-color:#ffaa00"></div>
+  <div class="tab" style="border-color:#ff00aa"></div>
+  <div class="tab" style="border-color:#4444ff"></div>
+  <div class="tab" style="border-color:#00ccff"></div>
+  <div class="tab" style="border-color:#00ff00"></div>
+</div>
+<!--
 <a class="godown" href="#Stats">&darr;&darr;&darr;</a>
-</div>
-<div id=Stats style="font-size:100%">
 <a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br/>
-</div>
+-->
+
 
 <script>
 
 function mulValue(id, prop, mul) {
   if (typeof id != 'object')
-    id= document.getElementById(id)
+    id= getElementById(id)
   let p= getComputedStyle(id)[prop]
   p= p.replace(/(^[0-9]*)(.*)/,
     function(s, n, u) {
@@ -189,7 +228,7 @@ function cycleValue(o, values) {
 }
 
 function Display(id) {
-  let node= document.getElementById(id)
+  let node= getElementById(id)
   let stack= []
   function set(s) {
     if (s.constructor == Array) s= s.join(' ')
@@ -208,16 +247,58 @@ function Display(id) {
 }
 
 function fixForm(o) {
-  let S= document.getElementById('S')
-  let SR= document.getElementById('SR')
-  let SN= document.getElementById('SN')
-  let SS= document.getElementById('SS')
-  let FS= document.getElementById('FS')
-  let ST= document.getElementById('ST')
-  let STH= document.getElementById('STH')
+  let S= getElementById('S')
+  let SR= getElementById('SR')
+  let SN= getElementById('SN')
+  let SS= getElementById('SS')
+  let FS= getElementById('FS')
+  let ST= getElementById('ST')
+  let STH= getElementById('STH')
   S.value= SR.value+SN.value+SS.value
   FS.value= Body.style.fontSize
   STH.value= ST.value
+}
+
+function fixLayout() {
+  let h= document.documentElement
+  let s= h.style
+  s.height= '100vh'
+  s.width= '100vw'
+  s.padding= s.border= s.margin= '0px'
+  let w= h.clientWidth / ColNum
+  h= h.clientHeight - getTotalHeight(Bar)
+  let cs= getComputedStyle(TabBox)
+  TabBox.style.height= ( h
+    - getLength(cs.marginTop)
+    - getLength(cs.marginBottom)
+    - getLength(cs.borderTop)
+    - getLength(cs.borderBottom)
+    - getLength(cs.paddingTop)
+    - getLength(cs.paddingBottom)
+  ) + 'px'
+  for (let i of Tabs) {
+    i.style.display= 'none'
+  }
+  for (let i=0; i<ColNum; i++) {
+    let j= ColOrder[i] 
+    let s= Tabs[j].style
+    let cs= getComputedStyle(Tabs[j])
+    s.display= 'block'
+    s.left= ((ColNum-1-i)*w)+'px'
+    s.width= ( w 
+      - getLength(cs.marginLeft)
+      - getLength(cs.marginRight)
+    ) + 'px'
+  }
+}
+
+function getLength(x) {return parseFloat(x) || 0}
+
+function getTotalHeight(elem) {
+  let style= getComputedStyle(elem)
+  return elem.offsetHeight
+    + getLength(style.marginTop)
+    + getLength(style.marginBottom)
 }
 
 function hili(t) {
@@ -249,7 +330,21 @@ function hili(t) {
 }
 
 function scrollId(id) {
-  document.getElementById(id).scrollIntoView(true)
+  getElementById(id).scrollIntoView(true)
+}
+
+function selectTab(n) {
+  let i= ColOrder.indexOf(n)
+  if (i < 0) return
+  ColOrder.splice(i,1)
+  ColOrder.unshift(n)
+  TabNum= n
+  fixLayout()
+}
+
+function setColNum(n) {
+  ColNum= n
+  fixLayout()
 }
 
 function toggleHelp(o) {
@@ -269,24 +364,31 @@ function urldecode(s) {
 }
 
 // MAIN //
+  let getElementById= document.getElementById.bind(document)
   let Body= document.getElementsByTagName("body")[0]
-  let Query= document.getElementById('Query')
-  let Range= document.getElementById('Range')
-  let RS= document.getElementById('RS')
-  let SN= document.getElementById('SN')
-  let SR= document.getElementById('SR')
-  let SS= document.getElementById('SS')
-  let SH= document.getElementById('SH')
+  let Bar= getElementById("Bar")
+  let TabBox= getElementById("TabBox")
+  let Tabs= TabBox.children
+  let Query= getElementById('Query')
+  let Range= getElementById('Range')
+  let RS= getElementById('RS')
+  let SN= getElementById('SN')
+  let SR= getElementById('SR')
+  let SS= getElementById('SS')
+  let SH= getElementById('SH')
   let Status= new Display('Status')
   Status.set('>')
-  let Stdout= document.getElementById('Stdout')
-  let Stats= document.getElementById('Stats')
-  let Versions= document.getElementById('V')
-  let VS= document.getElementById('VS')
-  let S= document.getElementById('S')
-  let Stat= document.getElementById('Stat')
-  let ST= document.getElementById('ST')
-  // init from url parameters //
+  let Stdout= getElementById('Stdout')
+  let Stats= getElementById('Stats')
+  let Versions= getElementById('V')
+  let VS= getElementById('VS')
+  let S= getElementById('S')
+  let Stat= getElementById('Stat')
+  let ST= getElementById('ST')
+  let TabNum= 0
+  let ColNum= 1
+  let ColOrder= [0, 1, 2, 3, 4]
+  
   let s= location.search.substr(1).split('&')
   let buf, i, q, r, t, v
   for (i in s) {
@@ -314,8 +416,13 @@ function urldecode(s) {
   SN.value= v[1]
   SS.value= v[2]
 
+  selectTab(0)
+  fixLayout()
+  window.onresize= fixLayout
   Bib.Show()
 
 </script>
 </html>    
+
+
 <!-- vim: set sw=2 fdm=expr : -->
