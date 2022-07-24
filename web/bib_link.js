@@ -26,12 +26,12 @@ var bib_link= function (dir_bibbia_js, id){
       o.href= dir_bibbia_js +"/notes/" +s +".html"  
     } else if (n > 0) { // [2]
       o.innerHTML= s.substring(0, n)
-      o.href = dir_bibbia_js +"bibbia.html?" + s.substr(n+1)
+      o.href = dir_bibbia_js +"index.html?" + s.substr(n+1)
     } else { // [1]
       o.innerHTML= s
         .replace(/_/g, " ")
       s= s.replace('?','&q=').replace(/\n/g, " ")
-      o.href= dir_bibbia_js +"bibbia.html?v=i&r=" + s
+      o.href= dir_bibbia_js +"index.html?v=i&r=" + s
     }
     o.target= "_blank"
     o.style.whiteSpace= "pre-line"

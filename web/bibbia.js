@@ -261,7 +261,7 @@ async function Show(n) {
     }
   }
   if (stat) PrintStat(Num, stat, [])
-  else Status.set('>')
+  else Status.set('&nbsp;')
 }
 
 function Print(buf, format) {
@@ -582,7 +582,7 @@ async function PrintStat(num, stat, a) {
   l= document.createElement('table')
   l.innerHTML= p
   Stats.appendChild(l)
-  Status.set('>')
+  Status.set('&nbsp;')
 }
 
 

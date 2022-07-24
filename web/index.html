@@ -17,7 +17,7 @@
     #Form {
       background:#ffff66;
       color:#dd7700;
-      font-weight:bold;
+      text-align:center;
     }
     #Bar {}
     #Stats { padding:3px; line-height:132% }
@@ -27,27 +27,39 @@
     .ublue{color:blue; text-decoration:underline}
     .godown{float:right; background:lightgray}
     .goup{float:left; background:lightgray}
-    tr.help{display:none}
-    tr.help td{color:red;border:orange 3pt dotted;text-align:left;font-weight:normal}
+    .help{
+      display:none;
+      color:red ;border:orange 3pt dotted;
+      text-align:left;
+      padding:2px;
+    }
+    .nowrap {white-space: nowrap}
     .right {text-align: right}
     .center {text-align: center}
     .ver1{color:red}
     .ver2{color:darkgreen}
     .tab {
       box-sizing: border-box;
-      margin: 0px 2px; 
+      margin: 0px 2px;
       border:3px solid; padding: 2px;
       overflow:scroll;
       position:absolute;
       height:100%;
     }
     a{text-decoration:none;color:inherit}
-    input,select{color:#ff8800}
-    input[type=button],input[type=submit]{margin:1px;background:#ddddaa;border-radius:4px}
+    textarea,input,select {
+      margin:1px;
+      border-radius:4px;
+      color:#dd7700;
+      border:1px solid #dd7700;
+      background:white;/*#ddddaa;*/
+      font-weight:bold;
+    }
     p{margin:2px}
-    table,#Range,#Query,#V {width:100%}
-    table,tbody,td,tr{padding:0px;margin:0px}
-    table {border-top: 1px solid}
+    #Range,#Query,#V {
+      box-sizing: border-box;
+      width:100%
+    }
   </style>
 
   <script>
@@ -55,193 +67,150 @@
       alert(m+'\nIN '+f+'\nAT '+r+','+c)
     }
   </script>
-  <script type="text/javascript" src="bibbia.js?2">
+  <script type="text/javascript" src="bibbia.js?4">
   </script>
   <script type="text/javascript" id="jsonp"></script>
 
 </head>
 
 <div id=Status>ok</div>
-<form id=Form accept-charset='utf8' onsubmit="Bib.fixForm(this)"><table>
-  <tr>
-    <td>
-      <p>VERSIONI
-        <a onclick="toggleHelp(this, 'help-vers')">[?]</a>
-      </p>
-    </td>
-    <td class="center">
-      <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
-      <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
-        <option value="">...</option>
-        <option value="g">greco</option>
-        <option value="e">ebraico</option>
-        <option value="i">italiano(2008)</option>
-        <option value="i,g">italiano+greco</option>
-        <option value="g,i">greco+italiano</option>
-        <option value="i,e">italiano+ebraico</option>
-        <option value="e,i">ebraico+italiano</option>
-        <option value="i,g,e">ita+greco+ebraico</option>
-      </select>
-    </td>
-    <td class="right">
-      <input type=button value=X class="" style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
-    </td>
-  </tr>
-  <tr id="help-vers" class="help"><td colspan="3">
-    <p><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
-      <br/>&ndash; g = cerca nel testo greco
-      <br/>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
-    </p>
-  </td></tr>
+<form id=Form accept-charset='utf8' onsubmit="Bib.fixForm(this)">
 
-  <tr>
-    <td><p>STATISTICHE</p></td>
-    <td class="center">
-      <input size=4 id=Stat name=stat type=text value=''>
-    </td>
-    <td class="right">
-      <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
-    </td>
-  </tr>
+  <p><b>Versioni
+    <a onclick="toggleHelp(this, 'help-vers')">[?]</a></b>
+    &emsp;
+    <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
+    <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
+      <option value="">...</option>
+      <option value="g">greco</option>
+      <option value="e">ebraico</option>
+      <option value="i">italiano(2008)</option>
+      <option value="i,g">italiano+greco</option>
+      <option value="g,i">greco+italiano</option>
+      <option value="i,e">italiano+ebraico</option>
+      <option value="e,i">ebraico+italiano</option>
+      <option value="i,g,e">ita+greco+ebraico</option>
+    </select>
+    &emsp;
+    <input type=button value=X class="" style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
+  </p>
+  <p id="help-vers" class="help"><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
+    <br>&ndash; g = cerca nel testo greco
+    <br>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
+  </p>
 
-  <tr>
-    <td>
-      <p>CERCA
-        <a onclick="toggleHelp(this, 'help-cerca')">[?]</a>
-      </p>
-    </td>
-    <td></td>
-    <td class="right">
-      <input id="QX" type=button value=X onclick="Query.value='';Query.focus()">
-    </td>
-  </tr></tr>
-    <td colspan="3"><p>
-      <textarea id="Query" name=q rows=2></textarea>
-    </p></td>
-  </tr>
-  <tr id="help-cerca" class="help"><td colspan="3">
-    <p>Testo da cercare (facoltativo).
-      <br/>&ndash; uno spazio iniziale o finale indica l'inizio o la fine di una parola
-      <br/>&ndash; 'a/b' trova i versi contenenti 'a' o 'b'
-      <br/>&ndash; 'a&amp;b' trova i versi contenenti contemporaneamente 'a' e 'b'
-      <br/>&ndash; 'a&amp;!b' trova i versi contenenti 'a' ma non 'b'
-    </p>
-  </td></tr>
-  <tr>
-    <td>
-      <p>IN
-        <a onclick="toggleHelp(this,'help-range')">[?]</a>
-      </p>
-    </td>
-    <td class="center">
-      <select id=RS  onchange="Range.value+=' '+RS.value">
-        <option value="">(aggiungi libri)</option>
-        <option value="b">Bibbia</option>
-        <option value="a">Antico Testamento</option>
-        <option value="n">Nuovo Testamento</option>
-        <option value="pent">Pentateuco</option>
-        <option value="stor">libri storici</option>
-        <option value="prof">profeti</option>
-        <option value="sapi">sapienziali</option>
-        <option value="poet">poetici</option>
-        <option value="vang">Vangeli</option>
-        <option value="paol">lettere di Paolo</option>
-        <option value="catt">lettere cattoliche</option>
-      </select>
-    </td>
-    <td class="right">
-      <input type=button value=X onclick="Range.value='';Range.focus()">
-    </td>
-  </tr></tr>
-    <td colspan="3">
-    <p><textarea id="Range" name=r rows=2></textarea></p>
-    </td>
-  </tr>
-  <tr id="help-range" class="help"><td colspan="3">
-    <p>Brani biblici (obbligatorio). Esempi:
-      <br/>&ndash; Mc = vangelo di Marco
-      <br/>&ndash; Mc 1 = capitolo 1
-      <br/>&ndash; Mc 1-4 = capitoli da 1 a 4
-      <br/>&ndash; Mc 1,3-5 = da 1,3 a 1,5
-      <br/>&ndash; Mc 1,3-4,2 = da 1,3 a 4,2
-      <br/>&ndash; Mc 1,3-4.7.9-4,2 7 = Mc 1,3-4 + Mc 1,7 + Mc 1,9-4,2 + Mc 7
-      <br/>&ndash; Mc 1,3-5 5-7 Lc 3,4-8 = Mc 1,3-5 + Mc 5-7 + Lc 3,4
-      <br/>&ndash; ';' inserisce una linea di separazione dopo la citazione
-    </p>
-  </td>
-  </tr>
-  <tr>
-    <td>
-      <p>STILE
-        <a onclick="toggleHelp(this, 'help-style')">[?]</a>
-      </p>
-    </td>
-    <td class="center">
-      <input id=SR type=button value="=" onclick="cycleValue(this,'=-X')">
-      <input id=SN type=button value="3" onclick="cycleValue(this,'3210')">
-      <input id=SS type=button value="l" onclick="cycleValue(this,'lpbi^')">
-      <input type="button" value="+" onclick="mulValue(Body,'fontSize',1.11)"/>
-      <input type="button" value="-" onclick="mulValue(Body,'fontSize',0.9)"/>
-      <input id=S name=s type="hidden" value='=3l'>
-      <input id=STH name=st type="hidden" value='I'>
-      <input id=FS name=fs type="hidden" value='12pt'>
-    </td>
-    <td class="right">
-      <input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
-      <!--input type=submit value='in nuova scheda' onclick="Form.target='_blank';Form.submit"-->
-    </td>
-  </tr>
-  <tr id="help-style" class="help"><td colspan="3">
-    <p><b>1° pulsante: testo [=/-/X]:</b>
-      <br/>=: a capo ad ogni versetto
-      <br/>-: testo continuo
-      <br/>X: niente testo, solo statistiche
-    </p>
-    <p><b>2° pulsante: numerazione [3/2/1/0]:</b>
-      <br/>3: libro, capitolo, versetto ("Mc 1,2")
-      <br/>2: capitolo, versetto ("1,2")
-      <br/>1: solo versetto ("2")
-      <br/>0: nessuna numerazione
-    </p>
-    <p><b>3° pulsante: stile numerazione [l/p/b/i/^]:</b>
-      <br/>l: link
-      <br/>p: parentesi quadre
-      <br/>b: bold (grassetto)
-      <br/>i: italico
-      <br/>^: apice
-    </p>
-    <p><b>4° pulsante: aumenta carattere [+]:</b></p>
-    <p><b>5° pulsante: diminuisci carattere [-]:</b></p>
-  </td>
-  </tr>
-  <tr id="Bar">
-    <td>
-      <p>COLONNE
-        <a onclick="toggleHelp(this, 'help-cols')">[?]</a>
-      </p>
-    </td>
-    <td class="center">
-      <input type="button" value="1" onclick="setColNum(1)">
-      <input type="button" value="2" onclick="setColNum(2)">
-      <input type="button" value="3" onclick="setColNum(3)">
-      <input type="button" value="4" onclick="setColNum(4)">
-      <input type="button" value="5" onclick="setColNum(5)">
-    </td>
-    <td class="right">
-      <input type="button" value="&gt;" style="color: white; background-color:#ffaa00" onclick="selectTab(0)">
-      <input type="button" value="&gt;" style="color: white; background-color:#ff00aa" onclick="selectTab(1)">
-      <input type="button" value="&gt;" style="color: white; background-color:#4444ff" onclick="selectTab(2)">
-      <input type="button" value="&gt;" style="color: white; background-color:#00ccff" onclick="selectTab(3)">
-      <input type="button" value="&gt;" style="color: white; background-color:#00ff00" onclick="selectTab(4)">
-    </td>
-  </tr>
-  <tr id="help-cols" class="help"><td colspan="3">
-    <p>Numero di colonne visibili.
-    <br>I pulsanti colorati spostano la colonna corrispondente in fondo a destra.
-    <br>L'ultima colonna a destra è quella attiva, dove vengono mostrati i risultati.
-    </p>
-  </td></tr>
-</table></form>
+  <p><b>Statistiche</b>
+    &emsp;
+    <input size=4 id=Stat name=stat type=text value=''>
+    &emsp;
+    <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
+  </p>
+
+  <p><b>Cerca
+    <a onclick="toggleHelp(this, 'help-cerca')">[?]</a></b>
+    &emsp;
+    <input id="QX" type=button value=X onclick="Query.value='';Query.focus()">
+  <br>
+    <textarea id="Query" name=q rows=2></textarea>
+  </p>
+  <p id="help-cerca" class="help"><b>Testo da cercare</b> (facoltativo).
+    <br>&ndash; uno spazio iniziale o finale indica l'inizio o la fine di una parola
+    <br>&ndash; 'a/b' trova i versi contenenti 'a' o 'b'
+    <br>&ndash; 'a&amp;b' trova i versi contenenti contemporaneamente 'a' e 'b'
+    <br>&ndash; 'a&amp;!b' trova i versi contenenti 'a' ma non 'b'
+  </p>
+
+  <p><b>In
+    <a onclick="toggleHelp(this,'help-range')">[?]</a></b>
+    &emsp;
+    <select id=RS  onchange="Range.value+=' '+RS.value">
+      <option value="">(aggiungi libri)</option>
+      <option value="b">Bibbia</option>
+      <option value="a">Antico Testamento</option>
+      <option value="n">Nuovo Testamento</option>
+      <option value="pent">Pentateuco</option>
+      <option value="stor">libri storici</option>
+      <option value="prof">profeti</option>
+      <option value="sapi">sapienziali</option>
+      <option value="poet">poetici</option>
+      <option value="vang">Vangeli</option>
+      <option value="paol">lettere di Paolo</option>
+      <option value="catt">lettere cattoliche</option>
+    </select>
+    &emsp;
+    <input type=button value=X onclick="Range.value='';Range.focus()">
+    <br><textarea id="Range" name=r rows=2></textarea></p>
+  </p>
+  <p id="help-range" class="help"><b>Brani biblici</b> (obbligatorio). Esempi:
+    <br>&ndash; Mc = vangelo di Marco
+    <br>&ndash; Mc 1 = capitolo 1
+    <br>&ndash; Mc 1-4 = capitoli da 1 a 4
+    <br>&ndash; Mc 1,3-5 = da 1,3 a 1,5
+    <br>&ndash; Mc 1,3-4,2 = da 1,3 a 4,2
+    <br>&ndash; Mc 1,3-4.7.9-4,2 7 = Mc 1,3-4 + Mc 1,7 + Mc 1,9-4,2 + Mc 7
+    <br>&ndash; Mc 1,3-5 5-7 Lc 3,4-8 = Mc 1,3-5 + Mc 5-7 + Lc 3,4
+    <br>&ndash; ';' inserisce una linea di separazione dopo la citazione
+  </p>
+
+  <p><b>Stile
+    <a onclick="toggleHelp(this, 'help-style')">[?]</a></b>
+    &emsp;
+    <input id=SR type=button value="=" onclick="cycleValue(this,'=-X')">
+    <input id=SN type=button value="3" onclick="cycleValue(this,'3210')">
+    <input id=SS type=button value="l" onclick="cycleValue(this,'lpbi^')">
+    <input type="button" value="+" onclick="mulValue(Body,'fontSize',1.11)"/>
+    <input type="button" value="-" onclick="mulValue(Body,'fontSize',0.9)"/>
+    <input id=S name=s type="hidden" value='=3l'>
+    <input id=STH name=st type="hidden" value='I'>
+    <input id=FS name=fs type="hidden" value='12pt'>
+    &emsp;
+    <input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
+  </p>
+  <p id="help-style" class="help">
+    <b>1° pulsante: testo [=/-/X]:</b>
+    <br>=: a capo ad ogni versetto
+    <br>-: testo continuo
+    <br>X: niente testo, solo statistiche
+    <br><b>2° pulsante: numerazione [3/2/1/0]:</b>
+    <br>3: libro, capitolo, versetto ("Mc 1,2")
+    <br>2: capitolo, versetto ("1,2")
+    <br>1: solo versetto ("2")
+    <br>0: nessuna numerazione
+    <br><b>3° pulsante: stile numerazione [l/p/b/i/^]:</b>
+    <br>l: link
+    <br>p: parentesi quadre
+    <br>b: bold (grassetto)
+    <br>i: italico
+    <br>^: apice
+    <br><b>4° pulsante: aumenta carattere [+]:</b>
+    <br><b>5° pulsante: diminuisci carattere [-]:</b>
+  </p>
+
+  <p id="Bar"><b>Colonne
+    <a onclick="toggleHelp(this, 'help-cols')">[?]</a></b>
+    &ensp;
+    <span class="nowrap">
+    <input type="button" value="1" onclick="setColNum(1)">
+    <input type="button" value="2" onclick="setColNum(2)">
+    <input type="button" value="3" onclick="setColNum(3)">
+    <input type="button" value="4" onclick="setColNum(4)">
+    <input type="button" value="5" onclick="setColNum(5)">
+    </span>
+    &ensp;
+    <span class="nowrap">
+    <input type="button" value="&gt;" style="color: white; background-color:#ffaa00" onclick="selectTab(0)">
+    <input type="button" value="&gt;" style="color: white; background-color:#ff00aa" onclick="selectTab(1)">
+    <input type="button" value="&gt;" style="color: white; background-color:#4444ff" onclick="selectTab(2)">
+    <input type="button" value="&gt;" style="color: white; background-color:#00ccff" onclick="selectTab(3)">
+    <input type="button" value="&gt;" style="color: white; background-color:#00ff00" onclick="selectTab(4)">
+    </span>
+  </p>
+  <p id="help-cols" class="help"><b>Numero di colonne visibili.</b>
+    <br>- I pulsanti colorati spostano la colonna corrispondente in fondo a destra.
+    <br>- L'ultima colonna a destra è quella attiva, dove vengono mostrati i risultati.
+  </p>
+
+</form>
 
 <div id=TabBox style="font-size:100%">
   <div class="tab" style="border-color:#ffaa00"></div>
@@ -252,7 +221,7 @@
 </div>
 <!--
 <a class="godown" href="#Stats">&darr;&darr;&darr;</a>
-<a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br/>
+<a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br>
 -->
 
 
@@ -329,12 +298,12 @@ function fixLayout() {
     i.style.display= 'none'
   }
   for (let i=0; i<ColNum; i++) {
-    let j= ColOrder[i] 
+    let j= ColOrder[i]
     let s= Tabs[j].style
     let cs= getComputedStyle(Tabs[j])
     s.display= 'block'
     s.left= ((ColNum-1-i)*w)+'px'
-    s.width= ( w 
+    s.width= ( w
       - getLength(cs.marginLeft)
       - getLength(cs.marginRight)
     ) + 'px'
@@ -399,7 +368,7 @@ function setColNum(n) {
 function toggleHelp(o, id) {
   if (o.innerHTML == '[?]') {
     o.innerHTML= '[X]'
-    getElementById(id).style.display= 'table-row'
+    getElementById(id).style.display= 'block'
   } else {
     o.innerHTML= '[?]'
     getElementById(id).style.display= 'none'
@@ -426,7 +395,7 @@ function urldecode(s) {
   let SS= getElementById('SS')
   let SH= getElementById('SH')
   let Status= new Display('Status')
-  Status.set('>')
+  Status.set('&nbsp;')
   let Stdout= getElementById('Stdout')
   let Stats= getElementById('Stats')
   let Versions= getElementById('V')
@@ -437,7 +406,7 @@ function urldecode(s) {
   let TabNum= 0
   let ColNum= 1
   let ColOrder= [0, 1, 2, 3, 4]
-  
+
   let s= location.search.substr(1).split('&')
   let buf, i, q, r, t, v
   for (i in s) {
@@ -471,7 +440,7 @@ function urldecode(s) {
   Bib.Show()
 
 </script>
-</html>    
+</html>
 
 
 <!-- vim: set sw=2 fdm=expr : -->
