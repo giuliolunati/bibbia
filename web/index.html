@@ -67,7 +67,7 @@
       alert(m+'\nIN '+f+'\nAT '+r+','+c)
     }
   </script>
-  <script type="text/javascript" src="bibbia.js?4">
+  <script type="text/javascript" src="bibbia.js?8">
   </script>
   <script type="text/javascript" id="jsonp"></script>
 
@@ -79,7 +79,7 @@
   <p><b>Versioni
     <a onclick="toggleHelp(this, 'help-vers')">[?]</a></b>
     &emsp;
-    <textarea id=V name=v rows=1 style="vertical-align:middle; width:6ex">i</textarea>
+    <textarea id=V name=v rows=1 style="vertical-align:middle; width:12ex">i</textarea>
     <select id=VS style="vertical-align:middle ;width:5ex" onchange="if(VS.value[0]!=',')Versions.value='';Versions.value+=VS.value;Versions.value=Versions.value.replace(/^,/,'')">
       <option value="">...</option>
       <option value="g">greco</option>
@@ -94,9 +94,12 @@
     &emsp;
     <input type=button value=X class="" style="vertical-align:middle" onclick="Versions.value='';Versions.focus()">
   </p>
-  <p id="help-vers" class="help"><b>Versioni.</b> La prima è quella su cui su svolge la ricerca, ed è obbligatoria; le successive sono facoltative. Esempi:
+  <p id="help-vers" class="help">
+    Sigle: i=italiano(2008); g=greco; e=ebraico; I=italiano(1974).
+    <br>Esempi:
     <br>&ndash; g = cerca nel testo greco
-    <br>&ndash; i,g = cerca nel testo italiano e aggiungi accanto la traduzione greca
+    <br>&ndash; i,g = cerca nel testo italiano e aggiungi la traduzione greca dopo ogni versetto, nella stessa colonna
+    <br>&ndash; i/g = mostra il testo italiano e greco in colonne affiancate
   </p>
 
   <p><b>Statistiche</b>
@@ -150,6 +153,7 @@
     <br>&ndash; Mc 1,3-4.7.9-4,2 7 = Mc 1,3-4 + Mc 1,7 + Mc 1,9-4,2 + Mc 7
     <br>&ndash; Mc 1,3-5 5-7 Lc 3,4-8 = Mc 1,3-5 + Mc 5-7 + Lc 3,4
     <br>&ndash; ';' inserisce una linea di separazione dopo la citazione
+    <br>&ndash; Mc 1 / Mt 1 / Lc 1 mostra più testi in colonne affiancate.
   </p>
 
   <p><b>Stile
@@ -164,7 +168,7 @@
     <input id=STH name=st type="hidden" value='I'>
     <input id=FS name=fs type="hidden" value='12pt'>
     &emsp;
-    <input type=button value='MOSTRA' onclick="Bib.Show()/*Form.target='_self';Form.submit*/">
+    <input type=button value='MOSTRA' onclick="show(Versions.value)/*Form.target='_self';Form.submit*/">
   </p>
   <p id="help-style" class="help">
     <b>1° pulsante: testo [=/-/X]:</b>
@@ -339,7 +343,7 @@ function hili(t) {
   }
   a= Query.value
   if (on) {
-    if (a) a+= '|'+t
+    if (a) a+= '/'+t
     else a= t
   } else {
     a= a.replace(t, '').replace(/\&\&/g, '\&').replace(/^\&/, '')
@@ -361,8 +365,29 @@ function selectTab(n) {
 }
 
 function setColNum(n) {
+  n= Math.min(n,5)
   ColNum= n
   fixLayout()
+}
+
+async function show() {
+  let vv= Versions.value
+  versions= vv.split('/')
+  range= Range.value.split('/')
+  setColNum(Math.max(ColNum,
+    versions.length + range.length - 1
+  ))
+  let v,r
+  for (v= 0; v < versions.length; v++) {
+    if (v>0) selectTab(ColOrder[4])
+    await Bib.Show(range[0],versions[v])
+  }
+  v--
+  for (r= 1; r < range.length; r++) {
+    selectTab(ColOrder[4])
+    await Bib.Show(range[r],versions[v])
+  }
+  Versions.value= vv
 }
 
 function toggleHelp(o, id) {
@@ -437,7 +462,7 @@ function urldecode(s) {
   selectTab(0)
   fixLayout()
   window.onresize= fixLayout
-  Bib.Show()
+  show(Versions.value)
 
 </script>
 </html>

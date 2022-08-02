@@ -36,7 +36,7 @@ function verseToNumber(s) {
 function truevers(v) {
   let vers= {
     'b':'bgm','e':'ebr','g':'grk',
-    'i':'it-2008','74':'it-1974','n':'notes',
+    'i':'it-2008','I':'it-1974','n':'notes',
     'ilc':'tilc','t':'titles'
   }
   if (v in vers) return vers[v]
@@ -117,9 +117,7 @@ load_book= async (ver, book, ext, ret) => {
   }
 }
 
-async function Show(n) {
-  let r= Range.value
-  let v= Versions.value
+async function Show(r,v) {
   if (r.length == 0 || v.length == 0) return
   Vers= []
   v= v.split(',')
@@ -296,7 +294,7 @@ function Print(buf, format) {
       if (root in Num[j-1]) Num[j-1][root]++
       else Num[j-1][root]= 1
     }
-    return '<a href="#" onclick="if (Query.value)Query.value+=\'|\'; Query.value+=\'&lt;'+root.replace(/'/g, "\\'")+'&gt;\'; return false">'+word+'</a>'
+    return '<a href="#" onclick="if (Query.value)Query.value+=\'/\'; Query.value+=\'&lt;'+root.replace(/'/g, "\\'")+'&gt;\'; return false">'+word+'</a>'
   }
   for (i= 0; i < buf.length; i++) {
     o= buf[i]
