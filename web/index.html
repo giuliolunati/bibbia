@@ -20,7 +20,7 @@
       text-align:center;
     }
     #Bar {}
-    #Stats { padding:3px; line-height:132% }
+    #Stats { padding:3px; line-height:132%; background:white; display:none }
     #TabBox { position:relative; }
 
     .blue{color:blue}
@@ -67,7 +67,7 @@
       alert(m+'\nIN '+f+'\nAT '+r+','+c)
     }
   </script>
-  <script type="text/javascript" src="bibbia.js?8">
+  <script type="text/javascript" src="bibbia.js?10">
   </script>
   <script type="text/javascript" id="jsonp"></script>
 
@@ -102,11 +102,15 @@
     <br>&ndash; i/g = mostra il testo italiano e greco in colonne affiancate
   </p>
 
-  <p><b>Statistiche</b>
-    &emsp;
+  <p><b>Statistiche
+    <a onclick="toggleHelp(this, 'help-stat')">[?]</a></b>
+    &ensp;
     <input size=4 id=Stat name=stat type=text value=''>
-    &emsp;
+    <input type=button value=X class="" style="vertical-align:middle" onclick="Stat.value='';Stat.focus()">
+    &ensp;
     <input id=ST type=button value="I" onclick="cycleValue(this,'IE')">
+  </p>
+  <p id="help-stat" class="help"><b>Testo da cercare</b> (facoltativo).
   </p>
 
   <p><b>Cerca
@@ -159,7 +163,7 @@
   <p><b>Stile
     <a onclick="toggleHelp(this, 'help-style')">[?]</a></b>
     &emsp;
-    <input id=SR type=button value="=" onclick="cycleValue(this,'=-X')">
+    <input id=SR type=button value="=" onclick="cycleValue(this,'=-')">
     <input id=SN type=button value="3" onclick="cycleValue(this,'3210')">
     <input id=SS type=button value="l" onclick="cycleValue(this,'lpbi^')">
     <input type="button" value="+" onclick="mulValue(Body,'fontSize',1.11)"/>
@@ -171,10 +175,9 @@
     <input type=button value='MOSTRA' onclick="show(Versions.value)/*Form.target='_self';Form.submit*/">
   </p>
   <p id="help-style" class="help">
-    <b>1° pulsante: testo [=/-/X]:</b>
+    <b>1° pulsante: testo [=/-]:</b>
     <br>=: a capo ad ogni versetto
     <br>-: testo continuo
-    <br>X: niente testo, solo statistiche
     <br><b>2° pulsante: numerazione [3/2/1/0]:</b>
     <br>3: libro, capitolo, versetto ("Mc 1,2")
     <br>2: capitolo, versetto ("1,2")
@@ -223,6 +226,7 @@
   <div class="tab" style="border-color:#00ccff"></div>
   <div class="tab" style="border-color:#00ff00"></div>
 </div>
+<div id="Stats"></div>
 <!--
 <a class="godown" href="#Stats">&darr;&darr;&darr;</a>
 <a class="goup" href="#body">&uarr;&uarr;&uarr;</a><br>

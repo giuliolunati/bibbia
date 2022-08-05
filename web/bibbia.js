@@ -22,7 +22,7 @@ let log= Math.log, exp= Math.exp
 let pow= Math.pow, sqrt= Math.sqrt
 let round= Math.round, floor= Math.floor
 let PI= Math.PI, L2= log(2)
-let Num= []
+let Num
 let Vers
 
 // FUNCS
@@ -118,8 +118,15 @@ load_book= async (ver, book, ext, ret) => {
 }
 
 async function Show(r,v) {
-  if (r.length == 0 || v.length == 0) return
+  r= r.trim()
+  FHide= Stat.value && !r
+  if (!r) r= Stat.value
+  if (!r || !v) return
+  S.value= SR.value+SN.value+SS.value
+  Stats.innerHTML= ''
+  Stats.style.display= 'none'
   Vers= []
+  Num= []
   v= v.split(',')
   for (let a of v) {
     for (let b of Vers) if (a == b) a= null
@@ -267,7 +274,6 @@ function Print(buf, format) {
   if (truevers(Vers[0]) == 'notes')
   {vers.push(vers.shift())}
   vers= vers.join(',')
-  FHide= format.indexOf('X')+1
   let FBook= format.indexOf('3')+1
   let FChap= format.indexOf('2')+1+FBook
   let FVers= format.indexOf('1')+1+FChap
@@ -575,10 +581,9 @@ async function PrintStat(num, stat, a) {
     p+= '<td><a '+'style="color:'+j+'" onclick="hili(\'<'+k.replace(/'/g, "\\'")+'>\')">'+k+'</a></td>'
     p+= '<td class="blue">'+n+'/'+n1+'</td></tr>'
   }
-  l= document.createElement('hr')
-  Stats.appendChild(l)
   l= document.createElement('table')
   l.innerHTML= p
+  Stats.style.display= 'block'
   Stats.appendChild(l)
   Status.set('&nbsp;')
 }
