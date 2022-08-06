@@ -159,7 +159,7 @@
     <br>&ndash; ';' inserisce una linea di separazione dopo la citazione
     <br>&ndash; Mc 1 / Mt 1 / Lc 1 mostra più testi in colonne affiancate.
   </p>
-
+  <div id="Bar">
   <p><b>Stile
     <a onclick="toggleHelp(this, 'help-style')">[?]</a></b>
     &emsp;
@@ -172,7 +172,9 @@
     <input id=STH name=st type="hidden" value='I'>
     <input id=FS name=fs type="hidden" value='12pt'>
     &emsp;
-    <input type=button value='MOSTRA' onclick="show(Versions.value)/*Form.target='_self';Form.submit*/">
+    <input type=button value='MOSTRA' onclick="show()/*Form.target='_self';Form.submit*/">
+    <input type=button value='-' onclick="incChap(-1);show()">
+    <input type=button value='+' onclick="incChap(1);show()">
   </p>
   <p id="help-style" class="help">
     <b>1° pulsante: testo [=/-]:</b>
@@ -193,7 +195,7 @@
     <br><b>5° pulsante: diminuisci carattere [-]:</b>
   </p>
 
-  <p id="Bar"><b>Colonne
+  <p><b>Colonne
     <a onclick="toggleHelp(this, 'help-cols')">[?]</a></b>
     &ensp;
     <span class="nowrap">
@@ -216,6 +218,7 @@
     <br>- I pulsanti colorati spostano la colonna corrispondente in fondo a destra.
     <br>- L'ultima colonna a destra è quella attiva, dove vengono mostrati i risultati.
   </p>
+  </div> <!--Bar-->
 
 </form>
 
@@ -355,6 +358,17 @@ function hili(t) {
   Query.value= a
 }
 
+function incChap(n) {
+  let r=Range.value
+  r= r.replace(
+    /[0-9]+$/g,
+      function(match, offset, string) {
+        return (parseInt(match) + n).toString() 
+      }
+    )
+  Range.value= r
+}
+
 function scrollId(id) {
   getElementById(id).scrollIntoView(true)
 }
@@ -466,7 +480,7 @@ function urldecode(s) {
   selectTab(0)
   fixLayout()
   window.onresize= fixLayout
-  show(Versions.value)
+  show()
 
 </script>
 </html>
