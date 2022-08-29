@@ -284,7 +284,7 @@ function Print(buf, format) {
   let FItal= format.indexOf('i')+1
   FBrkl= ''
   if (format.indexOf('=') >= 0)  FBrkl= 1
-  let cl= '', i, j, o, t, a, b, c, u, v, n
+  let cl= '', i, j, o, t, t1, t2, a, b, c, u, v, n
   function count(str, word, root) {
     if (root.indexOf("><") >= 0) return
     root= root.replace(/^.|.$/g, '')
@@ -316,28 +316,34 @@ function Print(buf, format) {
       a= document.createElement('span')
       for (j= 1; j+j < o.length; j++) {
         if (o[j+j] != n) {
-          t= ''; n= o[j+j]
+          n= o[j+j]
           c= Math.floor(n/1000);
           v= (n%1000); u= (v%1)*100+.5
           v= Math.floor(v)
           if (u >= 1) {
             v= v+String.fromCharCode(Math.floor(u)+96)
           }
-          if (FBook && j == 1)t+= o[0]+' '
+          t1= t2= ''
+          if (FBook && j == 1) t1+= o[0]+' '
           if (FChap || FVers) {
-            if (FChap || (FVers && v == 1) || j>1) t+= c+','
-            if (FVers || j>1)t+= v
+            if (FChap || (FVers && v == 1) || j>1) {t1+= c; t2= ','+v }
+            else if (FVers || j>1) t2= v
           }
           cl= 'ublue '
-          if (FPar) {t= ' ['+t+'] '; cl= ''}
-          if (FSup) {t= ' <sup>'+t+'</sup> '; cl= ''}
-          if (FItal) {t= ' <i>'+t+'</i> '; cl= ''}
-          if (FBold) {t= ' <b>'+t+'</b> '; cl= ''}
+          if (FPar) {t1= ' ['+t1+t2+'] '; cl= ''}
+          if (FSup) {t1= ' <sup>'+t1+t2+'</sup> '; cl= ''}
+          if (FItal) {t1= ' <i>'+t1+t2+'</i> '; cl= ''}
+          if (FBold) {t1= ' <b>'+t1+t2+'</b> '; cl= ''}
+          t= o[0]+' '+c
           if (cl) {
             t= '<a class="'+cl
-              +'" onclick="if (Range.value)Range.value+=\' \'; Range.value+=\''+t+'\';">'+t+'</a> '
+              +'" onclick="if (Range.value)Range.value+=\' \'; Range.value+=\''+t+'\';">'+t1+'</a>'
+              + (!t2 ? '' :
+                '<a class="'+cl+'" onclick="if (Range.value)Range.value+=\' \'; Range.value+=\''+t+','+v+'\';">'+t2+'</a>'
+              + ' '
+              )
           } else {
-            t= '<span>'+t+'</span> '
+            t= '<span>'+t1+t2+'</span> '
           }
           b= document.createElement('span')
           b.innerHTML= t
