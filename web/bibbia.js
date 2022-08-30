@@ -466,7 +466,7 @@ async function select(book, toks, query, nquery, buf) {
     }
   }
 
-  function select_other_ver(txt) {
+  function select_other_ver(txt, k) {
     let a, b, j, s, t
     t= 0
     m= {}
@@ -507,7 +507,7 @@ async function select(book, toks, query, nquery, buf) {
       select_main_ver(await load_book(Vers[0], book, '.js'))
     } else {
       if (buf.length == 0) break;
-      select_other_ver(await load_book(Vers[k], book, '.js'))
+      select_other_ver(await load_book(Vers[k], book, '.js'), k)
     }
   }
   return buf
